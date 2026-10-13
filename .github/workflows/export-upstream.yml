@@ -1,0 +1,26 @@
+name: Build upstream Aegis zh-CN patch
+on:
+  workflow_dispatch:
+  push:
+    paths: ["data/ui-overrides.json", "tools/export_upstream.py", ".github/workflows/export-upstream.yml"]
+  schedule:
+    - cron: '40 4 * * 1'
+permissions:
+  contents: read
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Generate upstream compatible localization
+        run: python tools/export_upstream.py
+      - name: Upload reviewed PR copy
+        uses: actions/upload-artifact@v4
+        with:
+          name: Aegis-zh-CN-upstream-PR
+          path: dist/upstream/
+          retention-days: 30
