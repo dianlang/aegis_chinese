@@ -1,0 +1,14 @@
+{
+  "nav.decks": "卡组",
+  "deck.new": "新建卡组",
+  "common.import": "导入",
+  "overlay.turnOrderFirst": "你是先攻",
+  "overlay.turnOrderSecond": "你是后攻",
+  "profile.matches": "对局",
+  "profile.stats.matches": "对局",
+  "overlay.resolveEffect": "结算效果",
+  "overlay.assemblyPlayWithout": "不组装，直接登场",
+  "overlay.assemblyConfirm": "组装（{count}张卡）",
+  "overlay.assemblySelected": "已选择 {count} 张材料卡（需要 {needed} 张）。",
+  "overlay.assemblyNoMaterials": "废弃区中没有符合条件的卡牌。"
+}
