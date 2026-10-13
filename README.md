@@ -6,7 +6,7 @@
 
 ## 用户使用
 
-安装 `Aegis_DTCG_中文优化.user.js`。v0.3.1 默认指向本仓库：
+安装对应版本的 Aegis DTCG 中文优化 Tampermonkey 脚本（v0.3.1；目前单独提供下载，尚未上传到本仓库根目录）。新版默认指向本仓库：
 
 `https://raw.githubusercontent.com/dianlang/aegis_chinese/main/data`
 
@@ -31,9 +31,9 @@ py tools\validate_database.py
 
 ## GitHub Actions 自动更新
 
-进入 GitHub 仓库的 Actions 页，启用 Actions。`Refresh DigiCamoe Chinese card texts` 预定每周一 UTC 04:20（上海时间周一 12:20）自动处理最多 20 张；也可 `Run workflow` 手动执行。工作流写入 `data/cards/`、`data/manifest.json` 和 `data/sync-state.json`，不会下载卡图。
+仓库 [Actions](https://github.com/dianlang/aegis_chinese/actions) 中的 `Weekly Chinese card text sync` 工作流预定每周一 UTC 04:20（上海时间周一 12:20）自动处理最多 20 张；也可 `Run workflow` 手动执行。工作流写入 `data/cards/`、`data/manifest.json` 和 `data/sync-state.json`，不会下载卡图。
 
-如果站方要求暂停同步，直接禁用此 workflow。首次线上执行要检查 Actions 日志是否成功解析真实页面；目前仅以离线 HTML 样本测试，**未宣称已验证真实站点抓取**。
+自动运行的单次上限是 20 张卡，手动执行也默认使用相同安全限制。可双击 `scripts/update_windows.bat` 在 Windows 上本地更新，再自行提交 git。若站方要求暂停同步，直接禁用 `Weekly Chinese card text sync` workflow。首次线上执行要检查 Actions 日志是否成功解析真实页面；目前仅以离线 HTML 样本测试，**未宣称已验证真实站点抓取**。
 
 ## 导出 Aegis 官方汉化副本
 
@@ -41,7 +41,9 @@ py tools\validate_database.py
 py tools\export_upstream.py
 ```
 
-该工具拉取 Aegis `develop` 分支原始 `apps/web/src/i18n/zh-CN.ts`，仅合并 `data/ui-overrides.json` 中的人工校对内容，校验占位符，输出：
+仓库中的 `Build upstream Aegis zh-CN patch` 工作流也会自动构建，并在 [Actions](https://github.com/dianlang/aegis_chinese/actions) 运行详情中提供 `Aegis-zh-CN-upstream-PR` 下载包。其运行已验证成功，但补丁合并前仍需人工审阅。
+
+本地工具拉取 Aegis `develop` 分支原始 `apps/web/src/i18n/zh-CN.ts`，仅合并 `data/ui-overrides.json` 中的人工校对内容，校验占位符，输出：
 
 - `dist/upstream/apps/web/src/i18n/zh-CN.ts`
 - `dist/upstream/zh-CN.patch`
@@ -64,3 +66,9 @@ py tools\import_cached_cards.py aegis-cn-cached-cards-2026-10-13.json
 - [DigiCamoe](https://app.digicamoe.cn/)：卡牌简中与日版中文译文，非商业使用。
 - [Aegis 开源项目](https://github.com/vinicius3333/aegis-digimon-tcg)：游戏代码与界面语言文件。
 - `data/index/P.json`：2026-10-13 扫描快照，249 个卡号，部分失败，因此不是全量覆盖。
+
+## 下载整套本地程序
+
+GitHub 仓库主页选择 `Code` → `Download ZIP`，解压后 Windows 用户可双击 `scripts/update_windows.bat` 更新中文卡文，或双击 `scripts/export_upstream_windows.bat` 生成官方 UI 汉化副本。首次运行需要 Python 3.9+ 和 pip。
+
+**当前发布状态：P 卡链接索引 249 张；已发布卡文数量以 `data/manifest.json` 的 `publishedCardCount` 为准。自动采集流程尚未完成真实 DigiCamoe 页面端到端验证。**
