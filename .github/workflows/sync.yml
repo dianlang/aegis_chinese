@@ -1,0 +1,32 @@
+name: Weekly Chinese card text sync
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4 * * 1'
+permissions:
+  contents: write
+concurrency:
+  group: digicamoe-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements.txt
+      - name: Low-rate incremental sync
+        run: python tools/sync_cards.py --limit 20 --delay 6
+      - name: Validate JSON
+        run: python tools/validate_database.py
+      - name: Commit changed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/cards data/manifest.json data/sync-state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "data: weekly incremental DigiCamoe Chinese cards"
+          git push
