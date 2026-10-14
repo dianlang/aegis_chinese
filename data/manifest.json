@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-10-13",
-  "source": "DigiCamoe (noncommercial)",
   "cardShards": [
     "P"
   ],
-  "publishedCardCount": 0,
-  "note": "P index only; card-effect texts pending."
+  "note": "P index only; card-effect texts pending.",
+  "publishedCardCount": 20,
+  "schemaVersion": 1,
+  "source": "DigiCamoe (noncommercial)",
+  "updatedAt": "2026-10-14T01:49:12Z"
 }

@@ -1,1 +1,125 @@
-{}
+{
+  "P-001": {
+    "cardId": "P-001",
+    "main": "【登场时】\n将对手的1只DP3000以下的数码兽消灭。",
+    "name": "亚古兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-001/P"
+  },
+  "P-002": {
+    "cardId": "P-002",
+    "inherited": "【自己的回合】\n这只数码兽进行战斗且仅有对手的数码兽被消灭时，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "name": "比丘兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-002/P"
+  },
+  "P-003": {
+    "cardId": "P-003",
+    "main": "【登场时】\n将对手的1只数码兽的最下方的1张进化源丢弃。",
+    "name": "加布兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-003/P"
+  },
+  "P-004": {
+    "cardId": "P-004",
+    "inherited": "【自己的回合】\n［1回合1次］\n将对手的数码兽的进化源丢弃时，内存值+1。",
+    "name": "哥玛兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-004/P"
+  },
+  "P-005": {
+    "cardId": "P-005",
+    "main": "【登场时】\n自己的安防卡在1张以下时，\n复原+1《卡组》\n（从自己的卡组最上方将1张卡放到安防区最上方）。",
+    "name": "巴达兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-005/P"
+  },
+  "P-006": {
+    "cardId": "P-006",
+    "inherited": "【自己的回合】\n自己的安防卡有3张以上的期间，这只数码兽DP+1000。",
+    "name": "迪路兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-006/P"
+  },
+  "P-007": {
+    "cardId": "P-007",
+    "inherited": "【攻击时】\n这只数码兽的名称包含\n「加鲁鲁兽（ガルルモン）」\n时，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "name": "加鲁鲁兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-007/P"
+  },
+  "P-008": {
+    "cardId": "P-008",
+    "inherited": "【自己的回合】\n自己的手牌有8张以上的期间，这只数码兽获得\n安防攻击+1\n（这只数码兽向安防区攻击时的判定张数+1）。",
+    "main": "【攻击时】\n［1回合1次］\n这只数码兽的进化源中有\n「加鲁鲁兽（ガルルモン）」\n时，将这只数码兽激活。",
+    "name": "狼人加鲁鲁兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-008/P"
+  },
+  "P-009": {
+    "cardId": "P-009",
+    "inherited": "【自己的回合】\n这只数码兽的名称包含\n「暴龙兽（グレイモン）」\n的期间，这只数码兽DP+2000。",
+    "name": "亚古兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-009/P"
+  },
+  "P-010": {
+    "cardId": "P-010",
+    "main": "【自己的回合】\n这只数码兽的进化源中有\n「亚古兽（アグモン）」\n的期间，获得\n安防攻击+1\n（这只数码兽向安防区攻击时的判定张数+1）。",
+    "name": "暴龙兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-010/P"
+  },
+  "P-011": {
+    "cardId": "P-011",
+    "inherited": "【攻击时】\n你可以通过从自己的废弃区中将3张数码蛋卡之外的卡按任意顺序返回卡组最下方来\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "main": "【攻击时】\n自己有\n蓝色\n的驯兽师在场时，你可以通过将自己卡组最上方的3张卡丢弃来使这个回合中，这只数码兽DP+2000。",
+    "name": "V龙兽 零丸",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-011/P"
+  },
+  "P-012": {
+    "cardId": "P-012",
+    "main": "【主要】\n自己有名称包含\n「V龙兽（ブイドラモン）」\n的数码兽时，你可以通过将这名驯兽师休眠来从以下效果中选择1个发动。\n・\n抽1张卡\n（从自己的卡组抽1张卡）\n・这个回合中，自己的1只数码兽DP+1000。",
+    "name": "八神太一（数码兽大冒险 V驯兽师01）",
+    "security": "【安防】\n不支付费用来将这张卡登场。",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-012/P"
+  },
+  "P-013": {
+    "cardId": "P-013",
+    "inherited": "【对手的回合】\n这只数码兽DP+1000。",
+    "name": "哈哈兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-013/P"
+  },
+  "P-014": {
+    "cardId": "P-014",
+    "main": "阻挡者\n（对手的数码兽攻击时，如果这只数码兽处于激活状态，你可以将其休眠来将攻击对象变更为这只数码兽）\n【攻击时】\n内存值-2。",
+    "name": "虫蛹兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-014/P"
+  },
+  "P-015": {
+    "cardId": "P-015",
+    "main": "【登场时】\n将对手的1只数码兽\n退化1\n（将对手的数码兽的叠放卡从最上方丢弃1张。如果丢弃到没有进化源或者变为Lv.3的数码兽，则不能继续丢弃）。",
+    "name": "地狱兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-015/P"
+  },
+  "P-016": {
+    "cardId": "P-016",
+    "main": "【自己的回合】\n自己的\n「迪亚波罗兽（ディアボロモン）」\n每有1只，这只数码兽获得\n安防攻击+1\n（这只数码兽判定的安防卡张数+1）。",
+    "name": "迪亚波罗兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-016/P"
+  },
+  "P-017": {
+    "cardId": "P-017",
+    "main": "【登场时】\n将自己卡组最上方的2张卡丢弃。",
+    "name": "小恶魔兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-017/P"
+  },
+  "P-018": {
+    "cardId": "P-018",
+    "main": "【登场时】\n将对手的1只Lv.3的数码兽消灭。",
+    "name": "恶魔兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-018/P"
+  },
+  "P-019": {
+    "cardId": "P-019",
+    "inherited": "同行\n（参与战斗且仅有这只数码兽被消灭时，将对手的参与战斗的数码兽消灭）",
+    "name": "吸血魔兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-019/P"
+  },
+  "P-020": {
+    "cardId": "P-020",
+    "main": "【消灭时】\n你可以不支付费用来从自己的废弃区中将1张\n紫色\n的Lv.4以下的数码兽卡登场。通过这个效果登场的数码兽的\n【登场时】\n效果不会发动。",
+    "name": "怨毒吸血魔兽",
+    "url": "https://app.digicamoe.cn/Cards/PR/P-020/P"
+  }
+}
