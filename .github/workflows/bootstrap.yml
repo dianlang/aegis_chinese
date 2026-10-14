@@ -1,8 +1,6 @@
 name: Bulk initial Chinese card database bootstrap
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 1 * * *'
 permissions:
   contents: write
 concurrency:
