@@ -20,7 +20,7 @@ HEADERS = {"User-Agent": "AegisChineseCommunity/0.3 (+https://github.com/dianlan
            "Accept": "text/html"}
 SECTIONS = {"能力": "main", "进化源能力": "inherited", "安防能力": "security"}
 END = {"收录信息", "卡片裁定", "相关卡片"}
-META_RE = re.compile(r"^\\s*(卡片类型|编\\s*号|编号|罕贵度|颜\\s*色|LV|登场费用|使用费用|DP|形\\s*态|属\\s*性|类\\s*型|进化条件)\\s*[:：]?\\s*(.*)$", re.I)
+META_RE = re.compile(r"^\s*(卡片类型|编\s*号|编号|罕贵度|颜\s*色|LV|登场费用|使用费用|DP|形\s*态|属\s*性|类\s*型|进化条件)\s*[:：]?\s*(.*)$", re.I)
 META_NAMES = {"卡片类型": "cardType", "编号": "number", "罕贵度": "rarity", "颜色": "color",
               "LV": "level", "登场费用": "playCost", "使用费用": "useCost", "DP": "dp",
               "形态": "form", "属性": "attribute", "类型": "types",
@@ -36,7 +36,7 @@ def parse_header_fields(words):
         if not match:
             i += 1
             continue
-        normalized = re.sub(r"\\s+", "", match.group(1))
+        normalized = re.sub(r"\s+", "", match.group(1))
         if normalized.upper() in ("LV", "DP"):
             normalized = normalized.upper()
         field = META_NAMES[normalized]
@@ -44,8 +44,8 @@ def parse_header_fields(words):
         if not value:
             j, items = i + 1, []
             while (j < len(words) and not META_RE.match(words[j])
-                   and re.sub(r"\\s+", "", words[j]) not in END
-                   and re.sub(r"\\s+", "", words[j]) not in SECTIONS):
+                   and re.sub(r"\s+", "", words[j]) not in END
+                   and re.sub(r"\s+", "", words[j]) not in SECTIONS):
                 items.append(words[j].strip())
                 j += 1
                 if field != "digivolutionConditions":
@@ -64,7 +64,7 @@ def parse_header_fields(words):
         elif field == "color":
             if value:
                 meta[field] = value
-                meta["colors"] = [c.strip() for c in re.split(r"[/／,，、\\s]+", value) if c.strip()]
+                meta["colors"] = [c.strip() for c in re.split(r"[/／,，、\s]+", value) if c.strip()]
         elif value:
             meta[field] = value
         i += 1
@@ -103,8 +103,8 @@ def parse(html, card_id, url):
         raise ValueError("Missing card h1")
     name = title.get_text(" ", strip=True)
     words = list((doc.body or doc).stripped_strings)
-    full_text = "\\n".join(words)
-    if not re.search(r"(?:编\\s*号|编号)\\s*[:：]?\\s*" + re.escape(card_id) + r"(?![\\da-zA-Z-])", full_text, re.I):
+    full_text = "\n".join(words)
+    if not re.search(r"(?:编\s*号|编号)\s*[:：]?\s*" + re.escape(card_id) + r"(?![\da-zA-Z-])", full_text, re.I):
         raise ValueError("Page card number mismatch")
     try:
         start = words.index(name)
@@ -119,21 +119,21 @@ def parse(html, card_id, url):
     active = None
     header_words = []
     for text in words[start:]:
-        trimmed = re.sub(r"\\s+", "", text)
+        trimmed = re.sub(r"\s+", "", text)
         if trimmed in END:
             break
         if trimmed in SECTIONS:
             active = SECTIONS[trimmed]
             continue
         if active:
-            result[active] = result.get(active, "") + ("\\n" if result.get(active) else "") + text
+            result[active] = result.get(active, "") + ("\n" if result.get(active) else "") + text
         else:
             header_words.append(text)
     result.update(parse_header_fields(header_words))
     if not result.get("cardType"):
         raise ValueError("Missing printed card type")
     effects = [result.get(key, "") for key in SECTIONS.values() if result.get(key)]
-    if effects and not re.search(r"[\\u3400-\\u9fff]", "".join(effects)):
+    if effects and not re.search(r"[\u3400-\u9fff]", "".join(effects)):
         raise ValueError("No Chinese effect")
     # Vanilla cards are valid: require enough printed metadata instead of an effect.
     if not effects and not any(key in result for key in ("playCost", "useCost", "dp", "level")):
