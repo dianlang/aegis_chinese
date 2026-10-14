@@ -66,6 +66,38 @@ py tools\validate_database.py
 
 完成后启用 [Daily 20-card maintenance](https://github.com/dianlang/aegis_chinese/actions/workflows/sync.yml)：每天北京时间 12:20 最多检查 20 张。首次 P-001～P-020 在线抓取已验证，新增索引器与完整字段尚待真实任务验证。
 
+## 授权数据导入器与中文覆盖率报告
+
+不依赖爬虫，无需访问 DigiCamoe。等待维护者明确授权并提供数据文件后再执行正式导入；在此之前可以用模拟数据测试预览。
+
+在仓库根目录运行：
+
+~~~bat
+REM 生成按卡包统计的中文覆盖率报告（只读取本地 JSON，不联网）
+py tools\coverage_report.py
+
+REM 预览 CSV / JSON 导入，不会改动数据库
+py tools\import_dataset.py "授权数据.csv" --source-label "获授权的数据提供方"
+
+REM 明确取得公开再分发许可、预览无报错后，才正式导入
+py tools\import_dataset.py "授权数据.csv" --source-label "获授权的数据提供方" --apply --permission-confirmed
+
+REM 校验并重新生成覆盖率
+py tools\validate_database.py
+py tools\coverage_report.py
+~~~
+
+导入器支持 UTF-8 / UTF-8 BOM 的 CSV 和 JSON，兼容按卡号索引的 JSON 对象或数组。常见字段别名包括编号/cardId、名称/name、能力/main、进化源能力/inherited、安防能力/security。可以使用 --mapping mapping.json 自定义字段名，或用 --encoding gb18030 处理旧 CSV。默认只填充缺失字段；如需替换未经人工校对的旧文本，额外加 --overwrite-unverified。
+
+- 人工校对保护：reviewStatus 为 verified 的数据绝不自动覆盖。重复卡号冲突、错误卡号、非中文卡文、不存在真实索引链接的记录会报错；出现错误时整个批次不会写入。
+- 来源区分：记录中的 url 是现有真实卡牌详情页的引用，新增 translationSource 字段单独记录中文译文实际的授权来源，不会伪造 DigiCamoe 链接。
+- 覆盖率输出：data/coverage.json（机器可读）、reports/COVERAGE.md（GitHub 阅读）、reports/coverage_missing.csv（缺失卡号及失败原因）。
+- 统计口径：相同卡号的异画只算一张，分别报告索引数量、已存储、含中文效果、仅元数据、缺失数量。卡文已入库不代表游戏内触发提示都完成翻译。
+
+完成导入后检查数据库并通过 GitHub Desktop 提交 data/ 与 reports/ 的变化。报告不含其他网站授权，也不会替你申请数据使用权。
+
+---
+
 ## 导出 Aegis 官方汉化副本
 
 ```bat
