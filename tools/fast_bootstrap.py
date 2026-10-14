@@ -25,25 +25,31 @@ except ImportError:
 
 
 class StartRateLimiter:
-    """Globally pace starts of HTTP requests, independently of worker count."""
+    """Shared start rate limiter with global cool-down for source-server 5xx."""
     def __init__(self, interval):
         self.interval = interval
         self.lock = threading.Lock()
         self.next_start = 0.0
+        self.pause_until = 0.0
+
+    def pause(self, seconds):
+        """Temporarily suspend *all workers*, not only the failed request."""
+        with self.lock:
+            self.pause_until = max(self.pause_until, time.monotonic() + seconds)
 
     def wait_slot(self, stop, deadline):
-        with self.lock:
-            now = time.monotonic()
-            reserved = max(now, self.next_start)
-            if reserved >= deadline:
+        while not stop.is_set():
+            with self.lock:
+                now = time.monotonic()
+                ready = max(now, self.next_start, self.pause_until)
+                if ready >= deadline:
+                    return False
+                if ready <= now:
+                    self.next_start = now + self.interval
+                    return True
+            if stop.wait(min(max(ready - time.monotonic(), 0.01), 0.25)):
                 return False
-            self.next_start = reserved + self.interval
-        while True:
-            remaining = reserved - time.monotonic()
-            if remaining <= 0:
-                return not stop.is_set() and time.monotonic() < deadline
-            if stop.wait(min(remaining, 0.25)):
-                return False
+        return False
 
 
 def build_pending(index, shards, state, mode, force=False, recheck_days=45):
@@ -87,10 +93,17 @@ def safe_error(exc):
 
 
 def fetch_card(card_id, urls, limiter, stop, deadline, timeout):
-    """Try indexed printings; retry temporary transport errors, not ordinary 404s."""
+    """Use only indexed card printings; transient errors are not permanent 404s.
+
+    404: try another verified source link, never guess new URLs.
+    429: stop the batch immediately.
+    5xx: impose a global shared cool-down before up to two retries.
+    """
     reason = "No valid source"
     count = 0
-    for url in list(dict.fromkeys(urls))[:8]:
+    not_found = 0
+    candidates = list(dict.fromkeys(urls))[:8]
+    for url in candidates:
         for retry in range(3):
             if not limiter.wait_slot(stop, deadline):
                 return "paused", card_id, None, reason
@@ -101,36 +114,41 @@ def fetch_card(card_id, urls, limiter, stop, deadline, timeout):
             except urllib.error.HTTPError as exc:
                 reason = "HTTP " + str(exc.code)
                 if exc.code == 429:
-                    # Respect explicit upstream rate limits. Never retry 429 in this run.
                     stop.set()
                     return "blocked", card_id, None, reason
                 if 500 <= exc.code <= 599:
-                    # A single 5xx can be transient. Two delayed retries at most;
-                    # a persistent 5xx is deferred, not a permanent missing card.
                     if retry == 2:
                         return "deferred", card_id, None, reason + " after 3 attempts"
                     delay = (15, 45)[retry]
-                    remaining = deadline - time.monotonic() - timeout - 1
-                    if remaining <= delay:
-                        return "paused", card_id, None, reason + " (time budget)"
-                    if stop.wait(delay):
-                        return "paused", card_id, None, reason
+                    if deadline - time.monotonic() <= delay + timeout + 1:
+                        return "paused", card_id, None, reason + " (budget expired)"
+                    limiter.pause(delay)
+                    print("RETRY", card_id, reason, "shared cooldown", delay,
+                          "seconds", flush=True)
                     continue
-                # 404 or other non-5xx errors: try another indexed printing.
+                if exc.code == 404:
+                    not_found += 1
+                # 404/4xx is not retried on the same URL immediately.
                 break
             except (urllib.error.URLError, TimeoutError, OSError) as exc:
                 reason = safe_error(exc)
                 if retry == 2:
                     return "deferred", card_id, None, reason
-                if stop.wait(2 ** (retry + 1)):
-                    return "paused", card_id, None, reason
+                delay = (2, 4)[retry]
+                if deadline - time.monotonic() <= delay + timeout + 1:
+                    return "paused", card_id, None, reason + " (budget expired)"
+                limiter.pause(delay)
             except (ValueError, UnicodeError) as exc:
                 reason = str(exc)[:140]
                 break
         if stop.is_set():
             return "paused", card_id, None, reason
+    if not_found == len(candidates) and candidates:
+        # Several already-indexed URLs returning 404 can mean a temporary
+        # site issue. Keep them eligible for a later run after cooldown.
+        return "failed", card_id, None, "HTTP 404 at all " + str(not_found) + (
+            " indexed URLs; attempted=" + str(count))
     return "failed", card_id, None, reason + "; attempted=" + str(count)
-
 
 
 def bootstrap(args):
@@ -164,6 +182,7 @@ def bootstrap(args):
     counter = {"ok": 0, "failed": 0, "deferred": 0, "paused": 0}
     transient_streak = 0
     recent_5xx = deque(maxlen=20)
+    recent_404 = deque(maxlen=16)
     processed = 0
     reason_stopped = ""
 
@@ -249,6 +268,11 @@ def bootstrap(args):
                         # across different cards. Successful cards can still
                         # be checkpointed and published before the task ends.
                         recent_5xx.append(result == "deferred" and error.startswith("HTTP 5"))
+                        recent_404.append(result == "failed" and error.startswith("HTTP 404"))
+                        if len(recent_404) >= 12 and sum(recent_404) >= 8:
+                            stop.set()
+                            reason_stopped = "8 HTTP 404 in latest 16 card results; possible upstream incident"
+                            print("STOP: suspicious 404 burst; defer further requests", flush=True)
                         if sum(recent_5xx) >= 3:
                             stop.set()
                             reason_stopped = "3 persistent HTTP 5xx in the latest 20 cards"
