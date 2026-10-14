@@ -39,6 +39,9 @@ jobs:
       - name: Offline parser regression tests
         if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
         run: python -m unittest discover -s tests -v
+      - name: Discover newly published packages for daily maintenance
+        if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
+        run: python tools/index_packages.py --limit 10 --delay 6
       - name: Incremental sync (single-threaded; rate limited)
         if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
         env:
