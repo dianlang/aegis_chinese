@@ -14,10 +14,23 @@ for f in (DATA / "cards").glob("*.json"):
     for card_id, value in records.items():
         assert isinstance(value, dict) and value.get("cardId") == card_id
         assert bool(re.fullmatch(r"(?:P|LM)-\d{3}|(?:BT|EX|ST|AD|RB)\d{1,2}-\d{2,3}", card_id))
-        assert any(value.get(field) for field in ("main", "inherited", "security"))
-        for field in ("name", "form", "attribute", "types", "main", "inherited", "security"):
+        assert any(value.get(field) for field in ("main", "inherited", "security")) or (
+            value.get("cardType") and any(field in value for field in ("level", "dp", "playCost", "useCost"))
+        )
+        for field in ("name", "japaneseName", "cardType", "rarity", "color", "form", "attribute", "types", "main", "inherited", "security"):
             if field in value:
                 assert isinstance(value[field], str) and len(value[field]) <= 9000
+        for field in ("level", "dp", "playCost", "useCost"):
+            if field in value:
+                assert type(value[field]) is int and 0 <= value[field] <= 100000
+        if "parserVersion" in value:
+            assert type(value["parserVersion"]) is int and value["parserVersion"] >= 1
+        if "colors" in value:
+            assert isinstance(value["colors"], list) and len(value["colors"]) <= 4
+            assert all(isinstance(c, str) and 0 < len(c) <= 20 for c in value["colors"])
+        if "digivolutionConditions" in value:
+            assert isinstance(value["digivolutionConditions"], list) and len(value["digivolutionConditions"]) <= 12
+            assert all(isinstance(v, str) and 0 < len(v) <= 300 for v in value["digivolutionConditions"])
         u = urlsplit(value.get("url", ""))
         assert u.scheme == "https" and u.hostname == "app.digicamoe.cn"
         assert f"/{card_id}/" in u.path
