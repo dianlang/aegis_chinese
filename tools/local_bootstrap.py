@@ -56,7 +56,7 @@ def stream_command(argv, logfile, env):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--minutes", type=int, default=110)
-    parser.add_argument("--workers", type=int, default=4)
+    parser.add_argument("--workers", type=int, default=2)
     parser.add_argument("--min-interval", type=float, default=1.0)
     parser.add_argument("--refresh-index", action="store_true",
                         help="Explicitly scan missing package URLs before importing")
