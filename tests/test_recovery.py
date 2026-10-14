@@ -31,6 +31,7 @@ class RecoveryTests(unittest.TestCase):
         event = threading.Event()
         issue = urllib.error.URLError(OSError("temporary DNS failure"))
         with patch("tools.fast_bootstrap.fetch", side_effect=[issue, issue, EXAMPLE]), \
+             patch("tools.fast_bootstrap.StartRateLimiter.pause"), \
              patch.object(event, "wait", return_value=False):
             result = fetch_card("P-001", [U], StartRateLimiter(.001),
                                 event, time.monotonic()+10, 3)
@@ -41,6 +42,7 @@ class RecoveryTests(unittest.TestCase):
         event = threading.Event()
         with patch("tools.fast_bootstrap.fetch",
                    side_effect=urllib.error.URLError(OSError("timeout"))), \
+             patch("tools.fast_bootstrap.StartRateLimiter.pause"), \
              patch.object(event, "wait", return_value=False):
             result = fetch_card("P-001", [U], StartRateLimiter(.001),
                                 event, time.monotonic()+10, 3)
