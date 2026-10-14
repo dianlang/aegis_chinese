@@ -51,12 +51,37 @@ jobs:
       - name: Validate JSON
         if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
         run: python tools/validate_database.py
-      - name: Commit changed data
+      - name: Save daily card checkpoint
+        if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: digicamoe-daily-checkpoint
+          path: data/
+          retention-days: 7
+      - name: Merge card JSON with latest main and publish
         if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data
-          git diff --cached --quiet && exit 0
-          git commit -m "data: incremental DigiCamoe Chinese cards"
-          git push
+          checkpoint="$(mktemp -d)"
+          cp -a data "$checkpoint/data"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            python tools/merge_collected.py "$checkpoint/data"
+            python tools/validate_database.py
+            git add -A data
+            if git diff --cached --quiet; then
+              echo "No new card records."
+              exit 0
+            fi
+            git commit -m "data: daily DigiCamoe Chinese cards"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "::warning::Concurrent changes detected; merging again."
+            sleep 4
+          done
+          echo "::error::Remote push retries failed; download the checkpoint artifact."
+          exit 1
