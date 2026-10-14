@@ -102,13 +102,13 @@ def repair(max_packs=4, interval=4.0, timeout=15, dry_run=False):
                       "previous URLs", len(old), flush=True)
         write(INDEX_FILE, index)
         write(STATE_FILE, state)
-    if updated:
-        # Only the status fields of specifically repaired cards are changed.
+        # Checkpoint repair eligibility together with the new URLs, so
+        # a later 429/5xx cannot lose the improvements from earlier packs.
         path = DATA / "sync-state.json"
         obj = read(path, {"version": 1, "cards": {}})
-        for cid, value in failures.items():
-            if value.get("status") == "pending_recheck" and cid in obj.get("cards", {}):
-                obj["cards"][cid]["status"] = "pending_recheck"
+        for cid in bad_ids:
+            if failures[cid].get("status") == "pending_recheck":
+                obj.setdefault("cards", {}).setdefault(cid, {})["status"] = "pending_recheck"
         write(path, obj)
     print("404 REPAIR RESULT", updated, "card indexes updated", flush=True)
     return 0
