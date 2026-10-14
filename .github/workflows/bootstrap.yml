@@ -28,19 +28,27 @@ jobs:
         if: steps.config.outputs.enabled == 'true'
         run: python -m unittest discover -s tests -v
       - name: Discover real card URLs from package pages (one request per >=6s)
+        id: discovery
+        continue-on-error: true
         if: steps.config.outputs.enabled == 'true'
         run: python tools/index_packages.py --limit 175 --delay 6
       - name: Collect up to 600 cards with checkpointing (one request per >=6s)
-        if: steps.config.outputs.enabled == 'true'
+        id: collect
+        continue-on-error: true
+        if: steps.config.outputs.enabled == 'true' && steps.discovery.outcome == 'success'
         run: python tools/sync_cards.py --limit 600 --mode all --delay 6 --time-budget-minutes 95
       - name: Switch to daily maintenance when indexed coverage is sufficient
-        if: steps.config.outputs.enabled == 'true'
+        if: steps.config.outputs.enabled == 'true' && steps.collect.outcome == 'success'
         run: python tools/check_bootstrap.py
       - name: Validate records
-        if: steps.config.outputs.enabled == 'true'
+        id: validate
+        if: always() && steps.config.outputs.enabled == 'true'
         run: python tools/validate_database.py
+      - name: Report upstream interruption
+        if: steps.config.outputs.enabled == 'true' && (steps.discovery.outcome == 'failure' || steps.collect.outcome == 'failure')
+        run: echo "::warning::Bulk sync stopped early due to upstream/network error. Valid checkpoints will still be committed."
       - name: Commit progress
-        if: steps.config.outputs.enabled == 'true'
+        if: always() && steps.config.outputs.enabled == 'true' && steps.validate.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
