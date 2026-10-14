@@ -6,7 +6,7 @@
 
 ## 用户使用
 
-安装对应版本的 Aegis DTCG 中文优化 Tampermonkey 脚本（v0.3.1；目前单独提供下载，尚未上传到本仓库根目录）。新版默认指向本仓库：
+安装对应版本的 Aegis DTCG 中文优化 Tampermonkey 脚本（v0.3.3；目前单独提供下载，尚未上传到本仓库根目录）。新版默认指向本仓库：
 
 `https://raw.githubusercontent.com/dianlang/aegis_chinese/main/data`
 
@@ -14,11 +14,11 @@
 
 ## 一次性两小时初始化（截至 2026-10-14）
 
-仓库已有 **4,364 个卡号的真实详情 URL 索引**（先前成功扫描了 97 个卡包），但已发布中文卡文仍需要继续采集。首次运行不再按“每天 600 张”限制，而是对当前已索引的所有卡号执行一次有截止时间的导入。
+仓库已有 **约 4,474 个卡号的真实详情 URL 索引**（先前成功扫描了 97 个卡包），但已发布中文卡文仍需要继续采集。首次运行不再按“每天 600 张”限制，而是对当前已索引的所有卡号执行一次有截止时间的导入。
 
 - 在 [Bulk initial Chinese card database bootstrap](https://github.com/dianlang/aegis_chinese/actions/workflows/bootstrap.yml) 点击 **Run workflow**，分支选 `main`。工作流总超时 119 分钟；其中剩余卡包索引最多约 3 分钟，正文读取最多 110 分钟，之后自动校验并推送 GitHub。
-- 执行 `tools/fast_bootstrap.py`：全局每秒最多开始 **1 个 HTTP 请求**、最多 **4 个同时等待响应**，每批 40 条增量写入文件；不会下载卡图；HTTP 429、服务器 5xx 或网络故障即停止。若两小时内无法取得所有有效卡文，会提交已完成数据，余下部分以后续运行继续。
-- Windows 用户可以双击 `scripts/bootstrap_windows.bat`，本地同样采用两小时预算，完成后需自行检查并推送 GitHub。
+- 执行 `tools/fast_bootstrap.py`：全局每秒最多开始 **1 个 HTTP 请求**、最多 **4 个同时等待响应**，每批 40 条增量写入文件；不会下载卡图；HTTP 429 立即停止；HTTP 5xx 与网络故障有限退避重试后暂停或递延。若两小时内无法取得所有有效卡文，会提交已完成数据，余下部分以后续运行继续。
+- Windows 用户建议使用下面的本地启动器，抓取数据先存在本地、经过校验后再提交 GitHub。
 - 只有公开卡包目录已经扫描完毕、索引至少 4,000 张且 **索引里的每张卡均已成功入库**时，才自动把 `data/bootstrap.json` 的 `enabled` 设为 `false`。达不到 100% 就会显示剩余数量，不会宣称全量完成。
 - 批量期 `Daily 20-card maintenance (after bootstrap)` 自动跳过。批量完成后，每天北京时间 12:20 自动检查最多 20 张，并检查新增卡包。
 
@@ -29,10 +29,22 @@
 
 - HTTP 404：依次尝试索引中已发现的其他实际卡包／异画链接（最多 8 个，不推测 URL），并将无法读取的卡记录到 `data/sync-state.json`；短时间内不反复请求同一失效地址。
 - 临时 `URLError`、超时、连接中断：最多重试两次，记录具体异常类型；某张卡暂时无法读取时标为 `deferred`，连续 3 张发生网络异常才暂停整个批次。
-- HTTP 429、5xx：立即中止并保存已完成数据，不绕过限流。所有请求仍经过全局频率限制。
+- HTTP 429：立即中止并保存数据。单张卡的临时 5xx：间隔 15 秒、45 秒最多重试两次；持续 5xx 则标记递延，连续多张失败暂停整批。所有请求仍经过全局频率限制。
 - GitHub `main` 在抓取时发生变化：现在会先保存完整 JSON 检查点，重新拉取最新 `main`，按卡号合并后提交；最多重试四次。已人工校对（`reviewStatus: verified`）的卡文优先保留。
 - 每次 Actions 工作流会上传可保留七天的 `digicamoe-harvested-data` 备份；即使最终提交失败，也可以从本次运行记录的 **Artifacts** 下载。此前失败的批次没有启用这一备份，不能声称那批数据已入库。
 
+## Windows 一键本地建库（当前推荐）
+
+1. 用 [GitHub Desktop](https://desktop.github.com/) 克隆 `https://github.com/dianlang/aegis_chinese`（推荐，完成后更容易提交），或者在 GitHub 仓库主页选择 **Code → Download ZIP** 并解压完整项目。
+2. 安装 Python **3.9 或以上**，确保运行 `py -3 --version` 能显示版本。首次运行会自动安装 `beautifulsoup4`。
+3. 在项目文件夹内双击 **`scripts/bootstrap_local_windows.bat`**。它直接使用 `data/index/*.json` 中已扫描的卡号，不会为了已有的约 4,474 张卡重复扫描卡包。
+4. 默认 **全局每秒最多发起 1 个请求、同时最多 2 个网络请求**，最多运行约 110 分钟。过程实时显示 `PROGRESS`，并将日志保存在 `logs/local_bootstrap_*.log`。
+5. 关机、断网或 DigiCamoe 出现持续 5xx、429 时不要反复猛试。已完成的卡文存放在 `data/cards/*.json`；之后重新双击即可依据 `data/sync-state.json` 继续。
+6. 在终端运行 `py tools/validate_database.py`（一键程序结束时也会自动运行）。检查 `data/manifest.json` 的 `publishedCardCount` 后，用 GitHub Desktop 提交变更并推送到 `main`；如果使用普通 ZIP 下载，请通过 GitHub Desktop 先克隆再复制修改后的 `data/`，不要仅上传日志。
+
+**注意**：本地运行不会直接把文件上传 GitHub，油猴插件必须在你推送 `data/cards/*.json` 后才能使用新卡文。初始化期间已暂停 GitHub 的自动批量抓取以避免冲突；如需重新启用云端批量抓取，可以手动在 Actions 启动。每天 20 张的维护任务在首次建库完成前仍跳过。
+
+---
 ## 本地更新（Windows）
 
 安装 Python 3.9 以上（推荐 3.11）后，在仓库根目录运行：
@@ -46,11 +58,11 @@ py tools\validate_database.py
 
 也可以指定单张卡：`py tools\sync_cards.py --card P-248 --limit 1 --force`。
 
-**抓取安全限制**：所有采集模式单线程、间隔至少 6 秒；HTTP 429、5xx、网络错误停止。失败卡至少 7 天不自动重试，已采集卡按需补全元数据。采集数据基于索引中已知的 URL，不会遍历不存在的卡号。
+**日常维护限制**：日常任务单线程、请求间隔至少 6 秒；HTTP 429/5xx 或网络错误停止。完整初始建库使用独立的受限并发程序。索引只来自真实公开目录。
 
 ## GitHub Actions 自动更新
 
-初次建库请使用 [Bulk initial Chinese card database bootstrap](https://github.com/dianlang/aegis_chinese/actions/workflows/bootstrap.yml)：先发现卡包真实链接，再每日最多处理 600 张卡，支持断点续跑，完成后自动关闭。
+初次建库目前**优先使用 Windows 本地启动器**。云端 [Bulk initial Chinese card database bootstrap](https://github.com/dianlang/aegis_chinese/actions/workflows/bootstrap.yml) 已暂停自动定时运行，仍可人工启动；请不要与本地任务同时运行。
 
 完成后启用 [Daily 20-card maintenance](https://github.com/dianlang/aegis_chinese/actions/workflows/sync.yml)：每天北京时间 12:20 最多检查 20 张。首次 P-001～P-020 在线抓取已验证，新增索引器与完整字段尚待真实任务验证。
 
@@ -88,6 +100,6 @@ py tools\import_cached_cards.py aegis-cn-cached-cards-2026-10-13.json
 
 ## 下载整套本地程序
 
-GitHub 仓库主页选择 `Code` → `Download ZIP`，解压后 Windows 用户可双击 `scripts/update_windows.bat` 更新中文卡文，或双击 `scripts/export_upstream_windows.bat` 生成官方 UI 汉化副本。首次运行需要 Python 3.9+ 和 pip。
+GitHub 仓库主页选择 `Code` → `Download ZIP`，解压后 Windows 用户可双击 `scripts/bootstrap_local_windows.bat` 本地批量采集中文卡文；也可双击 `scripts/update_windows.bat` 进行少量更新，或双击 `scripts/export_upstream_windows.bat` 生成官方 UI 汉化副本。首次运行需要 Python 3.9+ 和 pip。
 
 **发布数量以 `data/manifest.json` 的 `publishedCardCount` 为准。首次全量导入采用最多两小时的任务时间预算；尚未验证能否在真实上游响应条件下完成所有卡牌。**
