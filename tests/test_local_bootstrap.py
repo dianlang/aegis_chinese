@@ -36,6 +36,7 @@ class LocalBootstrapTests(unittest.TestCase):
         error = urllib.error.HTTPError(URL, 500, "Server error", None, None)
         stop = threading.Event()
         with patch("tools.fast_bootstrap.fetch", side_effect=[error, error, HTML]), \
+             patch("tools.fast_bootstrap.StartRateLimiter.pause") as cooldown, \
              patch.object(stop, "wait", return_value=False):
             status, _, card, reason = fetch_card(
                 "P-001", [URL], StartRateLimiter(.001), stop,
@@ -44,11 +45,13 @@ class LocalBootstrapTests(unittest.TestCase):
         self.assertEqual(status, "ok")
         self.assertEqual(card["cardId"], "P-001")
         self.assertFalse(stop.is_set())
+        self.assertEqual([call.args[0] for call in cooldown.call_args_list], [15, 45])
 
     def test_persistent_server_500_is_deferred(self):
         error = urllib.error.HTTPError(URL, 500, "Server error", None, None)
         stop = threading.Event()
         with patch("tools.fast_bootstrap.fetch", side_effect=error), \
+             patch("tools.fast_bootstrap.StartRateLimiter.pause"), \
              patch.object(stop, "wait", return_value=False):
             status, _, card, reason = fetch_card(
                 "P-001", [URL], StartRateLimiter(.001), stop,
