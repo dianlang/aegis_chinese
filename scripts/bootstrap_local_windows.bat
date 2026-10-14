@@ -24,7 +24,7 @@ echo.
 echo Running locally with on-disk checkpoints. Close other active DigiCamoe scrapers.
 echo You can press Ctrl+C; progress from previous checkpoints stays on disk.
 echo.
-%PYCMD% -u tools\local_bootstrap.py --minutes 110 --workers 2 --min-interval 1
+%PYCMD% -u tools\local_bootstrap.py --minutes 110 --workers 2 --min-interval 2 --repair-404
 set "RESULT=%ERRORLEVEL%"
 echo.
 if "%RESULT%"=="0" (
