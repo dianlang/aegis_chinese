@@ -9,6 +9,7 @@ import argparse
 import concurrent.futures as cf
 import datetime as dt
 import sys
+import re
 import threading
 import time
 import urllib.error
@@ -61,7 +62,7 @@ def build_pending(index, shards, state, mode, force=False, recheck_days=45):
             if last.get("status") == "failed":
                 reason = last.get("reason", "")
                 age = elapsed_days(last.get("checkedAt"))
-                m = __import__("re").search(r"attempted=(\d+)", reason)
+                m = re.search(r"attempted=(\d+)", reason)
                 attempted = int(m.group(1)) if m else 2
                 additional = "HTTP 404" in reason and len(urls) > attempted
                 if not additional and age < (1 if "HTTP 404" in reason else 7):
