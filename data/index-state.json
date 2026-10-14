@@ -9,7 +9,7 @@
     "PR-TB31": "HTTP 404",
     "PR-TB32": "HTTP 404"
   },
-  "lastCatalogueAt": "2026-10-14T02:40:50Z",
+  "lastCatalogueAt": "2026-10-14T04:48:48Z",
   "scanned": {
     "AD-01": {
       "checkedAt": "2026-10-14T02:19:42Z",
@@ -697,6 +697,18 @@
     },
     "TSB-DC1_2022": {
       "checkedAt": "2026-10-14T02:43:26Z",
+      "count": 6
+    },
+    "TSB-EC2022": {
+      "checkedAt": "2026-10-14T04:48:50Z",
+      "count": 12
+    },
+    "TSB-EC2022v2": {
+      "checkedAt": "2026-10-14T04:48:51Z",
+      "count": 13
+    },
+    "TSB-STB2022": {
+      "checkedAt": "2026-10-14T04:48:52Z",
       "count": 6
     }
   },

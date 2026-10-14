@@ -198,9 +198,10 @@
       "status": "failed"
     },
     "BT1-010": {
-      "checkedAt": "2026-10-14T02:44:43Z",
-      "reason": "HTTP 404",
-      "status": "failed"
+      "checkedAt": "2026-10-14T04:48:58Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-010/R"
     },
     "BT1-011": {
       "checkedAt": "2026-10-14T02:44:41Z",
@@ -273,9 +274,10 @@
       "status": "failed"
     },
     "BT1-025": {
-      "checkedAt": "2026-10-14T02:45:03Z",
-      "reason": "HTTP 404",
-      "status": "failed"
+      "checkedAt": "2026-10-14T04:48:58Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-025/SR"
     },
     "BT1-026": {
       "checkedAt": "2026-10-14T02:45:00Z",
@@ -620,14 +622,16 @@
       "status": "failed"
     },
     "BT1-084": {
-      "checkedAt": "2026-10-14T02:46:06Z",
-      "reason": "HTTP 404",
-      "status": "failed"
+      "checkedAt": "2026-10-14T04:49:00Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-084/SR"
     },
     "BT1-085": {
-      "checkedAt": "2026-10-14T02:46:07Z",
-      "reason": "HTTP 404",
-      "status": "failed"
+      "checkedAt": "2026-10-14T04:49:00Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-085/R"
     },
     "BT1-086": {
       "checkedAt": "2026-10-14T02:46:12Z",
@@ -635,19 +639,22 @@
       "status": "failed"
     },
     "BT1-087": {
-      "checkedAt": "2026-10-14T02:46:13Z",
-      "reason": "HTTP 404",
-      "status": "failed"
+      "checkedAt": "2026-10-14T04:49:02Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-087/R"
     },
     "BT1-088": {
-      "checkedAt": "2026-10-14T02:46:15Z",
-      "reason": "HTTP 404",
-      "status": "failed"
+      "checkedAt": "2026-10-14T04:49:04Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-088/R"
     },
     "BT1-089": {
-      "checkedAt": "2026-10-14T02:46:15Z",
-      "reason": "HTTP 404",
-      "status": "failed"
+      "checkedAt": "2026-10-14T04:49:06Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-089/R"
     },
     "BT1-090": {
       "checkedAt": "2026-10-14T02:46:16Z",
@@ -860,6 +867,12 @@
       "status": "ok",
       "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-013/SR"
     },
+    "BT10-014": {
+      "checkedAt": "2026-10-14T04:49:07Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-014/U"
+    },
     "BT10-015": {
       "checkedAt": "2026-10-14T02:46:59Z",
       "parserVersion": 2,
@@ -883,6 +896,12 @@
       "parserVersion": 2,
       "status": "ok",
       "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-018/C"
+    },
+    "BT10-019": {
+      "checkedAt": "2026-10-14T04:49:07Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-019/R"
     },
     "P-001": {
       "checkedAt": "2026-10-14T02:43:28Z",
@@ -925,9 +944,10 @@
       "status": "failed"
     },
     "P-008": {
-      "checkedAt": "2026-10-14T02:43:40Z",
-      "reason": "HTTP 404",
-      "status": "failed"
+      "checkedAt": "2026-10-14T04:48:54Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/RB-01/P-008/P"
     },
     "P-009": {
       "checkedAt": "2026-10-14T02:43:36Z",
@@ -965,9 +985,10 @@
       "status": "failed"
     },
     "P-016": {
-      "checkedAt": "2026-10-14T02:43:53Z",
-      "reason": "HTTP 404",
-      "status": "failed"
+      "checkedAt": "2026-10-14T04:48:55Z",
+      "parserVersion": 2,
+      "status": "ok",
+      "url": "https://app.digicamoe.cn/Cards/RB-01/P-016/P"
     },
     "P-017": {
       "checkedAt": "2026-10-14T02:43:54Z",
@@ -990,5 +1011,8 @@
       "status": "failed"
     }
   },
+  "catalogPackages": 0,
+  "errors": {},
+  "lastCatalogueAt": "",
   "version": 1
 }

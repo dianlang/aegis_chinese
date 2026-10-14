@@ -239,6 +239,29 @@
     "types": "合成型/Xros Heart",
     "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-013/SR"
   },
+  "BT10-014": {
+    "attribute": "数据",
+    "cardId": "BT10-014",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.5 / 费用 3"
+    ],
+    "dp": 11000,
+    "form": "究极体",
+    "japaneseName": "パイルボルケーモン",
+    "level": 6,
+    "main": "【进化时】\n进击\n（内存值位于对手的1以上时，这只数码兽可以攻击）\n【自己的回合】\n这只数码兽DP+2000。",
+    "name": "摔跤火山兽",
+    "parserVersion": 2,
+    "playCost": 10,
+    "rarity": "U",
+    "types": "改造型",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-014/U"
+  },
   "BT10-015": {
     "attribute": "数据",
     "cardId": "BT10-015",
@@ -329,5 +352,29 @@
     "rarity": "C",
     "types": "爬虫类型/Blue Flare",
     "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-018/C"
+  },
+  "BT10-019": {
+    "attribute": "病毒",
+    "cardId": "BT10-019",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.3 / 费用 2"
+    ],
+    "dp": 4000,
+    "form": "成熟期",
+    "inherited": "【攻击时】\n［1回合1次］\n这只数码兽特征中持有\n「Blue Flare（ブルーフレア）」\n，且对手有2只以上数码兽时，将这只数码兽激活。",
+    "japaneseName": "グレイモン",
+    "level": 4,
+    "main": "【登场时】\n将自己卡组最上方的4张卡公开。将其中的2张特征中持有\n「Blue Flare（ブルーフレア）」\n的卡加入手牌。将余下的卡按任意顺序返回卡组最下方。自己有\n「苍沼切羽（蒼沼キリハ）」\n时，你可以改为从自己的废弃区中将1张\n「金属暴龙兽（メタルグレイモン）」\n返回手牌。\n【消灭时】\n保存\n（你可以将这张卡放置到自己的驯兽师的最下方）",
+    "name": "暴龙兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "R",
+    "types": "恐龙型/Blue Flare",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-019/R"
   }
 }

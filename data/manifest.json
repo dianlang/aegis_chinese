@@ -5,9 +5,9 @@
     "BT10",
     "P"
   ],
-  "note": "Incremental Chinese card database; see sync-state.json for failures",
-  "publishedCardCount": 124,
+  "note": "Incremental Chinese card database; checkpoint merged with latest remote data",
+  "publishedCardCount": 133,
   "schemaVersion": 1,
   "source": "DigiCamoe (noncommercial)",
-  "updatedAt": "2026-10-14T02:47:11Z"
+  "updatedAt": "2026-10-14T04:49:09Z"
 }

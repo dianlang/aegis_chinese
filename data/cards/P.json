@@ -127,11 +127,28 @@
     "url": "https://app.digicamoe.cn/Cards/PR/P-007/P"
   },
   "P-008": {
+    "attribute": "疫苗",
     "cardId": "P-008",
-    "inherited": "【自己的回合】\n自己的手牌有8张以上的期间，这只数码兽获得\n安防攻击+1\n（这只数码兽向安防区攻击时的判定张数+1）。",
-    "main": "【攻击时】\n［1回合1次］\n这只数码兽的进化源中有\n「加鲁鲁兽（ガルルモン）」\n时，将这只数码兽激活。",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.4 / 费用 3"
+    ],
+    "dp": 6000,
+    "form": "完全体",
+    "inherited": "【自己的回合】\n自己的手牌有8张以上的期间，这只数码兽获得\n安防攻击+1\n（这只数码兽判定的张数+1）。",
+    "japaneseName": "ワーガルルモン",
+    "level": 5,
+    "main": "【攻击时】\n［1回合1次］\n如果这只数码兽的进化源中有\n「加鲁鲁兽（ガルルモン）」\n，将这只数码兽激活。",
     "name": "狼人加鲁鲁兽",
-    "url": "https://app.digicamoe.cn/Cards/PR/P-008/P"
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "P｜异画",
+    "types": "兽人型",
+    "url": "https://app.digicamoe.cn/Cards/RB-01/P-008/P"
   },
   "P-009": {
     "cardId": "P-009",
@@ -178,10 +195,27 @@
     "url": "https://app.digicamoe.cn/Cards/PR/P-015/P"
   },
   "P-016": {
+    "attribute": "不明",
     "cardId": "P-016",
-    "main": "【自己的回合】\n自己的\n「迪亚波罗兽（ディアボロモン）」\n每有1只，这只数码兽获得\n安防攻击+1\n（这只数码兽判定的安防卡张数+1）。",
+    "cardType": "数码兽卡",
+    "color": "黑",
+    "colors": [
+      "黑"
+    ],
+    "digivolutionConditions": [
+      "黑 / Lv.5 / 费用 3"
+    ],
+    "dp": 11000,
+    "form": "究极体",
+    "japaneseName": "ディアボロモン",
+    "level": 6,
+    "main": "【自己的回合】\n自己的\n「迪亚波罗兽（ディアボロモン）」\n每有1只，这只数码兽获得\n安防攻击+1\n（这只数码兽判定的张数+1）。",
     "name": "迪亚波罗兽",
-    "url": "https://app.digicamoe.cn/Cards/PR/P-016/P"
+    "parserVersion": 2,
+    "playCost": 11,
+    "rarity": "P｜异画",
+    "types": "种族不明",
+    "url": "https://app.digicamoe.cn/Cards/RB-01/P-016/P"
   },
   "P-017": {
     "cardId": "P-017",

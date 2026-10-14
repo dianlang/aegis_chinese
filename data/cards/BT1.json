@@ -84,6 +84,52 @@
     "types": "小型",
     "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-005/U"
   },
+  "BT1-010": {
+    "attribute": "疫苗",
+    "cardId": "BT1-010",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.2 / 费用 0"
+    ],
+    "dp": 2000,
+    "form": "成长期",
+    "japaneseName": "アグモン",
+    "level": 3,
+    "main": "【登场时】\n将自己卡组最上方的5张卡公开。将其中的1张驯兽师卡加入手牌。将余下的卡按任意顺序返回卡组最下方。",
+    "name": "亚古兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "R",
+    "types": "爬虫类型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-010/R"
+  },
+  "BT1-025": {
+    "attribute": "疫苗",
+    "cardId": "BT1-025",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.5 / 费用 3"
+    ],
+    "dp": 11000,
+    "form": "究极体",
+    "japaneseName": "ウォーグレイモン",
+    "level": 6,
+    "main": "【进化时】\n这个回合中，这只数码兽获得\n安防攻击+1\n（这只数码兽判定的安防卡张数+1）。\n【自己的回合】\n这只数码兽判定出的选项卡的\n【安防】\n效果不会发动。",
+    "name": "战斗暴龙兽",
+    "parserVersion": 2,
+    "playCost": 12,
+    "rarity": "SR",
+    "types": "龙人型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-025/SR"
+  },
   "BT1-028": {
     "attribute": "数据",
     "cardId": "BT1-028",
@@ -1267,6 +1313,93 @@
     "rarity": "U",
     "types": "神人型",
     "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-080/U"
+  },
+  "BT1-084": {
+    "attribute": "疫苗",
+    "cardId": "BT1-084",
+    "cardType": "数码兽卡",
+    "color": "白",
+    "colors": [
+      "白"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.6 / 费用 6 蓝 / Lv.6 / 费用 6"
+    ],
+    "dp": 15000,
+    "form": "究极体",
+    "japaneseName": "オメガモン",
+    "level": 7,
+    "main": "【进化时】\n选择对手的1只数码兽。将对手与那只数码兽名称相同的数码兽全部消灭。\n【攻击时】\n你可以通过将这只数码兽的进化源中的1张Lv.6的数码兽卡返回手牌来将这只数码兽激活。",
+    "name": "奥米加兽",
+    "parserVersion": 2,
+    "playCost": 15,
+    "rarity": "SR",
+    "types": "圣骑士型/皇家骑士",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-084/SR"
+  },
+  "BT1-085": {
+    "cardId": "BT1-085",
+    "cardType": "驯兽师卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "japaneseName": "八神太一",
+    "main": "【自己的回合开始时】\n内存值在2以下时，变为3。\n【自己的回合】\n自己持有进化源4张以上的\n红色\n的全部数码兽获得\n安防攻击+1\n（这只数码兽判定的安防卡张数+1）。",
+    "name": "八神太一",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "R",
+    "security": "【安防】\n不支付费用来将这张卡登场。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-085/R"
+  },
+  "BT1-087": {
+    "cardId": "BT1-087",
+    "cardType": "驯兽师卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "japaneseName": "高石タケル",
+    "main": "【自己的回合开始时】\n内存值在2以下时，变为3。\n【登场时】\n检查自己的全部安防卡的内容，将其中的1张卡公开并加入手牌。那张卡是\n黄色\n的卡时，\n复原+1《卡组》\n（从自己的卡组最上方将1张卡放到安防区最上方）。之后，切洗自己的安防卡。",
+    "name": "高石岳",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "R",
+    "security": "【安防】\n不支付费用来将这张卡登场。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-087/R"
+  },
+  "BT1-088": {
+    "cardId": "BT1-088",
+    "cardType": "驯兽师卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "japaneseName": "泉光子郎",
+    "main": "【主要】\n自己有\n绿色\n的Lv.5以上的数码兽时，你可以通过将这名驯兽师休眠来将自己卡组最上方的1张卡公开。如果那张卡是数码兽卡，加入手牌。将余下的卡返回卡组最下方。",
+    "name": "泉光子郎",
+    "parserVersion": 2,
+    "playCost": 2,
+    "rarity": "R",
+    "security": "【安防】\n不支付费用来将这张卡登场。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-088/R"
+  },
+  "BT1-089": {
+    "cardId": "BT1-089",
+    "cardType": "驯兽师卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "japaneseName": "太刀川ミミ",
+    "main": "【自己的回合开始时】\n内存值在2以下时，变为3。\n【主要】\n自己有\n绿色\n的Lv.5以上的数码兽时，你可以通过将这名驯兽师休眠来在自己的空置的育成区域中孵化1张数码蛋卡，或将育成区域中的1张自己的Lv.3以上的数码兽移动到战斗区域。",
+    "name": "太刀川美美",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "R",
+    "security": "【安防】\n不支付费用来将这张卡登场。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-089/R"
   },
   "BT1-107": {
     "cardId": "BT1-107",
