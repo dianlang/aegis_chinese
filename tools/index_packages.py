@@ -98,6 +98,9 @@ def discover(limit=175, delay=6, timeout=15, dry_run=False, time_budget_seconds=
     except Exception as exc:
         print("STOP: could not read package catalogue:", str(exc)[:150], file=sys.stderr)
         return 2
+    state["catalogPackages"] = len(packs)
+    state["lastCatalogueAt"] = now()
+    write(STATE_FILE, state)
     pending = [pack for pack in packs if pack not in state.get("scanned", {})]
     # A previous 404 is not retried repeatedly, but can be cleared manually in index-state.json.
     pending = [pack for pack in pending if pack not in state.get("errors", {})]
