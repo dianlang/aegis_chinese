@@ -1,7 +1,7 @@
 name: Validate Chinese database
 on:
   push:
-    paths: ["data/**", "tools/**", ".github/workflows/validate.yml", "requirements.txt"]
+    paths: ["data/**", "tools/**", "tests/**", ".github/workflows/validate.yml", "requirements.txt"]
   pull_request:
     paths: ["data/**", "tools/**", ".github/workflows/validate.yml", "requirements.txt"]
 permissions:
@@ -10,8 +10,8 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       - run: python -m pip install -r requirements.txt
