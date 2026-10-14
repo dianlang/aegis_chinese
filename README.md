@@ -34,21 +34,19 @@
 ```bat
 py -m pip install -r requirements.txt
 py tools\sync_cards.py --dry-run --limit 20
-py tools\sync_cards.py --limit 20 --delay 6
+py tools\sync_cards.py --limit 20 --delay 6 --time-budget-minutes 25
 py tools\validate_database.py
 ```
 
 也可以指定单张卡：`py tools\sync_cards.py --card P-248 --limit 1 --force`。
 
-**抓取安全限制**：只读取 `data/index/*.json` 已收录的卡详情 URL；一次默认检查 20 张、每张最多两个 URL、单线程、每次请求间隔至少 6 秒，HTTP 429/5xx 或网络故障立即停止，不自动重试。`data/sync-state.json` 记录成功、失败和更新时间。7 天内不会反复请求失败卡；已有卡文默认 45 天内不重复抓取。可以增量导入其他卡包索引，格式和 `data/index/P.json` 相同。
-
-**重要**：目前已提供 P 卡索引 249 张，但在本仓库上线前并未实际批量抓取中文卡文；`data/cards/P.json` 初始是 `{}`。索引中部分候选 URL 可能失效。更新工具会严格核对卡号、效果段落和中文字符，失败不会写入卡文。
+**抓取安全限制**：所有采集模式单线程、间隔至少 6 秒；HTTP 429、5xx、网络错误停止。失败卡至少 7 天不自动重试，已采集卡按需补全元数据。采集数据基于索引中已知的 URL，不会遍历不存在的卡号。
 
 ## GitHub Actions 自动更新
 
-仓库 [Actions](https://github.com/dianlang/aegis_chinese/actions) 中的 `Weekly Chinese card text sync` 工作流预定每周一 UTC 04:20（上海时间周一 12:20）自动处理最多 20 张；也可 `Run workflow` 手动执行。工作流写入 `data/cards/`、`data/manifest.json` 和 `data/sync-state.json`，不会下载卡图。
+初次建库请使用 [Bulk initial Chinese card database bootstrap](https://github.com/dianlang/aegis_chinese/actions/workflows/bootstrap.yml)：先发现卡包真实链接，再每日最多处理 600 张卡，支持断点续跑，完成后自动关闭。
 
-自动运行的单次上限是 20 张卡，手动执行也默认使用相同安全限制。可双击 `scripts/update_windows.bat` 在 Windows 上本地更新，再自行提交 git。若站方要求暂停同步，直接禁用 `Weekly Chinese card text sync` workflow。首次线上执行要检查 Actions 日志是否成功解析真实页面；目前仅以离线 HTML 样本测试，**未宣称已验证真实站点抓取**。
+完成后启用 [Daily 20-card maintenance](https://github.com/dianlang/aegis_chinese/actions/workflows/sync.yml)：每天北京时间 12:20 最多检查 20 张。首次 P-001～P-020 在线抓取已验证，新增索引器与完整字段尚待真实任务验证。
 
 ## 导出 Aegis 官方汉化副本
 
@@ -86,4 +84,4 @@ py tools\import_cached_cards.py aegis-cn-cached-cards-2026-10-13.json
 
 GitHub 仓库主页选择 `Code` → `Download ZIP`，解压后 Windows 用户可双击 `scripts/update_windows.bat` 更新中文卡文，或双击 `scripts/export_upstream_windows.bat` 生成官方 UI 汉化副本。首次运行需要 Python 3.9+ 和 pip。
 
-**当前发布状态：P 卡链接索引 249 张；已发布卡文数量以 `data/manifest.json` 的 `publishedCardCount` 为准。自动采集流程尚未完成真实 DigiCamoe 页面端到端验证。**
+**当前发布状态：首次 P-001～P-020 在线抓取成功；批量抓取和新字段解析待在线验证。以 `data/manifest.json` 的 `publishedCardCount` 为准。**
