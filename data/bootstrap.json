@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "minimumIndexedCards": 4000,
+  "completionFraction": 0.95,
+  "bootstrapCardsPerRun": 600,
+  "dailyCardsPerRun": 20
+}
