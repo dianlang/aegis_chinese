@@ -27,7 +27,7 @@ jobs:
       - name: Run offline tests
         if: steps.config.outputs.enabled == 'true'
         run: python -m unittest discover -s tests -v
-      - name: Discover real card URLs from package pages (one request per >=6s)
+      - name: Discover missing card packages with resumable index scan
         id: discovery
         continue-on-error: true
         if: steps.config.outputs.enabled == 'true'
@@ -47,12 +47,39 @@ jobs:
       - name: Report upstream interruption
         if: steps.config.outputs.enabled == 'true' && (steps.discovery.outcome == 'failure' || steps.collect.outcome == 'failure')
         run: echo "::warning::Bulk sync stopped early due to upstream/network error. Valid checkpoints will still be committed."
-      - name: Commit progress
+      - name: Back up harvested data even if the source interrupts
+        if: always() && steps.config.outputs.enabled == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: digicamoe-harvested-data
+          path: data/
+          retention-days: 7
+          if-no-files-found: error
+      - name: Merge latest remote data then safely publish
         if: always() && steps.config.outputs.enabled == 'true' && steps.validate.outcome == 'success'
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data
-          git diff --cached --quiet && exit 0
-          git commit -m "data: bulk bootstrap DigiCamoe card index and Chinese card texts"
-          git push
+          checkpoint="$(mktemp -d)"
+          cp -a data "$checkpoint/data"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            python tools/merge_collected.py "$checkpoint/data"
+            python tools/validate_database.py
+            git add -A data
+            if git diff --cached --quiet; then
+              echo "No new data to publish."
+              exit 0
+            fi
+            git commit -m "data: safe incremental DigiCamoe card checkpoint"
+            if git push origin HEAD:main; then
+              echo "Committed data checkpoint successfully."
+              exit 0
+            fi
+            echo "::warning::Main changed before push; re-merging JSON attempt \${attempt}/4"
+            sleep 4
+          done
+          echo "::error::Unable to publish checkpoint; download the backup artifact."
+          exit 1
