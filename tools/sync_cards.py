@@ -189,8 +189,8 @@ def sync(args):
         if not args.force and record and not old_schema and elapsed_days(last.get("checkedAt")) < args.recheck_days:
             continue
         if urls:
-            # Unseen cards first; schema migrations are available via --mode enrich.
-            pending.append((0 if record is None else (1 if old_schema else 2), card_id, urls))
+            # Backfill previously captured incomplete records first, then discover new cards.
+            pending.append((0 if old_schema else (1 if record is None else 2), card_id, urls))
     pending.sort(key=lambda row: (row[0], row[1]))
     pending = pending[:args.limit]
     print("Indexed:", len(index), "This run:", len(pending), "Dry-run:", args.dry_run)
