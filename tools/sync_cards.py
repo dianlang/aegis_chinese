@@ -131,12 +131,14 @@ def parse(html, card_id, url):
             header_words.append(text)
     result.update(parse_header_fields(header_words))
     if not result.get("cardType"):
-        raise ValueError("Missing printed card type")
+        # Keep valid Chinese effect text even when optional site metadata is absent.
+        result["metadataIncomplete"] = True
     effects = [result.get(key, "") for key in SECTIONS.values() if result.get(key)]
     if effects and not re.search(r"[\u3400-\u9fff]", "".join(effects)):
         raise ValueError("No Chinese effect")
     # Vanilla cards are valid: require enough printed metadata instead of an effect.
-    if not effects and not any(key in result for key in ("playCost", "useCost", "dp", "level")):
+    if not effects and not (result.get("cardType") and
+                            any(key in result for key in ("playCost", "useCost", "dp", "level"))):
         raise ValueError("No effect or enough printed card metadata")
     if len(name) > 100 or any(len(result.get(k, "")) > 9000 for k in SECTIONS.values()):
         raise ValueError("Unreasonable text size")
