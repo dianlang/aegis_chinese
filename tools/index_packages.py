@@ -79,9 +79,10 @@ def fetch(url, timeout):
             raise ValueError("Oversized package HTML")
         return data.decode("utf-8", "replace")
 
-def discover(limit=175, delay=6, timeout=15, dry_run=False):
-    if limit < 1 or limit > 200 or delay < 5:
-        raise ValueError("Safety limits: 1..200 package pages per run, delay >= 5s")
+def discover(limit=175, delay=6, timeout=15, dry_run=False, time_budget_seconds=180):
+    if limit < 1 or limit > 200 or delay < 1 or not 30 <= time_budget_seconds <= 300:
+        raise ValueError("Safety limits: 1..200 package pages, delay >= 1s, time budget <=300s")
+    started = time.monotonic()
     state = read(STATE_FILE, {"version": 1, "scanned": {}, "errors": {}})
     index = read(INDEX_FILE, {"version": 1, "cards": {}, "source": "DigiCamoe package listings"})
     index.setdefault("cards", {})
@@ -107,6 +108,9 @@ def discover(limit=175, delay=6, timeout=15, dry_run=False):
         print("\n".join(pending))
         return 0
     for pack in pending:
+        if time.monotonic() - started > time_budget_seconds - timeout - 5:
+            print("STOP: index time budget reached; resume next run", flush=True)
+            break
         try:
             cards = list_cards(paced_request(URL_BASE + "/Package/" + pack), pack)
             if not cards:
@@ -144,5 +148,6 @@ if __name__ == "__main__":
     cli.add_argument("--delay", type=float, default=6)
     cli.add_argument("--timeout", type=int, default=15)
     cli.add_argument("--dry-run", action="store_true")
+    cli.add_argument("--time-budget-seconds", type=int, default=180)
     args = cli.parse_args()
-    sys.exit(discover(args.limit, args.delay, args.timeout, args.dry_run))
+    sys.exit(discover(args.limit, args.delay, args.timeout, args.dry_run, args.time_budget_seconds))
