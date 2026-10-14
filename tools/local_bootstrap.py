@@ -110,6 +110,8 @@ def main():
             check = stream_command([sys.executable, "-u", "tools/validate_database.py"], log, env)
         else:
             check = 0
+        if not opts.dry_run and check == 0:
+            stream_command([sys.executable, "-u", "tools/coverage_report.py"], log, env)
         if result == 0 and check == 0 and not opts.dry_run:
             # Only mark initial bootstrap complete if index coverage is truly complete.
             stream_command([sys.executable, "-u", "tools/check_bootstrap.py"], log, env)
