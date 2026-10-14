@@ -57,7 +57,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--minutes", type=int, default=110)
     parser.add_argument("--workers", type=int, default=2)
-    parser.add_argument("--min-interval", type=float, default=1.0)
+    parser.add_argument("--min-interval", type=float, default=2.0)
+    parser.add_argument("--repair-404", action="store_true",
+                        help="Check a few previously-404 package listings, at most daily")
     parser.add_argument("--refresh-index", action="store_true",
                         help="Explicitly scan missing package URLs before importing")
     parser.add_argument("--dry-run", action="store_true")
@@ -96,6 +98,14 @@ def main():
         if count == 0:
             print("No local index. Clone/download the entire repository, including data/index/.")
             return 2
+
+        if opts.repair_404 and not opts.dry_run:
+            # Four package pages at a conservative pace, never a full-site rescan.
+            cmd = [sys.executable, "-u", "tools/repair_404_links.py",
+                   "--max-packs", "4", "--interval", "4"]
+            if stream_command(cmd, log, env):
+                print("404 index check stopped by upstream issue. No additional scraping.")
+                return 2
 
         cmd = [sys.executable, "-u", "tools/fast_bootstrap.py",
                "--max-cards", "6000", "--workers", str(opts.workers),
