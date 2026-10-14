@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/index/AUTO.json data/index-state.json data/cards data/manifest.json data/sync-state.json data/bootstrap.json
+          git add -A data
           git diff --cached --quiet && exit 0
           git commit -m "data: bulk bootstrap DigiCamoe card index and Chinese card texts"
           git push
