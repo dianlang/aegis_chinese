@@ -20,7 +20,16 @@ minimum = config.get("minimumIndexedCards", 4000)
 target_fraction = config.get("completionFraction", 0.95)
 coverage = len(published & indexed) / max(len(indexed), 1)
 print(f"Bootstrap progress: indexed={len(indexed)}, published={len(published & indexed)}, coverage={coverage:.1%}")
-if len(indexed) >= minimum and coverage >= target_fraction:
+index_state_path = DATA / "index-state.json"
+index_state = json.loads(index_state_path.read_text(encoding="utf-8")) if index_state_path.exists() else {}
+all_packages_scanned = (
+    index_state.get("catalogPackages", 0) > 0
+    and len(index_state.get("scanned", {})) >= index_state.get("catalogPackages")
+    and not index_state.get("errors", {})
+)
+print("Indexed package coverage:", len(index_state.get("scanned", {})),
+      "/", index_state.get("catalogPackages", "?"), "complete:", all_packages_scanned)
+if all_packages_scanned and len(indexed) >= minimum and coverage >= target_fraction:
     config["enabled"] = False
     config_file.write_text(json.dumps(config,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Bootstrap completed. Switching to 20-card daily maintenance.")
