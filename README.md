@@ -12,19 +12,17 @@
 
 中文卡文优先从 GitHub 静态 JSON 加载，未收录的卡默认保留英文，**不会访问 DigiCamoe**。已缓存卡可以离线使用，游戏规则由 Aegis 自身执行。
 
-## 首次建库（约 4400 张卡）与日常维护
+## 一次性两小时初始化（截至 2026-10-14）
 
-首次建立数据库不能仅按现有的 249 张 P 卡链接抓取。新增 `tools/index_packages.py`：扫描公开卡包目录，提取 BT、EX、ST、LM 等真实卡片详情路径，保存到 `data/index/AUTO.json`，断点续扫。
+仓库已有 **4,364 个卡号的真实详情 URL 索引**（先前成功扫描了 97 个卡包），但已发布中文卡文仍需要继续采集。首次运行不再按“每天 600 张”限制，而是对当前已索引的所有卡号执行一次有截止时间的导入。
 
-**GitHub 初始批量任务**：在 Actions → `Bulk initial Chinese card database bootstrap` 中手动运行一次；也会在 bootstrap 开启时每天自动启动。每次最多抓取 600 张卡，单线程、每次请求至少间隔 6 秒，并在接近 GitHub 任务时间上限前保存进度。建立至少 4000 个索引、其中至少 95% 有已保存卡文时，批量任务自动关闭。若站点缺少足够索引，请人工核对而不是把数据标记完成。
+- 在 [Bulk initial Chinese card database bootstrap](https://github.com/dianlang/aegis_chinese/actions/workflows/bootstrap.yml) 点击 **Run workflow**，分支选 `main`。工作流总超时 119 分钟；其中剩余卡包索引最多约 3 分钟，正文读取最多 110 分钟，之后自动校验并推送 GitHub。
+- 执行 `tools/fast_bootstrap.py`：全局每秒最多开始 **1 个 HTTP 请求**、最多 **4 个同时等待响应**，每批 40 条增量写入文件；不会下载卡图；HTTP 429、服务器 5xx 或网络故障即停止。若两小时内无法取得所有有效卡文，会提交已完成数据，余下部分以后续运行继续。
+- Windows 用户可以双击 `scripts/bootstrap_windows.bat`，本地同样采用两小时预算，完成后需自行检查并推送 GitHub。
+- 只有公开卡包目录已经扫描完毕、索引至少 4,000 张且 **索引里的每张卡均已成功入库**时，才自动把 `data/bootstrap.json` 的 `enabled` 设为 `false`。达不到 100% 就会显示剩余数量，不会宣称全量完成。
+- 批量期 `Daily 20-card maintenance (after bootstrap)` 自动跳过。批量完成后，每天北京时间 12:20 自动检查最多 20 张，并检查新增卡包。
 
-**本地较快的首次抓取**：Windows 可双击 `scripts/bootstrap_windows.bat`，它会先从卡包页面索引，再循环执行最多 12 轮抓取并保存进度。理论上 4400 张卡至少需要约 7 小时 20 分钟请求时间（6 秒/请求，实际通常更长），适合不希望等待几天的维护者。中断后重复运行可续扫；抓取数据需要审核并自行提交 GitHub。
-
-**完成后每日维护**：另一个 GitHub Actions `Daily 20-card maintenance (after bootstrap)` 会在批量阶段自动跳过，切换后每天北京时间 12:20 最多维护 20 张。不会两个任务同时请求站点。
-
-目前属于新版本发布：P-001～P-020 已有真实抓取成功记录；新增的全卡包索引和详细字段解析尚未完成线上端到端验证。DigiCamoe 授权的是非商业复用，不代表已明确授权高频自动抓取；如站方有异议，应立即暂停任务，必要时取得明确许可。无需下载卡图，抓取遇到 429/服务器错误就停止。
-
-新的字段解析包括卡片类型、罕贵度、颜色、等级、费用、DP、形态、属性、类型、进化条件等，并保留原有卡文。缺失字段不会编造。
+数据字段包括卡种、罕贵度、颜色、等级、登场与使用费用、DP、形态、属性、类型、进化条件、主效果、进化源效果及安防效果。真实卡牌页面中不存在的字段不会伪造；网站若限制自动抓取，请及时停止并向维护者取得批量数据授权。**两小时是执行上限，不是承诺一定完整采集 4400 张**。
 
 ---
 ## 本地更新（Windows）
@@ -84,4 +82,4 @@ py tools\import_cached_cards.py aegis-cn-cached-cards-2026-10-13.json
 
 GitHub 仓库主页选择 `Code` → `Download ZIP`，解压后 Windows 用户可双击 `scripts/update_windows.bat` 更新中文卡文，或双击 `scripts/export_upstream_windows.bat` 生成官方 UI 汉化副本。首次运行需要 Python 3.9+ 和 pip。
 
-**当前发布状态：首次 P-001～P-020 在线抓取成功；批量抓取和新字段解析待在线验证。以 `data/manifest.json` 的 `publishedCardCount` 为准。**
+**发布数量以 `data/manifest.json` 的 `publishedCardCount` 为准。首次全量导入采用最多两小时的任务时间预算；尚未验证能否在真实上游响应条件下完成所有卡牌。**
