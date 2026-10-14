@@ -1,4 +1,4 @@
-name: Weekly Chinese card text sync
+name: Daily 20-card maintenance (after bootstrap)
 on:
   workflow_dispatch:
     inputs:
@@ -6,8 +6,8 @@ on:
         description: "Maximum cards to check this run (one request every >=6s)"
         type: choice
         required: true
-        default: '40'
-        options: ['20', '40', '60']
+        default: '20'
+        options: ['20', '40', '60', '100']
       mode:
         description: "all: missing then refresh; new: missing only; enrich: complete old records"
         type: choice
@@ -24,27 +24,36 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+      - name: Check bulk bootstrap status
+        id: phase
+        run: |
+          echo "bootstrap=$(python -c 'import json; print(str(json.load(open("data/bootstrap.json"))["enabled"]).lower())')" >> "$GITHUB_OUTPUT"
       - run: python -m pip install -r requirements.txt
+        if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
       - name: Offline parser regression tests
+        if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
         run: python -m unittest discover -s tests -v
       - name: Incremental sync (single-threaded; rate limited)
+        if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
         env:
-          CARD_LIMIT: ${{ inputs.count || '40' }}
+          CARD_LIMIT: ${{ inputs.count || '20' }}
           CARD_MODE: ${{ inputs.mode || 'all' }}
-        run: python tools/sync_cards.py --limit "$CARD_LIMIT" --mode "$CARD_MODE" --delay 6
+        run: python tools/sync_cards.py --limit "$CARD_LIMIT" --mode "$CARD_MODE" --delay 6 --time-budget-minutes 25
       - name: Validate JSON
+        if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
         run: python tools/validate_database.py
       - name: Commit changed data
+        if: github.event_name == 'workflow_dispatch' || steps.phase.outputs.bootstrap == 'false'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/cards data/manifest.json data/sync-state.json
+          git add -A data
           git diff --cached --quiet && exit 0
           git commit -m "data: incremental DigiCamoe Chinese cards"
           git push
