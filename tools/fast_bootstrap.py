@@ -58,7 +58,15 @@ def build_pending(index, shards, state, mode, force=False, recheck_days=45):
             continue
         last = stats.get(card_id, {})
         if not force:
-            if last.get("status") == "failed" and elapsed_days(last.get("checkedAt")) < 7:
+            if last.get("status") == "failed":
+                reason = last.get("reason", "")
+                age = elapsed_days(last.get("checkedAt"))
+                m = __import__("re").search(r"attempted=(\d+)", reason)
+                attempted = int(m.group(1)) if m else 2
+                additional = "HTTP 404" in reason and len(urls) > attempted
+                if not additional and age < (1 if "HTTP 404" in reason else 7):
+                    continue
+            if last.get("status") == "deferred" and elapsed_days(last.get("checkedAt")) < 1 / 24:
                 continue
             if current and not old and elapsed_days(last.get("checkedAt")) < recheck_days:
                 continue
@@ -137,7 +145,8 @@ def bootstrap(args):
     stop = threading.Event()
     limiter = StartRateLimiter(args.min_interval)
     dirty = set()
-    counter = {"ok": 0, "failed": 0, "paused": 0}
+    counter = {"ok": 0, "failed": 0, "deferred": 0, "paused": 0}
+    transient_streak = 0
     processed = 0
     reason_stopped = ""
 
@@ -182,6 +191,7 @@ def bootstrap(args):
                         stop.set()
                         result, card, error = "blocked", None, type(exc).__name__
                     if result == "ok":
+                        transient_streak = 0
                         current = shards[shard(card_id)].get(card_id)
                         if current and current.get("reviewStatus") == "verified":
                             card = current
@@ -194,21 +204,35 @@ def bootstrap(args):
                         }
                         counter["ok"] += 1
                     elif result == "failed":
+                        transient_streak = 0
                         status["cards"][card_id] = {
                             "status": "failed", "checkedAt": timestamp(), "reason": error
                         }
                         counter["failed"] += 1
+                        if counter["failed"] <= 20:
+                            print("MISS", card_id, error, flush=True)
+                    elif result == "deferred":
+                        transient_streak += 1
+                        status["cards"][card_id] = {
+                            "status": "deferred", "checkedAt": timestamp(), "reason": error
+                        }
+                        counter["deferred"] += 1
+                        print("NETWORK", card_id, error, "streak", transient_streak, flush=True)
+                        if transient_streak >= 3:
+                            stop.set()
+                            reason_stopped = "3 consecutive transport failures"
                     elif result == "blocked":
                         stop.set()
                         reason_stopped = error
+                        print("UPSTREAM", card_id, error, flush=True)
                     else:
                         counter["paused"] += 1
-                    if result in ("ok", "failed"):
+                    if result in ("ok", "failed", "deferred"):
                         processed += 1
                         if processed % 25 == 0:
                             elapsed = (time.monotonic() - started) / 60
                             print("PROGRESS", processed, "/", len(jobs), "OK", counter["ok"],
-                                  "FAILED", counter["failed"], "elapsed_min",
+                                  "FAILED", counter["failed"], "DEFERRED", counter["deferred"], "elapsed_min",
                                   round(elapsed, 1), flush=True)
                         if processed % args.checkpoint == 0:
                             checkpoint()
@@ -220,7 +244,7 @@ def bootstrap(args):
     finally:
         checkpoint()
     print("RESULT: indexed", len(index), "new_ok", counter["ok"],
-          "failed", counter["failed"], "paused", counter["paused"],
+          "failed", counter["failed"], "deferred", counter["deferred"], "paused", counter["paused"],
           "total_published", sum(len(v) for v in shards.values()),
           "elapsed_minutes", round((time.monotonic() - started) / 60, 1), flush=True)
     if reason_stopped:
