@@ -1,7 +1,8 @@
 {
   "cards": {
     "AD1-001": [
-      "https://app.digicamoe.cn/Cards/AD-01/AD1-001/R"
+      "https://app.digicamoe.cn/Cards/AD-01/AD1-001/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/AD1-001/R"
     ],
     "AD1-002": [
       "https://app.digicamoe.cn/Cards/AD-01/AD1-002/SR",
@@ -109,7 +110,8 @@
     "BT1-003": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-003/R",
       "https://app.digicamoe.cn/Cards/BT-6/BT1-003/R-T",
-      "https://app.digicamoe.cn/Cards/RB-01/BT1-003/R"
+      "https://app.digicamoe.cn/Cards/RB-01/BT1-003/R",
+      "https://app.digicamoe.cn/Cards/PR-TB15/BT1-003/R"
     ],
     "BT1-004": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-004/U"
@@ -152,7 +154,8 @@
       "https://app.digicamoe.cn/Cards/BT-1/BT1-014/C"
     ],
     "BT1-015": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-015/U"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-015/U",
+      "https://app.digicamoe.cn/Cards/PR-TB6/BT1-015/U"
     ],
     "BT1-016": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-016/R"
@@ -202,7 +205,9 @@
     "BT1-029": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-029/R",
       "https://app.digicamoe.cn/Cards/BT-1/BT1-029/R-P",
-      "https://app.digicamoe.cn/Cards/MC-1/BT1-029/R-P"
+      "https://app.digicamoe.cn/Cards/MC-1/BT1-029/R-P",
+      "https://app.digicamoe.cn/Cards/PR-SP2021/BT1-029/R-P",
+      "https://app.digicamoe.cn/Cards/TSB-DC1_2022/BT1-029/R"
     ],
     "BT1-030": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-030/C"
@@ -255,7 +260,8 @@
       "https://app.digicamoe.cn/Cards/BT-1/BT1-044/SR-P"
     ],
     "BT1-045": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-045/C"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-045/C",
+      "https://app.digicamoe.cn/Cards/PR-TB6/BT1-045/C"
     ],
     "BT1-046": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-046/C"
@@ -265,7 +271,8 @@
     ],
     "BT1-048": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-048/R",
-      "https://app.digicamoe.cn/Cards/RB-01/BT1-048/R"
+      "https://app.digicamoe.cn/Cards/RB-01/BT1-048/R",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT1-048/R-P"
     ],
     "BT1-049": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-049/U"
@@ -292,7 +299,9 @@
       "https://app.digicamoe.cn/Cards/BT-1/BT1-056/U"
     ],
     "BT1-057": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-057/U"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-057/U",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/BT1-057/U",
+      "https://app.digicamoe.cn/Cards/PR-TB4/BT1-057/U"
     ],
     "BT1-058": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-058/U"
@@ -303,29 +312,34 @@
     "BT1-060": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-060/SR",
       "https://app.digicamoe.cn/Cards/BT-1/BT1-060/SR-P",
-      "https://app.digicamoe.cn/Cards/RB-01/BT1-060/SR"
+      "https://app.digicamoe.cn/Cards/RB-01/BT1-060/SR",
+      "https://app.digicamoe.cn/Cards/PR/BT1-060/SR"
     ],
     "BT1-061": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-061/R"
     ],
     "BT1-062": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-062/U"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-062/U",
+      "https://app.digicamoe.cn/Cards/PR-TB9/BT1-062/U"
     ],
     "BT1-063": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-063/SR"
     ],
     "BT1-064": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-064/C"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-064/C",
+      "https://app.digicamoe.cn/Cards/PR-TB8/BT1-064/C"
     ],
     "BT1-065": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-065/C"
     ],
     "BT1-066": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-066/U"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-066/U",
+      "https://app.digicamoe.cn/Cards/PR-SP2021/BT1-066/U-P"
     ],
     "BT1-067": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-067/U",
-      "https://app.digicamoe.cn/Cards/RB-01/BT1-067/U"
+      "https://app.digicamoe.cn/Cards/RB-01/BT1-067/U",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT1-067/U-P"
     ],
     "BT1-068": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-068/C"
@@ -340,28 +354,36 @@
       "https://app.digicamoe.cn/Cards/BT-1/BT1-071/C"
     ],
     "BT1-072": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-072/U"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-072/U",
+      "https://app.digicamoe.cn/Cards/PR-TB11/BT1-072/U"
     ],
     "BT1-073": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-073/C"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-073/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT1-073/C-P"
     ],
     "BT1-074": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-074/R"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-074/R",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT1-074/R-P"
     ],
     "BT1-075": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-075/C"
     ],
     "BT1-076": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-076/U"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-076/U",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT1-076/U-P",
+      "https://app.digicamoe.cn/Cards/PR-TB1/BT1-076/U"
     ],
     "BT1-077": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-077/C"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-077/C",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-2/BT1-077/C"
     ],
     "BT1-078": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-078/U"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-078/U",
+      "https://app.digicamoe.cn/Cards/PR-TB12/BT1-078/U"
     ],
     "BT1-079": [
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-079/R"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-079/R",
+      "https://app.digicamoe.cn/Cards/PR-TB2/BT1-079/R"
     ],
     "BT1-080": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-080/U"
@@ -380,7 +402,8 @@
     "BT1-084": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-084/SR",
       "https://app.digicamoe.cn/Cards/BT-1/BT1-084/SR-P",
-      "https://app.digicamoe.cn/Cards/BT-6/BT1-084/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-6/BT1-084/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/BT1-084/SR"
     ],
     "BT1-085": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-085/R",
@@ -396,16 +419,19 @@
     "BT1-087": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-087/R",
       "https://app.digicamoe.cn/Cards/BT-1/BT1-087/R-T",
-      "https://app.digicamoe.cn/Cards/RB-01/BT1-087/R"
+      "https://app.digicamoe.cn/Cards/RB-01/BT1-087/R",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT1-087/R-P"
     ],
     "BT1-088": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-088/R",
-      "https://app.digicamoe.cn/Cards/BT-1/BT1-088/R-T"
+      "https://app.digicamoe.cn/Cards/BT-1/BT1-088/R-T",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT1-088/R-P"
     ],
     "BT1-089": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-089/R",
       "https://app.digicamoe.cn/Cards/BT-1/BT1-089/R-T",
-      "https://app.digicamoe.cn/Cards/RB-01/BT1-089/R"
+      "https://app.digicamoe.cn/Cards/RB-01/BT1-089/R",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT1-089/R-P"
     ],
     "BT1-090": [
       "https://app.digicamoe.cn/Cards/BT-1/BT1-090/C"
@@ -503,7 +529,8 @@
       "https://app.digicamoe.cn/Cards/BT-10/BT10-002/U"
     ],
     "BT10-003": [
-      "https://app.digicamoe.cn/Cards/BT-10/BT10-003/U"
+      "https://app.digicamoe.cn/Cards/BT-10/BT10-003/U",
+      "https://app.digicamoe.cn/Cards/PR-TB15/BT10-003/U"
     ],
     "BT10-004": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-004/U"
@@ -518,7 +545,8 @@
       "https://app.digicamoe.cn/Cards/BT-10/BT10-007/C"
     ],
     "BT10-008": [
-      "https://app.digicamoe.cn/Cards/BT-10/BT10-008/U"
+      "https://app.digicamoe.cn/Cards/BT-10/BT10-008/U",
+      "https://app.digicamoe.cn/Cards/PR-TB19/BT10-008/U"
     ],
     "BT10-009": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-009/R"
@@ -545,7 +573,8 @@
     ],
     "BT10-016": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-016/SR",
-      "https://app.digicamoe.cn/Cards/BT-10/BT10-016/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-10/BT10-016/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT10-016/SR"
     ],
     "BT10-017": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-017/C"
@@ -554,7 +583,8 @@
       "https://app.digicamoe.cn/Cards/BT-10/BT10-018/C"
     ],
     "BT10-019": [
-      "https://app.digicamoe.cn/Cards/BT-10/BT10-019/R"
+      "https://app.digicamoe.cn/Cards/BT-10/BT10-019/R",
+      "https://app.digicamoe.cn/Cards/PR-TB20/BT10-019/R"
     ],
     "BT10-020": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-020/U"
@@ -644,7 +674,8 @@
     ],
     "BT10-046": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-046/U",
-      "https://app.digicamoe.cn/Cards/LM-02/BT10-046/U-LM"
+      "https://app.digicamoe.cn/Cards/LM-02/BT10-046/U-LM",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/BT10-046/U"
     ],
     "BT10-047": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-047/C"
@@ -661,7 +692,8 @@
       "https://app.digicamoe.cn/Cards/LM-01/BT10-050/C"
     ],
     "BT10-051": [
-      "https://app.digicamoe.cn/Cards/BT-10/BT10-051/C"
+      "https://app.digicamoe.cn/Cards/BT-10/BT10-051/C",
+      "https://app.digicamoe.cn/Cards/PR-DIC2023/BT10-051/C"
     ],
     "BT10-052": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-052/C"
@@ -719,7 +751,9 @@
     ],
     "BT10-068": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-068/SR",
-      "https://app.digicamoe.cn/Cards/BT-10/BT10-068/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-10/BT10-068/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT10-068/SR",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT10-068/SR-P"
     ],
     "BT10-069": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-069/SR",
@@ -759,7 +793,8 @@
       "https://app.digicamoe.cn/Cards/BT-10/BT10-080/U"
     ],
     "BT10-081": [
-      "https://app.digicamoe.cn/Cards/BT-10/BT10-081/C"
+      "https://app.digicamoe.cn/Cards/BT-10/BT10-081/C",
+      "https://app.digicamoe.cn/Cards/PR-TB19/BT10-081/C"
     ],
     "BT10-082": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-082/U"
@@ -773,11 +808,13 @@
     ],
     "BT10-085": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-085/R",
-      "https://app.digicamoe.cn/Cards/BT-10/BT10-085/R-P"
+      "https://app.digicamoe.cn/Cards/BT-10/BT10-085/R-P",
+      "https://app.digicamoe.cn/Cards/SBAS2023/BT10-085/R"
     ],
     "BT10-086": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-086/SR",
-      "https://app.digicamoe.cn/Cards/BT-10/BT10-086/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-10/BT10-086/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT10-086/SR"
     ],
     "BT10-087": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-087/R",
@@ -868,7 +905,8 @@
     "BT10-112": [
       "https://app.digicamoe.cn/Cards/BT-10/BT10-112/SEC",
       "https://app.digicamoe.cn/Cards/BT-10/BT10-112/SEC-P",
-      "https://app.digicamoe.cn/Cards/PB-21/BT10-112/SEC"
+      "https://app.digicamoe.cn/Cards/PB-21/BT10-112/SEC",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT10-112/SEC"
     ],
     "BT11-001": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-001/C"
@@ -884,14 +922,16 @@
       "https://app.digicamoe.cn/Cards/BT-11/BT11-004/C"
     ],
     "BT11-005": [
-      "https://app.digicamoe.cn/Cards/BT-11/BT11-005/U"
+      "https://app.digicamoe.cn/Cards/BT-11/BT11-005/U",
+      "https://app.digicamoe.cn/Cards/PR/BT11-005/U"
     ],
     "BT11-006": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-006/C"
     ],
     "BT11-007": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-007/R",
-      "https://app.digicamoe.cn/Cards/LM-02/BT11-007/R-LM"
+      "https://app.digicamoe.cn/Cards/LM-02/BT11-007/R-LM",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/BT11-007/R"
     ],
     "BT11-008": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-008/C",
@@ -947,7 +987,9 @@
     "BT11-023": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-023/U",
       "https://app.digicamoe.cn/Cards/BT-11/BT11-023/U-T",
-      "https://app.digicamoe.cn/Cards/LM-08/BT11-023/U-LM"
+      "https://app.digicamoe.cn/Cards/LM-08/BT11-023/U-LM",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT11-023/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT11-023/U-P"
     ],
     "BT11-024": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-024/C"
@@ -960,7 +1002,9 @@
     ],
     "BT11-027": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-027/U",
-      "https://app.digicamoe.cn/Cards/OCCS-2023/BT11-027/U"
+      "https://app.digicamoe.cn/Cards/OCCS-2023/BT11-027/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT11-027/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT11-027/U-P"
     ],
     "BT11-028": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-028/U"
@@ -1013,7 +1057,8 @@
       "https://app.digicamoe.cn/Cards/BT-11/BT11-042/R-P"
     ],
     "BT11-043": [
-      "https://app.digicamoe.cn/Cards/BT-11/BT11-043/R"
+      "https://app.digicamoe.cn/Cards/BT-11/BT11-043/R",
+      "https://app.digicamoe.cn/Cards/PR-TB17/BT11-043/R"
     ],
     "BT11-044": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-044/U"
@@ -1094,10 +1139,12 @@
       "https://app.digicamoe.cn/Cards/BT-11/BT11-067/U"
     ],
     "BT11-068": [
-      "https://app.digicamoe.cn/Cards/BT-11/BT11-068/R"
+      "https://app.digicamoe.cn/Cards/BT-11/BT11-068/R",
+      "https://app.digicamoe.cn/Cards/PR-TB18/BT11-068/R"
     ],
     "BT11-069": [
-      "https://app.digicamoe.cn/Cards/BT-11/BT11-069/R"
+      "https://app.digicamoe.cn/Cards/BT-11/BT11-069/R",
+      "https://app.digicamoe.cn/Cards/PR-EPV1/BT11-069/R"
     ],
     "BT11-070": [
       "https://app.digicamoe.cn/Cards/BT-11/BT11-070/R"
@@ -1249,7 +1296,8 @@
       "https://app.digicamoe.cn/Cards/PB-23/BT11-112/SEC"
     ],
     "BT12-001": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-001/U"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-001/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT12-001/U"
     ],
     "BT12-002": [
       "https://app.digicamoe.cn/Cards/AD-01/BT12-002/U",
@@ -1257,7 +1305,8 @@
       "https://app.digicamoe.cn/Cards/BT-12/BT12-002/U"
     ],
     "BT12-003": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-003/U"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-003/U",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT12-003/U"
     ],
     "BT12-004": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-004/U"
@@ -1269,16 +1318,19 @@
       "https://app.digicamoe.cn/Cards/BT-12/BT12-006/U"
     ],
     "BT12-007": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-007/C"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-007/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT12-007/C"
     ],
     "BT12-008": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-008/C"
     ],
     "BT12-009": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-009/C"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-009/C",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT12-009/C"
     ],
     "BT12-010": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-010/C"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-010/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT12-010/C"
     ],
     "BT12-011": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-011/U",
@@ -1286,31 +1338,37 @@
     ],
     "BT12-012": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-012/U",
-      "https://app.digicamoe.cn/Cards/OCCS-2023/BT12-012/U"
+      "https://app.digicamoe.cn/Cards/OCCS-2023/BT12-012/U",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT12-012/U"
     ],
     "BT12-013": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-013/U"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-013/U",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT12-013/U"
     ],
     "BT12-014": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-014/C",
       "https://app.digicamoe.cn/Cards/BT-12/BT12-014/C-T"
     ],
     "BT12-015": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-015/R"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-015/R",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT12-015/R"
     ],
     "BT12-016": [
       "https://app.digicamoe.cn/Cards/AD-01/BT12-016/R",
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-016/R"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-016/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT12-016/R"
     ],
     "BT12-017": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-017/SR",
       "https://app.digicamoe.cn/Cards/BT-12/BT12-017/SR-P",
-      "https://app.digicamoe.cn/Cards/MC-LEG/BT12-017/SR"
+      "https://app.digicamoe.cn/Cards/MC-LEG/BT12-017/SR",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT12-017/SR"
     ],
     "BT12-018": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-018/SR",
       "https://app.digicamoe.cn/Cards/BT-12/BT12-018/SR-P",
-      "https://app.digicamoe.cn/Cards/MC-LEG/BT12-018/SR"
+      "https://app.digicamoe.cn/Cards/MC-LEG/BT12-018/SR",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT12-018/SR"
     ],
     "BT12-019": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-019/C"
@@ -1322,7 +1380,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT12-021/C",
       "https://app.digicamoe.cn/Cards/AD-01/BT12-021/C-GP",
       "https://app.digicamoe.cn/Cards/BT-12/BT12-021/C",
-      "https://app.digicamoe.cn/Cards/LM-02/BT12-021/C-LM"
+      "https://app.digicamoe.cn/Cards/LM-02/BT12-021/C-LM",
+      "https://app.digicamoe.cn/Cards/PR/BT12-021/C"
     ],
     "BT12-022": [
       "https://app.digicamoe.cn/Cards/AD-01/BT12-022/U-P",
@@ -1349,10 +1408,12 @@
     ],
     "BT12-029": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-029/SR",
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-029/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-029/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT12-029/SR"
     ],
     "BT12-030": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-030/R"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-030/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT12-030/R"
     ],
     "BT12-031": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-031/SR",
@@ -1367,7 +1428,8 @@
     ],
     "BT12-034": [
       "https://app.digicamoe.cn/Cards/AD-01/BT12-034/C",
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-034/C"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-034/C",
+      "https://app.digicamoe.cn/Cards/PR-TB20/BT12-034/C"
     ],
     "BT12-035": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-035/U"
@@ -1401,7 +1463,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT12-043/SR",
       "https://app.digicamoe.cn/Cards/BT-12/BT12-043/SR",
       "https://app.digicamoe.cn/Cards/BT-12/BT12-043/SR-P",
-      "https://app.digicamoe.cn/Cards/MC-LEG/BT12-043/SR-P"
+      "https://app.digicamoe.cn/Cards/MC-LEG/BT12-043/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT12-043/SR"
     ],
     "BT12-044": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-044/U"
@@ -1416,7 +1479,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT12-047/U",
       "https://app.digicamoe.cn/Cards/AD-01/BT12-047/U-GP",
       "https://app.digicamoe.cn/Cards/BT-12/BT12-047/U",
-      "https://app.digicamoe.cn/Cards/LM-02/BT12-047/U-LM"
+      "https://app.digicamoe.cn/Cards/LM-02/BT12-047/U-LM",
+      "https://app.digicamoe.cn/Cards/PR/BT12-047/U"
     ],
     "BT12-048": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-048/U"
@@ -1457,7 +1521,9 @@
       "https://app.digicamoe.cn/Cards/BT-12/BT12-058/C"
     ],
     "BT12-059": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-059/C"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-059/C",
+      "https://app.digicamoe.cn/Cards/PR-DMC2023P/BT12-059/C",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACK2024/BT12-059/C"
     ],
     "BT12-060": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-060/C"
@@ -1466,7 +1532,8 @@
       "https://app.digicamoe.cn/Cards/BT-12/BT12-061/C"
     ],
     "BT12-062": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-062/C"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-062/C",
+      "https://app.digicamoe.cn/Cards/PR-DMC2023P/BT12-062/C"
     ],
     "BT12-063": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-063/U"
@@ -1506,7 +1573,8 @@
       "https://app.digicamoe.cn/Cards/BT-12/BT12-073/C"
     ],
     "BT12-074": [
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-074/U"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-074/U",
+      "https://app.digicamoe.cn/Cards/PR-TB20/BT12-074/U"
     ],
     "BT12-075": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-075/U"
@@ -1643,7 +1711,8 @@
     "BT12-112": [
       "https://app.digicamoe.cn/Cards/BT-12/BT12-112/SEC",
       "https://app.digicamoe.cn/Cards/BT-12/BT12-112/SEC-P",
-      "https://app.digicamoe.cn/Cards/BT-12/BT12-112/SEC-P-1"
+      "https://app.digicamoe.cn/Cards/BT-12/BT12-112/SEC-P-1",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT12-112/SEC"
     ],
     "BT13-001": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-001/U"
@@ -1671,7 +1740,8 @@
     "BT13-008": [
       "https://app.digicamoe.cn/Cards/AD-01/BT13-008/C",
       "https://app.digicamoe.cn/Cards/BT-13/BT13-008/C",
-      "https://app.digicamoe.cn/Cards/LM-04/BT13-008/C-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/BT13-008/C-LM",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT13-008/C"
     ],
     "BT13-009": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-009/C"
@@ -1684,7 +1754,8 @@
     ],
     "BT13-012": [
       "https://app.digicamoe.cn/Cards/AD-01/BT13-012/C",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-012/C"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-012/C",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT13-012/C"
     ],
     "BT13-013": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-013/C"
@@ -1695,30 +1766,37 @@
     "BT13-015": [
       "https://app.digicamoe.cn/Cards/AD-01/BT13-015/C-P",
       "https://app.digicamoe.cn/Cards/AD-01/BT13-015/C",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-015/C"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-015/C",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT13-015/C"
     ],
     "BT13-016": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-016/U"
     ],
     "BT13-017": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-017/R",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-017/R-P"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-017/R-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT13-017/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT13-017/R-P"
     ],
     "BT13-018": [
       "https://app.digicamoe.cn/Cards/AD-01/BT13-018/R",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-018/R"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-018/R",
+      "https://app.digicamoe.cn/Cards/PR/BT13-018/R"
     ],
     "BT13-019": [
       "https://app.digicamoe.cn/Cards/AD-01/BT13-019/R",
       "https://app.digicamoe.cn/Cards/BT-13/BT13-019/R",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-019/R-P"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-019/R-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT13-019/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT13-019/R-P"
     ],
     "BT13-020": [
       "https://app.digicamoe.cn/Cards/AD-01/BT13-020/SR-P",
       "https://app.digicamoe.cn/Cards/AD-01/BT13-020/SR",
       "https://app.digicamoe.cn/Cards/BT-13/BT13-020/SR",
       "https://app.digicamoe.cn/Cards/BT-13/BT13-020/SR-P",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-020/SR-P-2"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-020/SR-P-2",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT13-020/SR"
     ],
     "BT13-021": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-021/C"
@@ -1749,7 +1827,8 @@
     ],
     "BT13-030": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-030/R",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-030/R-P"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-030/R-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT13-030/R-P"
     ],
     "BT13-031": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-031/R"
@@ -1783,7 +1862,8 @@
     ],
     "BT13-040": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-040/R",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-040/R-P"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-040/R-P",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2024/BT13-040/R"
     ],
     "BT13-041": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-041/U"
@@ -1897,7 +1977,8 @@
     ],
     "BT13-075": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-075/SR",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-075/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-075/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/BT13-075/SR"
     ],
     "BT13-076": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-076/U"
@@ -1940,7 +2021,8 @@
       "https://app.digicamoe.cn/Cards/BT-13/BT13-087/R-P"
     ],
     "BT13-088": [
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-088/R"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-088/R",
+      "https://app.digicamoe.cn/Cards/PR/BT13-088/R"
     ],
     "BT13-089": [
       "https://app.digicamoe.cn/Cards/BT-13/BT13-089/R"
@@ -2024,7 +2106,8 @@
     ],
     "BT13-110": [
       "https://app.digicamoe.cn/Cards/AD-01/BT13-110/R",
-      "https://app.digicamoe.cn/Cards/BT-13/BT13-110/R"
+      "https://app.digicamoe.cn/Cards/BT-13/BT13-110/R",
+      "https://app.digicamoe.cn/Cards/PR-TB19/BT13-110/R"
     ],
     "BT13-111": [
       "https://app.digicamoe.cn/Cards/AD-01/BT13-111/SEC",
@@ -2038,7 +2121,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT13-112/SEC-GP",
       "https://app.digicamoe.cn/Cards/BT-13/BT13-112/SEC",
       "https://app.digicamoe.cn/Cards/BT-13/BT13-112/SEC-P",
-      "https://app.digicamoe.cn/Cards/LM-07/BT13-112/SEC"
+      "https://app.digicamoe.cn/Cards/LM-07/BT13-112/SEC",
+      "https://app.digicamoe.cn/Cards/PR/BT13-112/SEC"
     ],
     "BT14-001": [
       "https://app.digicamoe.cn/Cards/AD-01/BT14-001/U",
@@ -2065,7 +2149,8 @@
     ],
     "BT14-006": [
       "https://app.digicamoe.cn/Cards/BT-14/BT14-006/U",
-      "https://app.digicamoe.cn/Cards/BT-14/BT14-006/U-T"
+      "https://app.digicamoe.cn/Cards/BT-14/BT14-006/U-T",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT14-006/U"
     ],
     "BT14-007": [
       "https://app.digicamoe.cn/Cards/BT-14/BT14-007/SR",
@@ -2151,7 +2236,8 @@
       "https://app.digicamoe.cn/Cards/BT-14/BT14-030/U"
     ],
     "BT14-031": [
-      "https://app.digicamoe.cn/Cards/BT-14/BT14-031/C"
+      "https://app.digicamoe.cn/Cards/BT-14/BT14-031/C",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/BT14-031/C"
     ],
     "BT14-032": [
       "https://app.digicamoe.cn/Cards/BT-14/BT14-032/C"
@@ -2243,7 +2329,8 @@
       "https://app.digicamoe.cn/Cards/BT-14/BT14-057/C"
     ],
     "BT14-058": [
-      "https://app.digicamoe.cn/Cards/BT-14/BT14-058/R"
+      "https://app.digicamoe.cn/Cards/BT-14/BT14-058/R",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2024/BT14-058/R"
     ],
     "BT14-059": [
       "https://app.digicamoe.cn/Cards/BT-14/BT14-059/C"
@@ -2269,7 +2356,8 @@
       "https://app.digicamoe.cn/Cards/BT-14/BT14-065/C"
     ],
     "BT14-066": [
-      "https://app.digicamoe.cn/Cards/BT-14/BT14-066/R"
+      "https://app.digicamoe.cn/Cards/BT-14/BT14-066/R",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2024/BT14-066/R"
     ],
     "BT14-067": [
       "https://app.digicamoe.cn/Cards/BT-14/BT14-067/U"
@@ -2308,7 +2396,8 @@
       "https://app.digicamoe.cn/Cards/BT-14/BT14-077/C"
     ],
     "BT14-078": [
-      "https://app.digicamoe.cn/Cards/BT-14/BT14-078/U"
+      "https://app.digicamoe.cn/Cards/BT-14/BT14-078/U",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT14-078/U"
     ],
     "BT14-079": [
       "https://app.digicamoe.cn/Cards/BT-14/BT14-079/R"
@@ -2318,7 +2407,8 @@
     ],
     "BT14-081": [
       "https://app.digicamoe.cn/Cards/BT-14/BT14-081/SR",
-      "https://app.digicamoe.cn/Cards/BT-14/BT14-081/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-14/BT14-081/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT14-081/SR"
     ],
     "BT14-082": [
       "https://app.digicamoe.cn/Cards/BT-14/BT14-082/R",
@@ -2388,7 +2478,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT14-101/SEC",
       "https://app.digicamoe.cn/Cards/AD-01/BT14-101/SEC-GP",
       "https://app.digicamoe.cn/Cards/BT-14/BT14-101/SEC",
-      "https://app.digicamoe.cn/Cards/BT-14/BT14-101/SEC-P"
+      "https://app.digicamoe.cn/Cards/BT-14/BT14-101/SEC-P",
+      "https://app.digicamoe.cn/Cards/PR/BT14-101/SEC"
     ],
     "BT14-102": [
       "https://app.digicamoe.cn/Cards/BT-14/BT14-102/SEC",
@@ -2508,7 +2599,8 @@
       "https://app.digicamoe.cn/Cards/BT-15/BT15-033/C"
     ],
     "BT15-034": [
-      "https://app.digicamoe.cn/Cards/BT-15/BT15-034/R"
+      "https://app.digicamoe.cn/Cards/BT-15/BT15-034/R",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/BT15-034/R"
     ],
     "BT15-035": [
       "https://app.digicamoe.cn/Cards/BT-15/BT15-035/C"
@@ -2626,10 +2718,12 @@
       "https://app.digicamoe.cn/Cards/BT-15/BT15-069/C"
     ],
     "BT15-070": [
-      "https://app.digicamoe.cn/Cards/BT-15/BT15-070/C"
+      "https://app.digicamoe.cn/Cards/BT-15/BT15-070/C",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX10/BT15-070/C"
     ],
     "BT15-071": [
-      "https://app.digicamoe.cn/Cards/BT-15/BT15-071/C"
+      "https://app.digicamoe.cn/Cards/BT-15/BT15-071/C",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACK2024/BT15-071/C"
     ],
     "BT15-072": [
       "https://app.digicamoe.cn/Cards/BT-15/BT15-072/C"
@@ -2733,7 +2827,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT15-101/SEC",
       "https://app.digicamoe.cn/Cards/AD-01/BT15-101/SEC-GP",
       "https://app.digicamoe.cn/Cards/BT-15/BT15-101/SEC",
-      "https://app.digicamoe.cn/Cards/BT-15/BT15-101/SEC-P"
+      "https://app.digicamoe.cn/Cards/BT-15/BT15-101/SEC-P",
+      "https://app.digicamoe.cn/Cards/PR/BT15-101/SEC"
     ],
     "BT15-102": [
       "https://app.digicamoe.cn/Cards/BT-15/BT15-102/SEC",
@@ -2787,7 +2882,8 @@
     "BT16-013": [
       "https://app.digicamoe.cn/Cards/BT-16/BT16-013/SR",
       "https://app.digicamoe.cn/Cards/BT-16/BT16-013/SR-P",
-      "https://app.digicamoe.cn/Cards/BT-16/BT16-013/SP"
+      "https://app.digicamoe.cn/Cards/BT-16/BT16-013/SP",
+      "https://app.digicamoe.cn/Cards/PR/BT16-013/SR"
     ],
     "BT16-014": [
       "https://app.digicamoe.cn/Cards/BT-16/BT16-014/R"
@@ -2800,7 +2896,8 @@
     ],
     "BT16-017": [
       "https://app.digicamoe.cn/Cards/AD-01/BT16-017/U",
-      "https://app.digicamoe.cn/Cards/BT-16/BT16-017/U"
+      "https://app.digicamoe.cn/Cards/BT-16/BT16-017/U",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACK2024/BT16-017/U"
     ],
     "BT16-018": [
       "https://app.digicamoe.cn/Cards/BT-16/BT16-018/C"
@@ -2834,7 +2931,8 @@
     "BT16-026": [
       "https://app.digicamoe.cn/Cards/BT-16/BT16-026/SR",
       "https://app.digicamoe.cn/Cards/BT-16/BT16-026/SR-P",
-      "https://app.digicamoe.cn/Cards/BT-16/BT16-026/SP"
+      "https://app.digicamoe.cn/Cards/BT-16/BT16-026/SP",
+      "https://app.digicamoe.cn/Cards/PR/BT16-026/SR"
     ],
     "BT16-027": [
       "https://app.digicamoe.cn/Cards/AD-01/BT16-027/R",
@@ -2855,7 +2953,8 @@
       "https://app.digicamoe.cn/Cards/LM-06/BT16-030/R-LM"
     ],
     "BT16-031": [
-      "https://app.digicamoe.cn/Cards/BT-16/BT16-031/U"
+      "https://app.digicamoe.cn/Cards/BT-16/BT16-031/U",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/BT16-031/U"
     ],
     "BT16-032": [
       "https://app.digicamoe.cn/Cards/BT-16/BT16-032/C"
@@ -2880,7 +2979,8 @@
       "https://app.digicamoe.cn/Cards/BT-16/BT16-038/U"
     ],
     "BT16-039": [
-      "https://app.digicamoe.cn/Cards/BT-16/BT16-039/C"
+      "https://app.digicamoe.cn/Cards/BT-16/BT16-039/C",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACK2024/BT16-039/C"
     ],
     "BT16-040": [
       "https://app.digicamoe.cn/Cards/AD-01/BT16-040/R",
@@ -3001,7 +3101,8 @@
     ],
     "BT16-076": [
       "https://app.digicamoe.cn/Cards/BT-16/BT16-076/U",
-      "https://app.digicamoe.cn/Cards/LM-04/BT16-076/U-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/BT16-076/U-LM",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT16-076/U"
     ],
     "BT16-077": [
       "https://app.digicamoe.cn/Cards/BT-16/BT16-077/SR",
@@ -3122,11 +3223,13 @@
     ],
     "BT17-007": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-007/R",
-      "https://app.digicamoe.cn/Cards/PB-19/BT17-007/R"
+      "https://app.digicamoe.cn/Cards/PB-19/BT17-007/R",
+      "https://app.digicamoe.cn/Cards/PR/BT17-007/R"
     ],
     "BT17-008": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-008/U",
-      "https://app.digicamoe.cn/Cards/BT-20/BT17-008/U"
+      "https://app.digicamoe.cn/Cards/BT-20/BT17-008/U",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/BT17-008/U"
     ],
     "BT17-009": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-009/C"
@@ -3135,7 +3238,8 @@
       "https://app.digicamoe.cn/Cards/BT-17/BT17-010/C"
     ],
     "BT17-011": [
-      "https://app.digicamoe.cn/Cards/BT-17/BT17-011/C"
+      "https://app.digicamoe.cn/Cards/BT-17/BT17-011/C",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/BT17-011/C"
     ],
     "BT17-012": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-012/C"
@@ -3156,7 +3260,8 @@
     ],
     "BT17-017": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-017/SR",
-      "https://app.digicamoe.cn/Cards/BT-17/BT17-017/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-17/BT17-017/SR-P",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT17-017/SR"
     ],
     "BT17-018": [
       "https://app.digicamoe.cn/Cards/AD-01/BT17-018/SR-P",
@@ -3167,7 +3272,8 @@
     ],
     "BT17-019": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-019/R",
-      "https://app.digicamoe.cn/Cards/PB-19/BT17-019/R"
+      "https://app.digicamoe.cn/Cards/PB-19/BT17-019/R",
+      "https://app.digicamoe.cn/Cards/PR/BT17-019/R"
     ],
     "BT17-020": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-020/C"
@@ -3176,7 +3282,8 @@
       "https://app.digicamoe.cn/Cards/BT-17/BT17-021/C"
     ],
     "BT17-022": [
-      "https://app.digicamoe.cn/Cards/BT-17/BT17-022/C"
+      "https://app.digicamoe.cn/Cards/BT-17/BT17-022/C",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/BT17-022/C"
     ],
     "BT17-023": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-023/C"
@@ -3196,7 +3303,8 @@
     ],
     "BT17-028": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-028/SR",
-      "https://app.digicamoe.cn/Cards/BT-17/BT17-028/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-17/BT17-028/SR-P",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT17-028/SR"
     ],
     "BT17-029": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-029/C"
@@ -3207,7 +3315,8 @@
     ],
     "BT17-031": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-031/C",
-      "https://app.digicamoe.cn/Cards/ST-22/BT17-031/C"
+      "https://app.digicamoe.cn/Cards/ST-22/BT17-031/C",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/BT17-031/C"
     ],
     "BT17-032": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-032/C"
@@ -3238,7 +3347,8 @@
     ],
     "BT17-040": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-040/SR",
-      "https://app.digicamoe.cn/Cards/BT-17/BT17-040/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-17/BT17-040/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT17-040/SR"
     ],
     "BT17-041": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-041/SR",
@@ -3249,7 +3359,8 @@
       "https://app.digicamoe.cn/Cards/BT-17/BT17-042/C"
     ],
     "BT17-043": [
-      "https://app.digicamoe.cn/Cards/BT-17/BT17-043/C"
+      "https://app.digicamoe.cn/Cards/BT-17/BT17-043/C",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/BT17-043/C"
     ],
     "BT17-044": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-044/R"
@@ -3298,7 +3409,8 @@
       "https://app.digicamoe.cn/Cards/BT-17/BT17-058/C"
     ],
     "BT17-059": [
-      "https://app.digicamoe.cn/Cards/BT-17/BT17-059/R"
+      "https://app.digicamoe.cn/Cards/BT-17/BT17-059/R",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT17-059/R"
     ],
     "BT17-060": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-060/SR",
@@ -3359,7 +3471,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT17-077/SR-GP",
       "https://app.digicamoe.cn/Cards/BT-17/BT17-077/SR",
       "https://app.digicamoe.cn/Cards/BT-17/BT17-077/SR-P",
-      "https://app.digicamoe.cn/Cards/BT-17/BT17-077/SP"
+      "https://app.digicamoe.cn/Cards/BT-17/BT17-077/SP",
+      "https://app.digicamoe.cn/Cards/PR/BT17-077/SR"
     ],
     "BT17-078": [
       "https://app.digicamoe.cn/Cards/AD-01/BT17-078/SR",
@@ -3444,7 +3557,8 @@
     ],
     "BT17-097": [
       "https://app.digicamoe.cn/Cards/AD-01/BT17-097/U",
-      "https://app.digicamoe.cn/Cards/BT-17/BT17-097/U"
+      "https://app.digicamoe.cn/Cards/BT-17/BT17-097/U",
+      "https://app.digicamoe.cn/Cards/PR-SPV2/BT17-097/U"
     ],
     "BT17-098": [
       "https://app.digicamoe.cn/Cards/BT-17/BT17-098/U"
@@ -3476,7 +3590,8 @@
       "https://app.digicamoe.cn/Cards/BT-18/BT18-002/U"
     ],
     "BT18-003": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-003/U"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-003/U",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/BT18-003/U"
     ],
     "BT18-004": [
       "https://app.digicamoe.cn/Cards/BT-18/BT18-004/U"
@@ -3520,7 +3635,8 @@
       "https://app.digicamoe.cn/Cards/BT-18/BT18-016/C"
     ],
     "BT18-017": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-017/U"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-017/U",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT18-017/U"
     ],
     "BT18-018": [
       "https://app.digicamoe.cn/Cards/BT-18/BT18-018/SR",
@@ -3558,10 +3674,12 @@
       "https://app.digicamoe.cn/Cards/BT-18/BT18-027/C"
     ],
     "BT18-028": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-028/R"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-028/R",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT18-028/R"
     ],
     "BT18-029": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-029/U"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-029/U",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT18-029/U"
     ],
     "BT18-030": [
       "https://app.digicamoe.cn/Cards/BT-18/BT18-030/C"
@@ -3643,10 +3761,12 @@
       "https://app.digicamoe.cn/Cards/BT-18/BT18-053/U"
     ],
     "BT18-054": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-054/R"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-054/R",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT18-054/R"
     ],
     "BT18-055": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-055/U"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-055/U",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT18-055/U"
     ],
     "BT18-056": [
       "https://app.digicamoe.cn/Cards/BT-18/BT18-056/SR",
@@ -3704,13 +3824,15 @@
       "https://app.digicamoe.cn/Cards/PB-21/BT18-071/SP"
     ],
     "BT18-072": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-072/R"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-072/R",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT18-072/R"
     ],
     "BT18-073": [
       "https://app.digicamoe.cn/Cards/BT-18/BT18-073/R"
     ],
     "BT18-074": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-074/U"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-074/U",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT18-074/U"
     ],
     "BT18-075": [
       "https://app.digicamoe.cn/Cards/BT-18/BT18-075/C"
@@ -3745,7 +3867,8 @@
       "https://app.digicamoe.cn/Cards/BT-18/BT18-083/SP"
     ],
     "BT18-084": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-084/R"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-084/R",
+      "https://app.digicamoe.cn/Cards/TSB-CS2024/BT18-084/R"
     ],
     "BT18-085": [
       "https://app.digicamoe.cn/Cards/BT-18/BT18-085/U"
@@ -3774,7 +3897,8 @@
       "https://app.digicamoe.cn/Cards/BT-18/BT18-091/R-T"
     ],
     "BT18-092": [
-      "https://app.digicamoe.cn/Cards/BT-18/BT18-092/U"
+      "https://app.digicamoe.cn/Cards/BT-18/BT18-092/U",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2026/BT18-092/U"
     ],
     "BT18-093": [
       "https://app.digicamoe.cn/Cards/BT-18/BT18-093/U",
@@ -3837,14 +3961,16 @@
       "https://app.digicamoe.cn/Cards/BT-19/BT19-007/U"
     ],
     "BT19-008": [
-      "https://app.digicamoe.cn/Cards/BT-19/BT19-008/U"
+      "https://app.digicamoe.cn/Cards/BT-19/BT19-008/U",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT19-008/U"
     ],
     "BT19-009": [
       "https://app.digicamoe.cn/Cards/AD-01/BT19-009/C",
       "https://app.digicamoe.cn/Cards/BT-19/BT19-009/C"
     ],
     "BT19-010": [
-      "https://app.digicamoe.cn/Cards/BT-19/BT19-010/C"
+      "https://app.digicamoe.cn/Cards/BT-19/BT19-010/C",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT19-010/C"
     ],
     "BT19-011": [
       "https://app.digicamoe.cn/Cards/BT-19/BT19-011/SR",
@@ -3890,7 +4016,8 @@
       "https://app.digicamoe.cn/Cards/BT-19/BT19-023/C"
     ],
     "BT19-024": [
-      "https://app.digicamoe.cn/Cards/BT-19/BT19-024/R"
+      "https://app.digicamoe.cn/Cards/BT-19/BT19-024/R",
+      "https://app.digicamoe.cn/Cards/PB-WTB1/BT19-024/R"
     ],
     "BT19-025": [
       "https://app.digicamoe.cn/Cards/BT-19/BT19-025/R"
@@ -3984,7 +4111,8 @@
       "https://app.digicamoe.cn/Cards/BT-19/BT19-051/R"
     ],
     "BT19-052": [
-      "https://app.digicamoe.cn/Cards/BT-19/BT19-052/U"
+      "https://app.digicamoe.cn/Cards/BT-19/BT19-052/U",
+      "https://app.digicamoe.cn/Cards/PB-WTB1/BT19-052/U"
     ],
     "BT19-053": [
       "https://app.digicamoe.cn/Cards/BT-19/BT19-053/SR",
@@ -4050,7 +4178,8 @@
     ],
     "BT19-072": [
       "https://app.digicamoe.cn/Cards/AD-01/BT19-072/R",
-      "https://app.digicamoe.cn/Cards/BT-19/BT19-072/R"
+      "https://app.digicamoe.cn/Cards/BT-19/BT19-072/R",
+      "https://app.digicamoe.cn/Cards/PB-WTB1/BT19-072/R"
     ],
     "BT19-073": [
       "https://app.digicamoe.cn/Cards/BT-19/BT19-073/SR",
@@ -4204,16 +4333,19 @@
       "https://app.digicamoe.cn/Cards/ST-11/BT2-011/C"
     ],
     "BT2-012": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-012/U"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-012/U",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-012/U-P"
     ],
     "BT2-013": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-013/U"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-013/U",
+      "https://app.digicamoe.cn/Cards/PR/BT2-013/U-P"
     ],
     "BT2-014": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-014/C"
     ],
     "BT2-015": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-015/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-015/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-015/C-P"
     ],
     "BT2-016": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-016/C",
@@ -4234,7 +4366,9 @@
       "https://app.digicamoe.cn/Cards/BT-2/BT2-020/SR-P"
     ],
     "BT2-021": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-021/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-021/C",
+      "https://app.digicamoe.cn/Cards/PR/BT2-021/C-P",
+      "https://app.digicamoe.cn/Cards/PR-DIC2023/BT2-021/C"
     ],
     "BT2-022": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-022/C"
@@ -4247,16 +4381,21 @@
       "https://app.digicamoe.cn/Cards/MC-25th/BT2-024/C"
     ],
     "BT2-025": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-025/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-025/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-025/C-P"
     ],
     "BT2-026": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-026/U"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-026/U",
+      "https://app.digicamoe.cn/Cards/PR/BT2-026/U-P"
     ],
     "BT2-027": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-027/U"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-027/U",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-027/U-P"
     ],
     "BT2-028": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-028/R"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-028/R",
+      "https://app.digicamoe.cn/Cards/PR/BT2-028/R-P",
+      "https://app.digicamoe.cn/Cards/PR-TB4/BT2-028/R"
     ],
     "BT2-029": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-029/C"
@@ -4272,7 +4411,8 @@
       "https://app.digicamoe.cn/Cards/BT-11/BT2-032/SR",
       "https://app.digicamoe.cn/Cards/BT-2/BT2-032/SR",
       "https://app.digicamoe.cn/Cards/BT-2/BT2-032/SR-P",
-      "https://app.digicamoe.cn/Cards/RB-01/BT2-032/SR"
+      "https://app.digicamoe.cn/Cards/RB-01/BT2-032/SR",
+      "https://app.digicamoe.cn/Cards/PR/BT2-032/SR-P"
     ],
     "BT2-033": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-033/C",
@@ -4280,7 +4420,8 @@
     ],
     "BT2-034": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-034/U",
-      "https://app.digicamoe.cn/Cards/RB-01/BT2-034/U"
+      "https://app.digicamoe.cn/Cards/RB-01/BT2-034/U",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-034/U-P"
     ],
     "BT2-035": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-035/C"
@@ -4290,7 +4431,8 @@
       "https://app.digicamoe.cn/Cards/MC-1/BT2-036/U-P"
     ],
     "BT2-037": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-037/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-037/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-037/C-P"
     ],
     "BT2-038": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-038/R",
@@ -4341,10 +4483,12 @@
       "https://app.digicamoe.cn/Cards/BT-2/BT2-051/SR"
     ],
     "BT2-052": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-052/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-052/C",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-3/BT2-052/C"
     ],
     "BT2-053": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-053/R"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-053/R",
+      "https://app.digicamoe.cn/Cards/PR-TB6/BT2-053/R"
     ],
     "BT2-054": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-054/U"
@@ -4355,13 +4499,16 @@
     ],
     "BT2-056": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-056/C",
-      "https://app.digicamoe.cn/Cards/MC-25th/BT2-056/C"
+      "https://app.digicamoe.cn/Cards/MC-25th/BT2-056/C",
+      "https://app.digicamoe.cn/Cards/PR-IC/BT2-056/C-P"
     ],
     "BT2-057": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-057/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-057/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-057/C-P"
     ],
     "BT2-058": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-058/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-058/C",
+      "https://app.digicamoe.cn/Cards/PR-TB5/BT2-058/C"
     ],
     "BT2-059": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-059/U",
@@ -4371,13 +4518,15 @@
       "https://app.digicamoe.cn/Cards/BT-2/BT2-060/U"
     ],
     "BT2-061": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-061/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-061/C",
+      "https://app.digicamoe.cn/Cards/PR-TB4/BT2-061/C"
     ],
     "BT2-062": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-062/R"
     ],
     "BT2-063": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-063/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-063/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-063/C-P"
     ],
     "BT2-064": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-064/U"
@@ -4391,7 +4540,8 @@
       "https://app.digicamoe.cn/Cards/BT-2/BT2-066/SR-P"
     ],
     "BT2-067": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-067/U"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-067/U",
+      "https://app.digicamoe.cn/Cards/PR-SP2021/BT2-067/U-P"
     ],
     "BT2-068": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-068/C",
@@ -4400,7 +4550,8 @@
     ],
     "BT2-069": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-069/C",
-      "https://app.digicamoe.cn/Cards/RB-01/BT2-069/C"
+      "https://app.digicamoe.cn/Cards/RB-01/BT2-069/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-069/C-P"
     ],
     "BT2-070": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-070/U",
@@ -4410,10 +4561,12 @@
       "https://app.digicamoe.cn/Cards/BT-2/BT2-071/C"
     ],
     "BT2-072": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-072/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-072/C",
+      "https://app.digicamoe.cn/Cards/PR-TB7/BT2-072/C"
     ],
     "BT2-073": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-073/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-073/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-073/C-P"
     ],
     "BT2-074": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-074/U",
@@ -4427,10 +4580,12 @@
       "https://app.digicamoe.cn/Cards/BT-2/BT2-076/C"
     ],
     "BT2-077": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-077/R"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-077/R",
+      "https://app.digicamoe.cn/Cards/PR-TB4/BT2-077/R"
     ],
     "BT2-078": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-078/C"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-078/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-078/C-P"
     ],
     "BT2-079": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-079/R"
@@ -4453,30 +4608,35 @@
     ],
     "BT2-084": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-084/R",
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-084/R-T"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-084/R-T",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-084/R-P"
     ],
     "BT2-085": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-085/R",
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-085/R-T"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-085/R-T",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-085/R-P"
     ],
     "BT2-086": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-086/R"
     ],
     "BT2-087": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-087/R",
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-087/R-T"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-087/R-T",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-087/R-P"
     ],
     "BT2-088": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-088/R"
     ],
     "BT2-089": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-089/R",
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-089/R-T"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-089/R-T",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-089/R-P"
     ],
     "BT2-090": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-090/R",
       "https://app.digicamoe.cn/Cards/BT-2/BT2-090/R-T",
-      "https://app.digicamoe.cn/Cards/RB-01/BT2-090/R"
+      "https://app.digicamoe.cn/Cards/RB-01/BT2-090/R",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT2-090/R-P"
     ],
     "BT2-091": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-091/C"
@@ -4494,7 +4654,8 @@
       "https://app.digicamoe.cn/Cards/BT-2/BT2-095/U"
     ],
     "BT2-096": [
-      "https://app.digicamoe.cn/Cards/BT-2/BT2-096/U"
+      "https://app.digicamoe.cn/Cards/BT-2/BT2-096/U",
+      "https://app.digicamoe.cn/Cards/PR/BT2-096/U-P"
     ],
     "BT2-097": [
       "https://app.digicamoe.cn/Cards/BT-2/BT2-097/C"
@@ -4559,7 +4720,8 @@
     ],
     "BT20-003": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-003/C",
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-003/C-T"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-003/C-T",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT20-003/C"
     ],
     "BT20-004": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-004/C",
@@ -4651,7 +4813,8 @@
       "https://app.digicamoe.cn/Cards/BT-20/BT20-028/SR-P"
     ],
     "BT20-029": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-029/C"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-029/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT20-029/C"
     ],
     "BT20-030": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-030/U"
@@ -4660,13 +4823,15 @@
       "https://app.digicamoe.cn/Cards/BT-20/BT20-031/C"
     ],
     "BT20-032": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-032/C"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-032/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT20-032/C"
     ],
     "BT20-033": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-033/C"
     ],
     "BT20-034": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-034/C"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-034/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT20-034/C"
     ],
     "BT20-035": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-035/R"
@@ -4724,7 +4889,8 @@
       "https://app.digicamoe.cn/Cards/BT-20/BT20-051/C"
     ],
     "BT20-052": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-052/U"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-052/U",
+      "https://app.digicamoe.cn/Cards/PR-SPV2/BT20-052/U"
     ],
     "BT20-053": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-053/U"
@@ -4740,7 +4906,8 @@
     "BT20-056": [
       "https://app.digicamoe.cn/Cards/AD-01/BT20-056/R",
       "https://app.digicamoe.cn/Cards/AD-01/BT20-056/R-GP",
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-056/R"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-056/R",
+      "https://app.digicamoe.cn/Cards/PR-SPV2/BT20-056/R"
     ],
     "BT20-057": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-057/R"
@@ -4771,7 +4938,8 @@
       "https://app.digicamoe.cn/Cards/BT-20/BT20-063/U-P"
     ],
     "BT20-064": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-064/U"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-064/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT20-064/U"
     ],
     "BT20-065": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-065/R"
@@ -4789,13 +4957,16 @@
       "https://app.digicamoe.cn/Cards/BT-20/BT20-069/C"
     ],
     "BT20-070": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-070/C"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-070/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT20-070/C"
     ],
     "BT20-071": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-071/C"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-071/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT20-071/C"
     ],
     "BT20-072": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-072/U"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-072/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/BT20-072/U"
     ],
     "BT20-073": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-073/C"
@@ -4804,7 +4975,8 @@
       "https://app.digicamoe.cn/Cards/BT-20/BT20-074/U"
     ],
     "BT20-075": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-075/U"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-075/U",
+      "https://app.digicamoe.cn/Cards/PR-SPV2/BT20-075/U"
     ],
     "BT20-076": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-076/R"
@@ -4824,7 +4996,8 @@
       "https://app.digicamoe.cn/Cards/PB-22/BT20-079/SR"
     ],
     "BT20-080": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-080/R"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-080/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2025/BT20-080/R"
     ],
     "BT20-081": [
       "https://app.digicamoe.cn/Cards/BT-20/BT20-081/SR",
@@ -4867,7 +5040,8 @@
       "https://app.digicamoe.cn/Cards/BT-20/BT20-089/R-P"
     ],
     "BT20-090": [
-      "https://app.digicamoe.cn/Cards/BT-20/BT20-090/R"
+      "https://app.digicamoe.cn/Cards/BT-20/BT20-090/R",
+      "https://app.digicamoe.cn/Cards/PR/BT20-090/R"
     ],
     "BT20-091": [
       "https://app.digicamoe.cn/Cards/AD-01/BT20-091/SR",
@@ -4920,7 +5094,8 @@
       "https://app.digicamoe.cn/Cards/BT-21/BT21-001/C"
     ],
     "BT21-002": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-002/C"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-002/C",
+      "https://app.digicamoe.cn/Cards/PR/BT21-002/C"
     ],
     "BT21-003": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-003/C"
@@ -4960,7 +5135,8 @@
       "https://app.digicamoe.cn/Cards/BT-21/BT21-012/C"
     ],
     "BT21-013": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-013/U"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-013/U",
+      "https://app.digicamoe.cn/Cards/PR-EPV1/BT21-013/U"
     ],
     "BT21-014": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-014/C"
@@ -5004,7 +5180,8 @@
       "https://app.digicamoe.cn/Cards/BT-21/BT21-024/U"
     ],
     "BT21-025": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-025/R"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-025/R",
+      "https://app.digicamoe.cn/Cards/PB-WTB2/BT21-025/R"
     ],
     "BT21-026": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-026/U"
@@ -5020,7 +5197,9 @@
       "https://app.digicamoe.cn/Cards/BT-21/BT21-029/SR",
       "https://app.digicamoe.cn/Cards/BT-21/BT21-029/SR-P",
       "https://app.digicamoe.cn/Cards/BT-21/BT21-029/SP",
-      "https://app.digicamoe.cn/Cards/PB-22/BT21-029/SR"
+      "https://app.digicamoe.cn/Cards/PB-22/BT21-029/SR",
+      "https://app.digicamoe.cn/Cards/PR/BT21-029/SR",
+      "https://app.digicamoe.cn/Cards/PR/BT21-029/SR-P"
     ],
     "BT21-030": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-030/R"
@@ -5042,7 +5221,8 @@
       "https://app.digicamoe.cn/Cards/BT-21/BT21-035/U"
     ],
     "BT21-036": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-036/R"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-036/R",
+      "https://app.digicamoe.cn/Cards/PB-WTB2/BT21-036/R"
     ],
     "BT21-037": [
       "https://app.digicamoe.cn/Cards/AD-01/BT21-037/U",
@@ -5127,18 +5307,24 @@
       "https://app.digicamoe.cn/Cards/BT-21/BT21-059/R"
     ],
     "BT21-060": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-060/U"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-060/U",
+      "https://app.digicamoe.cn/Cards/PB-WTB2/BT21-060/U",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2026/BT21-060/U"
     ],
     "BT21-061": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-061/U"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-061/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/BT21-061/U"
     ],
     "BT21-062": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-062/SR",
       "https://app.digicamoe.cn/Cards/BT-21/BT21-062/SR-P",
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-062/SP"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-062/SP",
+      "https://app.digicamoe.cn/Cards/PR/BT21-062/SR",
+      "https://app.digicamoe.cn/Cards/PR/BT21-062/SR-P"
     ],
     "BT21-063": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-063/U"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-063/U",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT21-063/U"
     ],
     "BT21-064": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-064/U"
@@ -5148,7 +5334,8 @@
       "https://app.digicamoe.cn/Cards/EX-11/BT21-065/C-EM"
     ],
     "BT21-066": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-066/U"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-066/U",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT21-066/U"
     ],
     "BT21-067": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-067/U"
@@ -5168,7 +5355,8 @@
       "https://app.digicamoe.cn/Cards/LM-08/BT21-071/C-LM"
     ],
     "BT21-072": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-072/R"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-072/R",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT21-072/R"
     ],
     "BT21-073": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-073/R"
@@ -5264,7 +5452,8 @@
       "https://app.digicamoe.cn/Cards/LM-07/BT21-097/C"
     ],
     "BT21-098": [
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-098/C"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-098/C",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2026/BT21-098/C"
     ],
     "BT21-099": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-099/C"
@@ -5275,7 +5464,9 @@
     "BT21-101": [
       "https://app.digicamoe.cn/Cards/BT-21/BT21-101/SEC",
       "https://app.digicamoe.cn/Cards/BT-21/BT21-101/SEC-P",
-      "https://app.digicamoe.cn/Cards/BT-21/BT21-101/SP"
+      "https://app.digicamoe.cn/Cards/BT-21/BT21-101/SP",
+      "https://app.digicamoe.cn/Cards/PR/BT21-101/SEC",
+      "https://app.digicamoe.cn/Cards/PR/BT21-101/SEC-P"
     ],
     "BT21-102": [
       "https://app.digicamoe.cn/Cards/AD-01/BT21-102/SEC",
@@ -5322,7 +5513,8 @@
       "https://app.digicamoe.cn/Cards/BT-22/BT22-012/C"
     ],
     "BT22-013": [
-      "https://app.digicamoe.cn/Cards/BT-22/BT22-013/R"
+      "https://app.digicamoe.cn/Cards/BT-22/BT22-013/R",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT22-013/R"
     ],
     "BT22-014": [
       "https://app.digicamoe.cn/Cards/BT-22/BT22-014/R"
@@ -5365,7 +5557,8 @@
       "https://app.digicamoe.cn/Cards/BT-22/BT22-025/SR-P"
     ],
     "BT22-026": [
-      "https://app.digicamoe.cn/Cards/BT-22/BT22-026/R"
+      "https://app.digicamoe.cn/Cards/BT-22/BT22-026/R",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT22-026/R"
     ],
     "BT22-027": [
       "https://app.digicamoe.cn/Cards/BT-22/BT22-027/R"
@@ -5488,7 +5681,8 @@
       "https://app.digicamoe.cn/Cards/BT-22/BT22-063/SR-P"
     ],
     "BT22-064": [
-      "https://app.digicamoe.cn/Cards/BT-22/BT22-064/R"
+      "https://app.digicamoe.cn/Cards/BT-22/BT22-064/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/BT22-064/R"
     ],
     "BT22-065": [
       "https://app.digicamoe.cn/Cards/BT-22/BT22-065/R"
@@ -5503,7 +5697,8 @@
       "https://app.digicamoe.cn/Cards/BT-22/BT22-068/U"
     ],
     "BT22-069": [
-      "https://app.digicamoe.cn/Cards/BT-22/BT22-069/R"
+      "https://app.digicamoe.cn/Cards/BT-22/BT22-069/R",
+      "https://app.digicamoe.cn/Cards/PR/BT22-069/R"
     ],
     "BT22-070": [
       "https://app.digicamoe.cn/Cards/BT-22/BT22-070/C"
@@ -5515,7 +5710,8 @@
       "https://app.digicamoe.cn/Cards/BT-22/BT22-072/C"
     ],
     "BT22-073": [
-      "https://app.digicamoe.cn/Cards/BT-22/BT22-073/U"
+      "https://app.digicamoe.cn/Cards/BT-22/BT22-073/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/BT22-073/U"
     ],
     "BT22-074": [
       "https://app.digicamoe.cn/Cards/BT-22/BT22-074/U"
@@ -5722,7 +5918,8 @@
       "https://app.digicamoe.cn/Cards/BT-23/BT23-031/U"
     ],
     "BT23-032": [
-      "https://app.digicamoe.cn/Cards/BT-23/BT23-032/R"
+      "https://app.digicamoe.cn/Cards/BT-23/BT23-032/R",
+      "https://app.digicamoe.cn/Cards/PR-EPV1/BT23-032/R"
     ],
     "BT23-033": [
       "https://app.digicamoe.cn/Cards/BT-23/BT23-033/R"
@@ -6994,21 +7191,24 @@
     ],
     "BT3-002": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-002/U",
-      "https://app.digicamoe.cn/Cards/RB-01/BT3-002/U"
+      "https://app.digicamoe.cn/Cards/RB-01/BT3-002/U",
+      "https://app.digicamoe.cn/Cards/PR/BT3-002/U"
     ],
     "BT3-003": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-003/U",
       "https://app.digicamoe.cn/Cards/RB-01/BT3-003/U"
     ],
     "BT3-004": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-004/U"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-004/U",
+      "https://app.digicamoe.cn/Cards/PR-TB10/BT3-004/U"
     ],
     "BT3-005": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-005/U"
     ],
     "BT3-006": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-006/U",
-      "https://app.digicamoe.cn/Cards/RB-01/BT3-006/U"
+      "https://app.digicamoe.cn/Cards/RB-01/BT3-006/U",
+      "https://app.digicamoe.cn/Cards/PR-TB8/BT3-006/U"
     ],
     "BT3-007": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-007/C"
@@ -7060,7 +7260,8 @@
     "BT3-021": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-021/R",
       "https://app.digicamoe.cn/Cards/BT-6/BT3-021/R-T",
-      "https://app.digicamoe.cn/Cards/RB-01/BT3-021/R"
+      "https://app.digicamoe.cn/Cards/RB-01/BT3-021/R",
+      "https://app.digicamoe.cn/Cards/PR/BT3-021/R"
     ],
     "BT3-022": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-022/C"
@@ -7074,7 +7275,8 @@
       "https://app.digicamoe.cn/Cards/MC-25th/BT3-024/U"
     ],
     "BT3-025": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-025/R"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-025/R",
+      "https://app.digicamoe.cn/Cards/PR-TB5/BT3-025/R"
     ],
     "BT3-026": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-026/C"
@@ -7106,22 +7308,26 @@
       "https://app.digicamoe.cn/Cards/BT-3/BT3-034/U"
     ],
     "BT3-035": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-035/C"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-035/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/BT3-035/C-P"
     ],
     "BT3-036": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-036/U",
       "https://app.digicamoe.cn/Cards/BT-3/BT3-036/U-T"
     ],
     "BT3-037": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-037/C"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-037/C",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/BT3-037/C"
     ],
     "BT3-038": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-038/C"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-038/C",
+      "https://app.digicamoe.cn/Cards/PR-TB8/BT3-038/C"
     ],
     "BT3-039": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-039/R",
       "https://app.digicamoe.cn/Cards/BT-6/BT3-039/R-T",
-      "https://app.digicamoe.cn/Cards/RB-01/BT3-039/R"
+      "https://app.digicamoe.cn/Cards/RB-01/BT3-039/R",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/BT3-039/R"
     ],
     "BT3-040": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-040/R"
@@ -7147,7 +7353,8 @@
       "https://app.digicamoe.cn/Cards/BT-3/BT3-046/U",
       "https://app.digicamoe.cn/Cards/BT-6/BT3-046/U-T",
       "https://app.digicamoe.cn/Cards/RB-01/BT3-046/U",
-      "https://app.digicamoe.cn/Cards/MC-2/BT3-046/U-P"
+      "https://app.digicamoe.cn/Cards/MC-2/BT3-046/U-P",
+      "https://app.digicamoe.cn/Cards/PR/BT3-046/U"
     ],
     "BT3-047": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-047/R",
@@ -7155,14 +7362,16 @@
       "https://app.digicamoe.cn/Cards/PB-06/BT3-047/R"
     ],
     "BT3-048": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-048/C"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-048/C",
+      "https://app.digicamoe.cn/Cards/PR/BT3-048/C-P"
     ],
     "BT3-049": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-049/U",
       "https://app.digicamoe.cn/Cards/BT-3/BT3-049/U-T"
     ],
     "BT3-050": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-050/R"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-050/R",
+      "https://app.digicamoe.cn/Cards/PR-TB5/BT3-050/R"
     ],
     "BT3-051": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-051/C"
@@ -7175,7 +7384,8 @@
     ],
     "BT3-054": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-054/C",
-      "https://app.digicamoe.cn/Cards/RB-01/BT3-054/C"
+      "https://app.digicamoe.cn/Cards/RB-01/BT3-054/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2022/BT3-054/C"
     ],
     "BT3-055": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-055/R"
@@ -7187,7 +7397,8 @@
     "BT3-057": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-057/R",
       "https://app.digicamoe.cn/Cards/BT-6/BT3-057/R-T",
-      "https://app.digicamoe.cn/Cards/MC-2/BT3-057/R-P"
+      "https://app.digicamoe.cn/Cards/MC-2/BT3-057/R-P",
+      "https://app.digicamoe.cn/Cards/SP-01/BT3-057/R"
     ],
     "BT3-058": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-058/U"
@@ -7200,14 +7411,16 @@
     ],
     "BT3-061": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-061/C",
-      "https://app.digicamoe.cn/Cards/RB-01/BT3-061/C"
+      "https://app.digicamoe.cn/Cards/RB-01/BT3-061/C",
+      "https://app.digicamoe.cn/Cards/PR-TB10/BT3-061/C"
     ],
     "BT3-062": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-062/U",
       "https://app.digicamoe.cn/Cards/LM-06/BT3-062/U-LM"
     ],
     "BT3-063": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-063/C"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-063/C",
+      "https://app.digicamoe.cn/Cards/PR-DIC2023/BT3-063/C"
     ],
     "BT3-064": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-064/C"
@@ -7220,7 +7433,8 @@
       "https://app.digicamoe.cn/Cards/BT-3/BT3-066/C"
     ],
     "BT3-067": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-067/C"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-067/C",
+      "https://app.digicamoe.cn/Cards/PR-TB7/BT3-067/C"
     ],
     "BT3-068": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-068/C"
@@ -7290,7 +7504,8 @@
     ],
     "BT3-088": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-088/R",
-      "https://app.digicamoe.cn/Cards/RB-01/BT3-088/R"
+      "https://app.digicamoe.cn/Cards/RB-01/BT3-088/R",
+      "https://app.digicamoe.cn/Cards/PR-TB5/BT3-088/R"
     ],
     "BT3-089": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-089/U"
@@ -7312,10 +7527,12 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT3-093/R",
       "https://app.digicamoe.cn/Cards/BT-3/BT3-093/R",
       "https://app.digicamoe.cn/Cards/LM-05/BT3-093/R-LM",
-      "https://app.digicamoe.cn/Cards/PB-20/BT3-093/R"
+      "https://app.digicamoe.cn/Cards/PB-20/BT3-093/R",
+      "https://app.digicamoe.cn/Cards/PR/BT3-093/R-T"
     ],
     "BT3-094": [
-      "https://app.digicamoe.cn/Cards/BT-3/BT3-094/R"
+      "https://app.digicamoe.cn/Cards/BT-3/BT3-094/R",
+      "https://app.digicamoe.cn/Cards/PR/BT3-094/R-T"
     ],
     "BT3-095": [
       "https://app.digicamoe.cn/Cards/BT-3/BT3-095/R"
@@ -7390,7 +7607,8 @@
       "https://app.digicamoe.cn/Cards/BT-4/BT4-004/U"
     ],
     "BT4-005": [
-      "https://app.digicamoe.cn/Cards/BT-4/BT4-005/U"
+      "https://app.digicamoe.cn/Cards/BT-4/BT4-005/U",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-2/BT4-005/U"
     ],
     "BT4-006": [
       "https://app.digicamoe.cn/Cards/BT-4/BT4-006/U",
@@ -7503,7 +7721,8 @@
       "https://app.digicamoe.cn/Cards/BT-4/BT4-037/C"
     ],
     "BT4-038": [
-      "https://app.digicamoe.cn/Cards/BT-4/BT4-038/U"
+      "https://app.digicamoe.cn/Cards/BT-4/BT4-038/U",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-2/BT4-038/U"
     ],
     "BT4-039": [
       "https://app.digicamoe.cn/Cards/BT-4/BT4-039/C"
@@ -7515,7 +7734,8 @@
       "https://app.digicamoe.cn/Cards/BT-4/BT4-041/C"
     ],
     "BT4-042": [
-      "https://app.digicamoe.cn/Cards/BT-4/BT4-042/C"
+      "https://app.digicamoe.cn/Cards/BT-4/BT4-042/C",
+      "https://app.digicamoe.cn/Cards/PR-TB10/BT4-042/C"
     ],
     "BT4-043": [
       "https://app.digicamoe.cn/Cards/BT-4/BT4-043/U"
@@ -7647,7 +7867,8 @@
       "https://app.digicamoe.cn/Cards/BT-4/BT4-083/C"
     ],
     "BT4-084": [
-      "https://app.digicamoe.cn/Cards/BT-4/BT4-084/C"
+      "https://app.digicamoe.cn/Cards/BT-4/BT4-084/C",
+      "https://app.digicamoe.cn/Cards/PR-SP2023-1/BT4-084/C"
     ],
     "BT4-085": [
       "https://app.digicamoe.cn/Cards/BT-4/BT4-085/C"
@@ -7656,7 +7877,8 @@
       "https://app.digicamoe.cn/Cards/BT-4/BT4-086/R"
     ],
     "BT4-087": [
-      "https://app.digicamoe.cn/Cards/BT-4/BT4-087/U"
+      "https://app.digicamoe.cn/Cards/BT-4/BT4-087/U",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-2/BT4-087/U"
     ],
     "BT4-088": [
       "https://app.digicamoe.cn/Cards/BT-4/BT4-088/SR",
@@ -7667,7 +7889,8 @@
     ],
     "BT4-090": [
       "https://app.digicamoe.cn/Cards/BT-4/BT4-090/R",
-      "https://app.digicamoe.cn/Cards/BT-4/BT4-090/R-P"
+      "https://app.digicamoe.cn/Cards/BT-4/BT4-090/R-P",
+      "https://app.digicamoe.cn/Cards/PR-SP2021/BT4-090/R-P"
     ],
     "BT4-091": [
       "https://app.digicamoe.cn/Cards/BT-4/BT4-091/SR",
@@ -7692,7 +7915,8 @@
     "BT4-096": [
       "https://app.digicamoe.cn/Cards/BT-4/BT4-096/R",
       "https://app.digicamoe.cn/Cards/BT-4/BT4-096/R-T",
-      "https://app.digicamoe.cn/Cards/RB-01/BT4-096/R"
+      "https://app.digicamoe.cn/Cards/RB-01/BT4-096/R",
+      "https://app.digicamoe.cn/Cards/PR/BT4-096/R-T"
     ],
     "BT4-097": [
       "https://app.digicamoe.cn/Cards/BT-4/BT4-097/R",
@@ -7768,7 +7992,8 @@
     ],
     "BT5-001": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-001/U",
-      "https://app.digicamoe.cn/Cards/RB-01/BT5-001/U"
+      "https://app.digicamoe.cn/Cards/RB-01/BT5-001/U",
+      "https://app.digicamoe.cn/Cards/PR/BT5-001/U-P"
     ],
     "BT5-002": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-002/U"
@@ -7787,7 +8012,8 @@
     ],
     "BT5-007": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-007/C",
-      "https://app.digicamoe.cn/Cards/PB-13/BT5-007/C"
+      "https://app.digicamoe.cn/Cards/PB-13/BT5-007/C",
+      "https://app.digicamoe.cn/Cards/PR-TB7/BT5-007/C"
     ],
     "BT5-008": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-008/C"
@@ -7798,7 +8024,8 @@
     ],
     "BT5-010": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-010/U",
-      "https://app.digicamoe.cn/Cards/MC-25th/BT5-010/U"
+      "https://app.digicamoe.cn/Cards/MC-25th/BT5-010/U",
+      "https://app.digicamoe.cn/Cards/PR/BT5-010/U-P"
     ],
     "BT5-011": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-011/C",
@@ -7832,7 +8059,8 @@
     ],
     "BT5-020": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-020/U",
-      "https://app.digicamoe.cn/Cards/PB-13/BT5-020/U"
+      "https://app.digicamoe.cn/Cards/PB-13/BT5-020/U",
+      "https://app.digicamoe.cn/Cards/PR-TB8/BT5-020/U"
     ],
     "BT5-021": [
       "https://app.digicamoe.cn/Cards/AD-01/BT5-021/C",
@@ -7852,7 +8080,8 @@
       "https://app.digicamoe.cn/Cards/BT-5/BT5-025/C"
     ],
     "BT5-026": [
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-026/C"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-026/C",
+      "https://app.digicamoe.cn/Cards/PR-TB11/BT5-026/C"
     ],
     "BT5-027": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-027/C"
@@ -7874,10 +8103,12 @@
     ],
     "BT5-033": [
       "https://app.digicamoe.cn/Cards/AD-01/BT5-033/C",
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-033/C"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-033/C",
+      "https://app.digicamoe.cn/Cards/PR-TB19/BT5-033/C"
     ],
     "BT5-034": [
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-034/C"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-034/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT5-034/C"
     ],
     "BT5-035": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-035/C"
@@ -7890,7 +8121,8 @@
       "https://app.digicamoe.cn/Cards/BT-5/BT5-037/C"
     ],
     "BT5-038": [
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-038/C"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-038/C",
+      "https://app.digicamoe.cn/Cards/PR/BT5-038/C-P"
     ],
     "BT5-039": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-039/U"
@@ -7902,14 +8134,16 @@
       "https://app.digicamoe.cn/Cards/BT-5/BT5-041/C"
     ],
     "BT5-042": [
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-042/C"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-042/C",
+      "https://app.digicamoe.cn/Cards/PR-SP2021/BT5-042/C-P"
     ],
     "BT5-043": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-043/U"
     ],
     "BT5-044": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-044/R",
-      "https://app.digicamoe.cn/Cards/MC-2/BT5-044/R-P"
+      "https://app.digicamoe.cn/Cards/MC-2/BT5-044/R-P",
+      "https://app.digicamoe.cn/Cards/SP-01/BT5-044/R"
     ],
     "BT5-045": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-045/SR"
@@ -7961,7 +8195,8 @@
       "https://app.digicamoe.cn/Cards/BT-5/BT5-060/U"
     ],
     "BT5-061": [
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-061/C"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-061/C",
+      "https://app.digicamoe.cn/Cards/PR-TB17/BT5-061/C"
     ],
     "BT5-062": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-062/C",
@@ -7978,7 +8213,8 @@
       "https://app.digicamoe.cn/Cards/RB-01/BT5-065/U"
     ],
     "BT5-066": [
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-066/R"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-066/R",
+      "https://app.digicamoe.cn/Cards/PR-TB12/BT5-066/R"
     ],
     "BT5-067": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-067/U"
@@ -8033,7 +8269,8 @@
       "https://app.digicamoe.cn/Cards/BT-5/BT5-082/SR"
     ],
     "BT5-083": [
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-083/R"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-083/R",
+      "https://app.digicamoe.cn/Cards/SP-01/BT5-083/R"
     ],
     "BT5-084": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-084/R"
@@ -8070,7 +8307,8 @@
     ],
     "BT5-090": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-090/R",
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-090/R-T"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-090/R-T",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT5-090/R"
     ],
     "BT5-091": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-091/R",
@@ -8080,7 +8318,8 @@
       "https://app.digicamoe.cn/Cards/BT-5/BT5-092/R",
       "https://app.digicamoe.cn/Cards/BT-5/BT5-092/R-T",
       "https://app.digicamoe.cn/Cards/RB-01/BT5-092/R",
-      "https://app.digicamoe.cn/Cards/PB-23/BT5-092/R"
+      "https://app.digicamoe.cn/Cards/PB-23/BT5-092/R",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT5-092/R"
     ],
     "BT5-093": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-093/R",
@@ -8096,7 +8335,8 @@
       "https://app.digicamoe.cn/Cards/BT-5/BT5-096/C"
     ],
     "BT5-097": [
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-097/U"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-097/U",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/BT5-097/U"
     ],
     "BT5-098": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-098/C"
@@ -8128,7 +8368,8 @@
       "https://app.digicamoe.cn/Cards/BT-5/BT5-106/C"
     ],
     "BT5-107": [
-      "https://app.digicamoe.cn/Cards/BT-5/BT5-107/U"
+      "https://app.digicamoe.cn/Cards/BT-5/BT5-107/U",
+      "https://app.digicamoe.cn/Cards/PB-WTB1/BT5-107/U"
     ],
     "BT5-108": [
       "https://app.digicamoe.cn/Cards/BT-5/BT5-108/R"
@@ -8185,7 +8426,8 @@
     ],
     "BT6-009": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-009/R",
-      "https://app.digicamoe.cn/Cards/PB-13/BT6-009/R"
+      "https://app.digicamoe.cn/Cards/PB-13/BT6-009/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT6-009/R"
     ],
     "BT6-010": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-010/U"
@@ -8204,14 +8446,16 @@
     ],
     "BT6-015": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-015/U",
-      "https://app.digicamoe.cn/Cards/LM-04/BT6-015/U-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/BT6-015/U-LM",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/BT6-015/U"
     ],
     "BT6-016": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-016/SR",
       "https://app.digicamoe.cn/Cards/BT-6/BT6-016/SR-P"
     ],
     "BT6-017": [
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-017/R"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-017/R",
+      "https://app.digicamoe.cn/Cards/SP-01/BT6-017/R"
     ],
     "BT6-018": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-018/SR",
@@ -8227,7 +8471,8 @@
     ],
     "BT6-021": [
       "https://app.digicamoe.cn/Cards/AD-01/BT6-021/C",
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-021/C"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-021/C",
+      "https://app.digicamoe.cn/Cards/PR-SP2023-1/BT6-021/C"
     ],
     "BT6-022": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-022/C"
@@ -8269,7 +8514,8 @@
       "https://app.digicamoe.cn/Cards/BT-6/BT6-033/R-P"
     ],
     "BT6-034": [
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-034/U"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-034/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/BT6-034/U"
     ],
     "BT6-035": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-035/C"
@@ -8281,7 +8527,8 @@
       "https://app.digicamoe.cn/Cards/BT-6/BT6-037/C"
     ],
     "BT6-038": [
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-038/C"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-038/C",
+      "https://app.digicamoe.cn/Cards/PR-SP2023-1/BT6-038/C"
     ],
     "BT6-039": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-039/C"
@@ -8337,7 +8584,8 @@
       "https://app.digicamoe.cn/Cards/BT-6/BT6-055/U"
     ],
     "BT6-056": [
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-056/C"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-056/C",
+      "https://app.digicamoe.cn/Cards/PR-TB20/BT6-056/C"
     ],
     "BT6-057": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-057/C"
@@ -8366,7 +8614,8 @@
       "https://app.digicamoe.cn/Cards/MC-25th/BT6-064/SR"
     ],
     "BT6-065": [
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-065/R"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-065/R",
+      "https://app.digicamoe.cn/Cards/SP-01/BT6-065/R"
     ],
     "BT6-066": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-066/U"
@@ -8377,7 +8626,8 @@
     ],
     "BT6-068": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-068/U",
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-068/U-P"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-068/U-P",
+      "https://app.digicamoe.cn/Cards/PR/BT6-068/U"
     ],
     "BT6-069": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-069/C"
@@ -8423,14 +8673,16 @@
     ],
     "BT6-082": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-082/R",
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-082/R-P"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-082/R-P",
+      "https://app.digicamoe.cn/Cards/SBAS2023/BT6-082/R"
     ],
     "BT6-083": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-083/C"
     ],
     "BT6-084": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-084/R",
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-084/R-P"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-084/R-P",
+      "https://app.digicamoe.cn/Cards/SBAS2023/BT6-084/R"
     ],
     "BT6-085": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-085/C"
@@ -8460,7 +8712,8 @@
       "https://app.digicamoe.cn/Cards/BT-6/BT6-092/R"
     ],
     "BT6-093": [
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-093/C"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-093/C",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/BT6-093/C"
     ],
     "BT6-094": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-094/R"
@@ -8508,7 +8761,8 @@
       "https://app.digicamoe.cn/Cards/BT-6/BT6-108/R"
     ],
     "BT6-109": [
-      "https://app.digicamoe.cn/Cards/BT-6/BT6-109/U"
+      "https://app.digicamoe.cn/Cards/BT-6/BT6-109/U",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/BT6-109/U"
     ],
     "BT6-110": [
       "https://app.digicamoe.cn/Cards/BT-6/BT6-110/R"
@@ -8541,7 +8795,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT7-005/U",
       "https://app.digicamoe.cn/Cards/AD-01/BT7-005/U-GP",
       "https://app.digicamoe.cn/Cards/BT-7/BT7-005/U",
-      "https://app.digicamoe.cn/Cards/LM-02/BT7-005/U-LM"
+      "https://app.digicamoe.cn/Cards/LM-02/BT7-005/U-LM",
+      "https://app.digicamoe.cn/Cards/PR-CS2022/BT7-005/U"
     ],
     "BT7-006": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-006/U"
@@ -8580,11 +8835,13 @@
       "https://app.digicamoe.cn/Cards/BT-7/BT7-016/SR-P"
     ],
     "BT7-017": [
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-017/R"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-017/R",
+      "https://app.digicamoe.cn/Cards/TSB-DC1_2022/BT7-017/R"
     ],
     "BT7-018": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-018/U",
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-018/U-P"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-018/U-P",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/BT7-018/U"
     ],
     "BT7-019": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-019/R",
@@ -8631,10 +8888,12 @@
       "https://app.digicamoe.cn/Cards/BT-7/BT7-031/R-P"
     ],
     "BT7-032": [
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-032/C"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-032/C",
+      "https://app.digicamoe.cn/Cards/PR-DMC2023P/BT7-032/C"
     ],
     "BT7-033": [
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-033/C"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-033/C",
+      "https://app.digicamoe.cn/Cards/PR-DMC2023P/BT7-033/C"
     ],
     "BT7-034": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-034/C"
@@ -8675,7 +8934,8 @@
       "https://app.digicamoe.cn/Cards/MC-25th/BT7-044/R"
     ],
     "BT7-045": [
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-045/C"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-045/C",
+      "https://app.digicamoe.cn/Cards/PR-SP2023-1/BT7-045/C"
     ],
     "BT7-046": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-046/U",
@@ -8713,14 +8973,16 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT7-056/R-GP",
       "https://app.digicamoe.cn/Cards/BT-7/BT7-056/R",
       "https://app.digicamoe.cn/Cards/BT-7/BT7-056/R-P",
-      "https://app.digicamoe.cn/Cards/LM-02/BT7-056/R-LM"
+      "https://app.digicamoe.cn/Cards/LM-02/BT7-056/R-LM",
+      "https://app.digicamoe.cn/Cards/PR-CS2022/BT7-056/R"
     ],
     "BT7-057": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-057/C"
     ],
     "BT7-058": [
       "https://app.digicamoe.cn/Cards/AD-01/BT7-058/R",
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-058/R"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-058/R",
+      "https://app.digicamoe.cn/Cards/PR/BT7-058/R"
     ],
     "BT7-059": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-059/C"
@@ -8732,18 +8994,22 @@
       "https://app.digicamoe.cn/Cards/BT-7/BT7-061/C"
     ],
     "BT7-062": [
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-062/C"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-062/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2022/BT7-062/C"
     ],
     "BT7-063": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-063/SR",
       "https://app.digicamoe.cn/Cards/BT-7/BT7-063/SR-P"
     ],
     "BT7-064": [
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-064/U"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-064/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2022/BT7-064/U",
+      "https://app.digicamoe.cn/Cards/PR-TB11/BT7-064/U"
     ],
     "BT7-065": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-065/SR",
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-065/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-065/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2022/BT7-065/SR"
     ],
     "BT7-066": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-066/U"
@@ -8757,7 +9023,8 @@
     ],
     "BT7-069": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-069/C",
-      "https://app.digicamoe.cn/Cards/LM-02/BT7-069/C-LM"
+      "https://app.digicamoe.cn/Cards/LM-02/BT7-069/C-LM",
+      "https://app.digicamoe.cn/Cards/PR-CS2022/BT7-069/C"
     ],
     "BT7-070": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-070/C"
@@ -8811,7 +9078,8 @@
     "BT7-085": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-085/R",
       "https://app.digicamoe.cn/Cards/BT-7/BT7-085/R-T",
-      "https://app.digicamoe.cn/Cards/PB-20/BT7-085/R"
+      "https://app.digicamoe.cn/Cards/PB-20/BT7-085/R",
+      "https://app.digicamoe.cn/Cards/PR/BT7-085/R"
     ],
     "BT7-086": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-086/R",
@@ -8819,7 +9087,8 @@
     ],
     "BT7-087": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-087/R",
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-087/R-T"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-087/R-T",
+      "https://app.digicamoe.cn/Cards/PR/BT7-087/R"
     ],
     "BT7-088": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-088/R",
@@ -8862,7 +9131,8 @@
       "https://app.digicamoe.cn/Cards/BT-7/BT7-099/U"
     ],
     "BT7-100": [
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-100/R"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-100/R",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/BT7-100/R"
     ],
     "BT7-101": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-101/C"
@@ -8882,7 +9152,8 @@
       "https://app.digicamoe.cn/Cards/ST-17/BT7-105/U-T"
     ],
     "BT7-106": [
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-106/C"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-106/C",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/BT7-106/C"
     ],
     "BT7-107": [
       "https://app.digicamoe.cn/Cards/BT-25/BT7-107/U",
@@ -8906,7 +9177,8 @@
     ],
     "BT7-112": [
       "https://app.digicamoe.cn/Cards/BT-7/BT7-112/SEC",
-      "https://app.digicamoe.cn/Cards/BT-7/BT7-112/SEC-P"
+      "https://app.digicamoe.cn/Cards/BT-7/BT7-112/SEC-P",
+      "https://app.digicamoe.cn/Cards/PR-ULTCUP2025/BT7-112/SEC"
     ],
     "BT8-001": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-001/U",
@@ -8932,7 +9204,8 @@
     ],
     "BT8-008": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-008/R",
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-008/R-P"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-008/R-P",
+      "https://app.digicamoe.cn/Cards/PR-IC/BT8-008/R-P"
     ],
     "BT8-009": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-009/U",
@@ -8946,11 +9219,13 @@
     ],
     "BT8-012": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-012/R",
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-012/R-P"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-012/R-P",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2024/BT8-012/R"
     ],
     "BT8-013": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-013/C",
-      "https://app.digicamoe.cn/Cards/LM-01/BT8-013/C"
+      "https://app.digicamoe.cn/Cards/LM-01/BT8-013/C",
+      "https://app.digicamoe.cn/Cards/PR-DMC2023P/BT8-013/C"
     ],
     "BT8-014": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-014/C"
@@ -9010,7 +9285,8 @@
     ],
     "BT8-032": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-032/SR",
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-032/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-032/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/BT8-032/SR"
     ],
     "BT8-033": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-033/U",
@@ -9032,7 +9308,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/BT8-038/SR",
       "https://app.digicamoe.cn/Cards/BT-8/BT8-038/SR",
       "https://app.digicamoe.cn/Cards/BT-8/BT8-038/SR-P",
-      "https://app.digicamoe.cn/Cards/LM-02/BT8-038/SR-LM"
+      "https://app.digicamoe.cn/Cards/LM-02/BT8-038/SR-LM",
+      "https://app.digicamoe.cn/Cards/PR/BT8-038/SR"
     ],
     "BT8-039": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-039/SR",
@@ -9059,7 +9336,8 @@
       "https://app.digicamoe.cn/Cards/BT-8/BT8-045/C"
     ],
     "BT8-046": [
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-046/U"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-046/U",
+      "https://app.digicamoe.cn/Cards/PR/BT8-046/U"
     ],
     "BT8-047": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-047/C"
@@ -9081,7 +9359,8 @@
       "https://app.digicamoe.cn/Cards/BT-8/BT8-052/C"
     ],
     "BT8-053": [
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-053/R"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-053/R",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2024/BT8-053/R"
     ],
     "BT8-054": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-054/C"
@@ -9097,7 +9376,8 @@
       "https://app.digicamoe.cn/Cards/BT-8/BT8-057/SR-P"
     ],
     "BT8-058": [
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-058/R"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-058/R",
+      "https://app.digicamoe.cn/Cards/PR-TB13/BT8-058/R-P"
     ],
     "BT8-059": [
       "https://app.digicamoe.cn/Cards/AD-01/BT8-059/C",
@@ -9127,7 +9407,8 @@
     ],
     "BT8-067": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-067/R",
-      "https://app.digicamoe.cn/Cards/MC-25th/BT8-067/R"
+      "https://app.digicamoe.cn/Cards/MC-25th/BT8-067/R",
+      "https://app.digicamoe.cn/Cards/PR/BT8-067/R"
     ],
     "BT8-068": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-068/R"
@@ -9138,11 +9419,13 @@
     ],
     "BT8-070": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-070/SR",
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-070/SR-P"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-070/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/BT8-070/SR"
     ],
     "BT8-071": [
       "https://app.digicamoe.cn/Cards/AD-01/BT8-071/C",
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-071/C"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-071/C",
+      "https://app.digicamoe.cn/Cards/PR-TB16/BT8-071/C"
     ],
     "BT8-072": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-072/U"
@@ -9160,7 +9443,8 @@
       "https://app.digicamoe.cn/Cards/BT-8/BT8-076/C"
     ],
     "BT8-077": [
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-077/U"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-077/U",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/BT8-077/U"
     ],
     "BT8-078": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-078/C"
@@ -9207,7 +9491,8 @@
     "BT8-088": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-088/R",
       "https://app.digicamoe.cn/Cards/BT-8/BT8-088/R-T",
-      "https://app.digicamoe.cn/Cards/MC-DA02/BT8-088/R"
+      "https://app.digicamoe.cn/Cards/MC-DA02/BT8-088/R",
+      "https://app.digicamoe.cn/Cards/PR/BT8-088/R"
     ],
     "BT8-089": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-089/R",
@@ -9249,7 +9534,8 @@
     "BT8-097": [
       "https://app.digicamoe.cn/Cards/AD-01/BT8-097/U",
       "https://app.digicamoe.cn/Cards/BT-8/BT8-097/U",
-      "https://app.digicamoe.cn/Cards/PB-15/BT8-097/U"
+      "https://app.digicamoe.cn/Cards/PB-15/BT8-097/U",
+      "https://app.digicamoe.cn/Cards/PB-WTB1/BT8-097/U"
     ],
     "BT8-098": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-098/U"
@@ -9265,7 +9551,8 @@
       "https://app.digicamoe.cn/Cards/BT-8/BT8-101/U"
     ],
     "BT8-102": [
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-102/U"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-102/U",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/BT8-102/U"
     ],
     "BT8-103": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-103/C"
@@ -9284,7 +9571,8 @@
     ],
     "BT8-108": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-108/C",
-      "https://app.digicamoe.cn/Cards/ST-17/BT8-108/C-T"
+      "https://app.digicamoe.cn/Cards/ST-17/BT8-108/C-T",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX10/BT8-108/C"
     ],
     "BT8-109": [
       "https://app.digicamoe.cn/Cards/BT-8/BT8-109/R"
@@ -9300,7 +9588,8 @@
     "BT8-112": [
       "https://app.digicamoe.cn/Cards/BT-16/BT8-112/SEC",
       "https://app.digicamoe.cn/Cards/BT-8/BT8-112/SEC",
-      "https://app.digicamoe.cn/Cards/BT-8/BT8-112/SEC-P"
+      "https://app.digicamoe.cn/Cards/BT-8/BT8-112/SEC-P",
+      "https://app.digicamoe.cn/Cards/PR/BT8-112/SEC"
     ],
     "BT9-001": [
       "https://app.digicamoe.cn/Cards/BT-9/BT9-001/U",
@@ -9316,7 +9605,8 @@
     ],
     "BT9-004": [
       "https://app.digicamoe.cn/Cards/BT-9/BT9-004/U",
-      "https://app.digicamoe.cn/Cards/BT-9/BT9-004/U-T"
+      "https://app.digicamoe.cn/Cards/BT-9/BT9-004/U-T",
+      "https://app.digicamoe.cn/Cards/PR-TB15/BT9-004/U"
     ],
     "BT9-005": [
       "https://app.digicamoe.cn/Cards/BT-9/BT9-005/U",
@@ -9343,7 +9633,8 @@
       "https://app.digicamoe.cn/Cards/BT-9/BT9-011/C"
     ],
     "BT9-012": [
-      "https://app.digicamoe.cn/Cards/BT-9/BT9-012/C"
+      "https://app.digicamoe.cn/Cards/BT-9/BT9-012/C",
+      "https://app.digicamoe.cn/Cards/PR-TB18/BT9-012/C"
     ],
     "BT9-013": [
       "https://app.digicamoe.cn/Cards/BT-9/BT9-013/U"
@@ -9389,7 +9680,8 @@
       "https://app.digicamoe.cn/Cards/BT-9/BT9-024/C"
     ],
     "BT9-025": [
-      "https://app.digicamoe.cn/Cards/BT-9/BT9-025/C"
+      "https://app.digicamoe.cn/Cards/BT-9/BT9-025/C",
+      "https://app.digicamoe.cn/Cards/PR-DIC2023/BT9-025/C"
     ],
     "BT9-026": [
       "https://app.digicamoe.cn/Cards/BT-9/BT9-026/C"
@@ -9470,7 +9762,8 @@
       "https://app.digicamoe.cn/Cards/BT-9/BT9-049/C"
     ],
     "BT9-050": [
-      "https://app.digicamoe.cn/Cards/BT-9/BT9-050/C"
+      "https://app.digicamoe.cn/Cards/BT-9/BT9-050/C",
+      "https://app.digicamoe.cn/Cards/PR-TB19/BT9-050/C"
     ],
     "BT9-051": [
       "https://app.digicamoe.cn/Cards/BT-9/BT9-051/U"
@@ -9612,7 +9905,8 @@
     "BT9-092": [
       "https://app.digicamoe.cn/Cards/AD-01/BT9-092/R",
       "https://app.digicamoe.cn/Cards/BT-9/BT9-092/R",
-      "https://app.digicamoe.cn/Cards/PB-15/BT9-092/R"
+      "https://app.digicamoe.cn/Cards/PB-15/BT9-092/R",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT9-092/R"
     ],
     "BT9-093": [
       "https://app.digicamoe.cn/Cards/BT-9/BT9-093/C"
@@ -9667,7 +9961,8 @@
     "BT9-109": [
       "https://app.digicamoe.cn/Cards/AD-01/BT9-109/U",
       "https://app.digicamoe.cn/Cards/BT-9/BT9-109/U",
-      "https://app.digicamoe.cn/Cards/ST-14/BT9-109/U-T"
+      "https://app.digicamoe.cn/Cards/ST-14/BT9-109/U-T",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2025/BT9-109/U"
     ],
     "BT9-110": [
       "https://app.digicamoe.cn/Cards/BT-9/BT9-110/U"
@@ -9684,7 +9979,8 @@
     ],
     "EX1-001": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-001/U",
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-001/U-P"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-001/U-P",
+      "https://app.digicamoe.cn/Cards/PR-DIC2023/EX1-001/U"
     ],
     "EX1-002": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-002/C",
@@ -9710,7 +10006,8 @@
     ],
     "EX1-008": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-008/R",
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-008/R-P"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-008/R-P",
+      "https://app.digicamoe.cn/Cards/PR-SP2023-1/EX1-008/R"
     ],
     "EX1-009": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-009/SR",
@@ -9733,7 +10030,8 @@
     ],
     "EX1-014": [
       "https://app.digicamoe.cn/Cards/AD-01/EX1-014/C",
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-014/C"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-014/C",
+      "https://app.digicamoe.cn/Cards/PR/EX1-014/C"
     ],
     "EX1-015": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-015/U",
@@ -9766,21 +10064,25 @@
       "https://app.digicamoe.cn/Cards/EX-01/EX1-022/SR-P"
     ],
     "EX1-023": [
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-023/C"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-023/C",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/EX1-023/C"
     ],
     "EX1-024": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-024/U",
       "https://app.digicamoe.cn/Cards/EX-01/EX1-024/U-P"
     ],
     "EX1-025": [
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-025/C"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-025/C",
+      "https://app.digicamoe.cn/Cards/PR-TB12/EX1-025/C"
     ],
     "EX1-026": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-026/U",
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-026/U-P"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-026/U-P",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/EX1-026/U"
     ],
     "EX1-027": [
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-027/R"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-027/R",
+      "https://app.digicamoe.cn/Cards/PR-TB11/EX1-027/R"
     ],
     "EX1-028": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-028/C"
@@ -9801,7 +10103,8 @@
     ],
     "EX1-033": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-033/C",
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-033/C-P"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-033/C-P",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/EX1-033/C"
     ],
     "EX1-034": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-034/C",
@@ -9822,7 +10125,8 @@
     ],
     "EX1-039": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-039/U",
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-039/U-P"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-039/U-P",
+      "https://app.digicamoe.cn/Cards/PR-IC/EX1-039/U-P"
     ],
     "EX1-040": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-040/R",
@@ -9854,7 +10158,8 @@
       "https://app.digicamoe.cn/Cards/EX-01/EX1-048/C"
     ],
     "EX1-049": [
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-049/C"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-049/C",
+      "https://app.digicamoe.cn/Cards/PR-SP2023-1/EX1-049/C"
     ],
     "EX1-050": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-050/C"
@@ -9888,10 +10193,12 @@
       "https://app.digicamoe.cn/Cards/EX-01/EX1-059/R-P"
     ],
     "EX1-060": [
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-060/U"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-060/U",
+      "https://app.digicamoe.cn/Cards/PR-DIC2023/EX1-060/U"
     ],
     "EX1-061": [
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-061/U"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-061/U",
+      "https://app.digicamoe.cn/Cards/PR-TB10/EX1-061/U"
     ],
     "EX1-062": [
       "https://app.digicamoe.cn/Cards/EX-01/EX1-062/R"
@@ -9939,7 +10246,8 @@
     "EX1-073": [
       "https://app.digicamoe.cn/Cards/BT-11/EX1-073/SEC",
       "https://app.digicamoe.cn/Cards/EX-01/EX1-073/SEC",
-      "https://app.digicamoe.cn/Cards/EX-01/EX1-073/SEC-P"
+      "https://app.digicamoe.cn/Cards/EX-01/EX1-073/SEC-P",
+      "https://app.digicamoe.cn/Cards/PR/EX1-073/SEC"
     ],
     "EX10-001": [
       "https://app.digicamoe.cn/Cards/EX-10/EX10-001/C",
@@ -11174,7 +11482,8 @@
     ],
     "EX2-006": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-006/U",
-      "https://app.digicamoe.cn/Cards/EX-02/EX2-006/U-P"
+      "https://app.digicamoe.cn/Cards/EX-02/EX2-006/U-P",
+      "https://app.digicamoe.cn/Cards/PR/EX2-006/U"
     ],
     "EX2-007": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-007/R"
@@ -11189,11 +11498,13 @@
       "https://app.digicamoe.cn/Cards/EX-02/EX2-009/C"
     ],
     "EX2-010": [
-      "https://app.digicamoe.cn/Cards/EX-02/EX2-010/U"
+      "https://app.digicamoe.cn/Cards/EX-02/EX2-010/U",
+      "https://app.digicamoe.cn/Cards/PR-TB13/EX2-010/U-P"
     ],
     "EX2-011": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-011/SR",
-      "https://app.digicamoe.cn/Cards/EX-02/EX2-011/SR-P"
+      "https://app.digicamoe.cn/Cards/EX-02/EX2-011/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/EX2-011/SR"
     ],
     "EX2-012": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-012/SR",
@@ -11235,7 +11546,8 @@
       "https://app.digicamoe.cn/Cards/EX-02/EX2-022/R-P"
     ],
     "EX2-023": [
-      "https://app.digicamoe.cn/Cards/EX-02/EX2-023/U"
+      "https://app.digicamoe.cn/Cards/EX-02/EX2-023/U",
+      "https://app.digicamoe.cn/Cards/PR-TB13/EX2-023/U-P"
     ],
     "EX2-024": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-024/SR",
@@ -11244,13 +11556,15 @@
     ],
     "EX2-025": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-025/R",
-      "https://app.digicamoe.cn/Cards/EX-02/EX2-025/R-P"
+      "https://app.digicamoe.cn/Cards/EX-02/EX2-025/R-P",
+      "https://app.digicamoe.cn/Cards/PR-IC/EX2-025/R-P"
     ],
     "EX2-026": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-026/C"
     ],
     "EX2-027": [
-      "https://app.digicamoe.cn/Cards/EX-02/EX2-027/U"
+      "https://app.digicamoe.cn/Cards/EX-02/EX2-027/U",
+      "https://app.digicamoe.cn/Cards/PR-TB13/EX2-027/U-P"
     ],
     "EX2-028": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-028/U"
@@ -11312,11 +11626,13 @@
       "https://app.digicamoe.cn/Cards/EX-02/EX2-044/SR",
       "https://app.digicamoe.cn/Cards/EX-02/EX2-044/SR-P",
       "https://app.digicamoe.cn/Cards/LM-02/EX2-044/SR-LM",
-      "https://app.digicamoe.cn/Cards/PB-PBS2023/EX2-044/SR"
+      "https://app.digicamoe.cn/Cards/PB-PBS2023/EX2-044/SR",
+      "https://app.digicamoe.cn/Cards/PR/EX2-044/SR"
     ],
     "EX2-045": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-045/R",
-      "https://app.digicamoe.cn/Cards/EX-02/EX2-045/R-P"
+      "https://app.digicamoe.cn/Cards/EX-02/EX2-045/R-P",
+      "https://app.digicamoe.cn/Cards/SP-01/EX2-045/R"
     ],
     "EX2-046": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-046/C",
@@ -11405,7 +11721,8 @@
     ],
     "EX2-071": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-071/U",
-      "https://app.digicamoe.cn/Cards/ST-14/EX2-071/U"
+      "https://app.digicamoe.cn/Cards/ST-14/EX2-071/U",
+      "https://app.digicamoe.cn/Cards/PR/EX2-071/U"
     ],
     "EX2-072": [
       "https://app.digicamoe.cn/Cards/EX-02/EX2-072/R"
@@ -11413,7 +11730,8 @@
     "EX2-073": [
       "https://app.digicamoe.cn/Cards/BT-18/EX2-073/SEC",
       "https://app.digicamoe.cn/Cards/EX-02/EX2-073/SEC",
-      "https://app.digicamoe.cn/Cards/EX-02/EX2-073/SEC-P"
+      "https://app.digicamoe.cn/Cards/EX-02/EX2-073/SEC-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/EX2-073/SEC"
     ],
     "EX2-074": [
       "https://app.digicamoe.cn/Cards/BT-21/EX2-074/SEC",
@@ -11545,7 +11863,8 @@
       "https://app.digicamoe.cn/Cards/EX-03/EX3-037/U-P"
     ],
     "EX3-038": [
-      "https://app.digicamoe.cn/Cards/EX-03/EX3-038/U"
+      "https://app.digicamoe.cn/Cards/EX-03/EX3-038/U",
+      "https://app.digicamoe.cn/Cards/PR-TB18/EX3-038/U"
     ],
     "EX3-039": [
       "https://app.digicamoe.cn/Cards/EX-03/EX3-039/U"
@@ -11752,7 +12071,8 @@
       "https://app.digicamoe.cn/Cards/EX-04/EX4-023/R"
     ],
     "EX4-024": [
-      "https://app.digicamoe.cn/Cards/EX-04/EX4-024/C"
+      "https://app.digicamoe.cn/Cards/EX-04/EX4-024/C",
+      "https://app.digicamoe.cn/Cards/PR/EX4-024/C"
     ],
     "EX4-025": [
       "https://app.digicamoe.cn/Cards/EX-04/EX4-025/C"
@@ -11905,7 +12225,8 @@
     ],
     "EX4-068": [
       "https://app.digicamoe.cn/Cards/EX-04/EX4-068/C",
-      "https://app.digicamoe.cn/Cards/LM-02/EX4-068/C-LM"
+      "https://app.digicamoe.cn/Cards/LM-02/EX4-068/C-LM",
+      "https://app.digicamoe.cn/Cards/PB-WTB1/EX4-068/C"
     ],
     "EX4-069": [
       "https://app.digicamoe.cn/Cards/EX-04/EX4-069/U"
@@ -11934,7 +12255,8 @@
     ],
     "EX5-001": [
       "https://app.digicamoe.cn/Cards/EX-05/EX5-001/U",
-      "https://app.digicamoe.cn/Cards/EX-05/EX5-001/U-T"
+      "https://app.digicamoe.cn/Cards/EX-05/EX5-001/U-T",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/EX5-001/U"
     ],
     "EX5-002": [
       "https://app.digicamoe.cn/Cards/EX-05/EX5-002/U",
@@ -11958,7 +12280,8 @@
     ],
     "EX5-007": [
       "https://app.digicamoe.cn/Cards/EX-05/EX5-007/U",
-      "https://app.digicamoe.cn/Cards/EX-05/EX5-007/U-P"
+      "https://app.digicamoe.cn/Cards/EX-05/EX5-007/U-P",
+      "https://app.digicamoe.cn/Cards/PR/EX5-007/U"
     ],
     "EX5-008": [
       "https://app.digicamoe.cn/Cards/EX-05/EX5-008/R"
@@ -11988,7 +12311,8 @@
     ],
     "EX5-016": [
       "https://app.digicamoe.cn/Cards/EX-05/EX5-016/U",
-      "https://app.digicamoe.cn/Cards/EX-05/EX5-016/U-P"
+      "https://app.digicamoe.cn/Cards/EX-05/EX5-016/U-P",
+      "https://app.digicamoe.cn/Cards/PR/EX5-016/U"
     ],
     "EX5-017": [
       "https://app.digicamoe.cn/Cards/EX-05/EX5-017/R"
@@ -12094,7 +12418,8 @@
       "https://app.digicamoe.cn/Cards/EX-05/EX5-047/U"
     ],
     "EX5-048": [
-      "https://app.digicamoe.cn/Cards/EX-05/EX5-048/U"
+      "https://app.digicamoe.cn/Cards/EX-05/EX5-048/U",
+      "https://app.digicamoe.cn/Cards/PR/EX5-048/U"
     ],
     "EX5-049": [
       "https://app.digicamoe.cn/Cards/EX-05/EX5-049/R"
@@ -12181,7 +12506,8 @@
     "EX5-073": [
       "https://app.digicamoe.cn/Cards/BT-21/EX5-073/SEC",
       "https://app.digicamoe.cn/Cards/EX-05/EX5-073/SEC",
-      "https://app.digicamoe.cn/Cards/EX-05/EX5-073/SEC-P"
+      "https://app.digicamoe.cn/Cards/EX-05/EX5-073/SEC-P",
+      "https://app.digicamoe.cn/Cards/PR/EX5-073/SEC"
     ],
     "EX5-074": [
       "https://app.digicamoe.cn/Cards/EX-05/EX5-074/SEC",
@@ -12207,7 +12533,8 @@
       "https://app.digicamoe.cn/Cards/EX-06/EX6-005/U-T"
     ],
     "EX6-006": [
-      "https://app.digicamoe.cn/Cards/EX-06/EX6-006/R"
+      "https://app.digicamoe.cn/Cards/EX-06/EX6-006/R",
+      "https://app.digicamoe.cn/Cards/PR/EX6-006/R"
     ],
     "EX6-007": [
       "https://app.digicamoe.cn/Cards/EX-06/EX6-007/U"
@@ -12227,7 +12554,8 @@
       "https://app.digicamoe.cn/Cards/EX-06/EX6-011/SP"
     ],
     "EX6-012": [
-      "https://app.digicamoe.cn/Cards/EX-06/EX6-012/C"
+      "https://app.digicamoe.cn/Cards/EX-06/EX6-012/C",
+      "https://app.digicamoe.cn/Cards/PR/EX6-012/C"
     ],
     "EX6-013": [
       "https://app.digicamoe.cn/Cards/EX-06/EX6-013/U"
@@ -12364,7 +12692,8 @@
       "https://app.digicamoe.cn/Cards/EX-06/EX6-051/C"
     ],
     "EX6-052": [
-      "https://app.digicamoe.cn/Cards/EX-06/EX6-052/U"
+      "https://app.digicamoe.cn/Cards/EX-06/EX6-052/U",
+      "https://app.digicamoe.cn/Cards/PR/EX6-052/U"
     ],
     "EX6-053": [
       "https://app.digicamoe.cn/Cards/EX-06/EX6-053/U"
@@ -12497,7 +12826,8 @@
     ],
     "EX7-013": [
       "https://app.digicamoe.cn/Cards/EX-07/EX7-013/SR",
-      "https://app.digicamoe.cn/Cards/EX-07/EX7-013/SR-P"
+      "https://app.digicamoe.cn/Cards/EX-07/EX7-013/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/EX7-013/SR"
     ],
     "EX7-014": [
       "https://app.digicamoe.cn/Cards/EX-07/EX7-014/SR",
@@ -12529,7 +12859,8 @@
       "https://app.digicamoe.cn/Cards/EX-07/EX7-020/U-LM"
     ],
     "EX7-021": [
-      "https://app.digicamoe.cn/Cards/EX-07/EX7-021/R"
+      "https://app.digicamoe.cn/Cards/EX-07/EX7-021/R",
+      "https://app.digicamoe.cn/Cards/PR/EX7-021/R"
     ],
     "EX7-022": [
       "https://app.digicamoe.cn/Cards/EX-07/EX7-022/U",
@@ -12558,7 +12889,8 @@
     ],
     "EX7-028": [
       "https://app.digicamoe.cn/Cards/EX-07/EX7-028/C",
-      "https://app.digicamoe.cn/Cards/EX-07/EX7-028/C-LM"
+      "https://app.digicamoe.cn/Cards/EX-07/EX7-028/C-LM",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/EX7-028/C"
     ],
     "EX7-029": [
       "https://app.digicamoe.cn/Cards/EX-07/EX7-029/SR",
@@ -12639,7 +12971,8 @@
     ],
     "EX7-048": [
       "https://app.digicamoe.cn/Cards/EX-07/EX7-048/SR",
-      "https://app.digicamoe.cn/Cards/EX-07/EX7-048/SR-P"
+      "https://app.digicamoe.cn/Cards/EX-07/EX7-048/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/EX7-048/SR"
     ],
     "EX7-049": [
       "https://app.digicamoe.cn/Cards/EX-07/EX7-049/SR",
@@ -12681,7 +13014,8 @@
     "EX7-059": [
       "https://app.digicamoe.cn/Cards/EX-07/EX7-059/SR",
       "https://app.digicamoe.cn/Cards/EX-07/EX7-059/SR-P",
-      "https://app.digicamoe.cn/Cards/EX-07/EX7-059/SP"
+      "https://app.digicamoe.cn/Cards/EX-07/EX7-059/SP",
+      "https://app.digicamoe.cn/Cards/PR/EX7-059/SR"
     ],
     "EX7-060": [
       "https://app.digicamoe.cn/Cards/EX-07/EX7-060/R"
@@ -12868,7 +13202,8 @@
     "EX8-030": [
       "https://app.digicamoe.cn/Cards/AD-01/EX8-030/C",
       "https://app.digicamoe.cn/Cards/EX-08/EX8-030/C",
-      "https://app.digicamoe.cn/Cards/EX-08/EX8-030/C-LM"
+      "https://app.digicamoe.cn/Cards/EX-08/EX8-030/C-LM",
+      "https://app.digicamoe.cn/Cards/PB-WTB2/EX8-030/C"
     ],
     "EX8-031": [
       "https://app.digicamoe.cn/Cards/EX-08/EX8-031/R",
@@ -12951,7 +13286,8 @@
       "https://app.digicamoe.cn/Cards/EX-08/EX8-050/U-LM"
     ],
     "EX8-051": [
-      "https://app.digicamoe.cn/Cards/EX-08/EX8-051/R"
+      "https://app.digicamoe.cn/Cards/EX-08/EX8-051/R",
+      "https://app.digicamoe.cn/Cards/PR-SPV2/EX8-051/R"
     ],
     "EX8-052": [
       "https://app.digicamoe.cn/Cards/EX-08/EX8-052/U",
@@ -13077,7 +13413,8 @@
       "https://app.digicamoe.cn/Cards/EX-09/EX9-006/C-LM"
     ],
     "EX9-007": [
-      "https://app.digicamoe.cn/Cards/EX-09/EX9-007/R"
+      "https://app.digicamoe.cn/Cards/EX-09/EX9-007/R",
+      "https://app.digicamoe.cn/Cards/PR/EX9-007/R"
     ],
     "EX9-008": [
       "https://app.digicamoe.cn/Cards/EX-09/EX9-008/U",
@@ -13135,7 +13472,8 @@
     ],
     "EX9-021": [
       "https://app.digicamoe.cn/Cards/EX-09/EX9-021/SR",
-      "https://app.digicamoe.cn/Cards/EX-09/EX9-021/SR-P"
+      "https://app.digicamoe.cn/Cards/EX-09/EX9-021/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-EPV1/EX9-021/SR"
     ],
     "EX9-022": [
       "https://app.digicamoe.cn/Cards/EX-09/EX9-022/C",
@@ -13178,7 +13516,8 @@
       "https://app.digicamoe.cn/Cards/EX-09/EX9-031/R"
     ],
     "EX9-032": [
-      "https://app.digicamoe.cn/Cards/EX-09/EX9-032/R"
+      "https://app.digicamoe.cn/Cards/EX-09/EX9-032/R",
+      "https://app.digicamoe.cn/Cards/PB-WTB2/EX9-032/R"
     ],
     "EX9-033": [
       "https://app.digicamoe.cn/Cards/EX-09/EX9-033/SR",
@@ -13392,7 +13731,8 @@
     "LM-016": [
       "https://app.digicamoe.cn/Cards/AD-01/LM-016/R",
       "https://app.digicamoe.cn/Cards/AD-01/LM-016/R-GP",
-      "https://app.digicamoe.cn/Cards/LM-01/LM-016/R"
+      "https://app.digicamoe.cn/Cards/LM-01/LM-016/R",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX10/LM-016/R"
     ],
     "LM-017": [
       "https://app.digicamoe.cn/Cards/AD-01/LM-017/SR",
@@ -13559,179 +13899,449 @@
       "https://app.digicamoe.cn/Cards/LM-08/LM-062/P-LM"
     ],
     "P-001": [
-      "https://app.digicamoe.cn/Cards/PB-06/P-001/P"
+      "https://app.digicamoe.cn/Cards/PB-06/P-001/P",
+      "https://app.digicamoe.cn/Cards/PR/P-001/P"
+    ],
+    "P-002": [
+      "https://app.digicamoe.cn/Cards/PR/P-002/P"
+    ],
+    "P-003": [
+      "https://app.digicamoe.cn/Cards/PR/P-003/P"
     ],
     "P-004": [
-      "https://app.digicamoe.cn/Cards/MC-1/P-004/P-P"
+      "https://app.digicamoe.cn/Cards/MC-1/P-004/P-P",
+      "https://app.digicamoe.cn/Cards/PR/P-004/P"
+    ],
+    "P-005": [
+      "https://app.digicamoe.cn/Cards/PR/P-005/P",
+      "https://app.digicamoe.cn/Cards/PR-IC/P-005/P-P"
+    ],
+    "P-006": [
+      "https://app.digicamoe.cn/Cards/PR/P-006/P"
     ],
     "P-007": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-007/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-007/P",
+      "https://app.digicamoe.cn/Cards/PR/P-007/P"
     ],
     "P-008": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-008/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-008/P",
+      "https://app.digicamoe.cn/Cards/PR/P-008/P",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/P-008/P-P"
+    ],
+    "P-009": [
+      "https://app.digicamoe.cn/Cards/PR/P-009/P"
+    ],
+    "P-010": [
+      "https://app.digicamoe.cn/Cards/PR/P-010/P"
     ],
     "P-011": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-011/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-011/P",
+      "https://app.digicamoe.cn/Cards/PR/P-011/P"
     ],
     "P-012": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-012/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-012/P",
+      "https://app.digicamoe.cn/Cards/PR/P-012/P"
     ],
     "P-013": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-013/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-013/P",
+      "https://app.digicamoe.cn/Cards/PR/P-013/P"
+    ],
+    "P-014": [
+      "https://app.digicamoe.cn/Cards/PR/P-014/P"
+    ],
+    "P-015": [
+      "https://app.digicamoe.cn/Cards/PR/P-015/P"
     ],
     "P-016": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-016/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-016/P",
+      "https://app.digicamoe.cn/Cards/PR/P-016/P",
+      "https://app.digicamoe.cn/Cards/PR-CS2023/P-016/P"
     ],
     "P-017": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-017/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-017/P",
+      "https://app.digicamoe.cn/Cards/PR/P-017/P"
     ],
     "P-018": [
-      "https://app.digicamoe.cn/Cards/MC-25th/P-018/P"
+      "https://app.digicamoe.cn/Cards/MC-25th/P-018/P",
+      "https://app.digicamoe.cn/Cards/PR/P-018/P"
+    ],
+    "P-019": [
+      "https://app.digicamoe.cn/Cards/PR/P-019/P"
+    ],
+    "P-020": [
+      "https://app.digicamoe.cn/Cards/PR/P-020/P"
+    ],
+    "P-021": [
+      "https://app.digicamoe.cn/Cards/PR/P-021/P"
+    ],
+    "P-022": [
+      "https://app.digicamoe.cn/Cards/PR/P-022/P"
+    ],
+    "P-023": [
+      "https://app.digicamoe.cn/Cards/PR/P-023/P"
+    ],
+    "P-024": [
+      "https://app.digicamoe.cn/Cards/PR/P-024/P"
+    ],
+    "P-025": [
+      "https://app.digicamoe.cn/Cards/PR/P-025/P",
+      "https://app.digicamoe.cn/Cards/TSB-DC1_2022/P-025/P"
+    ],
+    "P-026": [
+      "https://app.digicamoe.cn/Cards/PR/P-026/P",
+      "https://app.digicamoe.cn/Cards/TSB-DC1_2022/P-026/P"
+    ],
+    "P-027": [
+      "https://app.digicamoe.cn/Cards/PR/P-027/P",
+      "https://app.digicamoe.cn/Cards/TSB-DC1_2022/P-027/P"
     ],
     "P-028": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-028/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-028/P",
+      "https://app.digicamoe.cn/Cards/PR/P-028/P-1",
+      "https://app.digicamoe.cn/Cards/PR/P-028/P"
     ],
     "P-029": [
-      "https://app.digicamoe.cn/Cards/PB-12/P-029/P"
+      "https://app.digicamoe.cn/Cards/PB-12/P-029/P",
+      "https://app.digicamoe.cn/Cards/PR/P-029/P"
     ],
     "P-030": [
-      "https://app.digicamoe.cn/Cards/PB-12/P-030/P"
+      "https://app.digicamoe.cn/Cards/PB-12/P-030/P",
+      "https://app.digicamoe.cn/Cards/PR/P-030/P"
+    ],
+    "P-031": [
+      "https://app.digicamoe.cn/Cards/PR/P-031/P",
+      "https://app.digicamoe.cn/Cards/PR-TB18/P-031/P"
     ],
     "P-032": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-032/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-032/P",
+      "https://app.digicamoe.cn/Cards/PR/P-032/P"
     ],
     "P-033": [
-      "https://app.digicamoe.cn/Cards/ST-14/P-033/P-T"
+      "https://app.digicamoe.cn/Cards/ST-14/P-033/P-T",
+      "https://app.digicamoe.cn/Cards/PR/P-033/P"
+    ],
+    "P-034": [
+      "https://app.digicamoe.cn/Cards/PR/P-034/P"
     ],
     "P-035": [
       "https://app.digicamoe.cn/Cards/AD-01/P-035/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-035/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-035/SR-P",
-      "https://app.digicamoe.cn/Cards/MC-3/P-035/SR-P"
+      "https://app.digicamoe.cn/Cards/MC-3/P-035/SR-P",
+      "https://app.digicamoe.cn/Cards/PCC-MEMOBOOST24/P-035/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/P-035/SR"
     ],
     "P-036": [
       "https://app.digicamoe.cn/Cards/AD-01/P-036/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-036/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-036/SR-P",
-      "https://app.digicamoe.cn/Cards/MC-3/P-036/SR-P"
+      "https://app.digicamoe.cn/Cards/MC-3/P-036/SR-P",
+      "https://app.digicamoe.cn/Cards/PCC-MEMOBOOST24/P-036/SR",
+      "https://app.digicamoe.cn/Cards/PR/P-036/SR"
     ],
     "P-037": [
       "https://app.digicamoe.cn/Cards/AD-01/P-037/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-037/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-037/SR-P",
       "https://app.digicamoe.cn/Cards/ST-19/P-037/SR-P",
-      "https://app.digicamoe.cn/Cards/MC-3/P-037/SR-P"
+      "https://app.digicamoe.cn/Cards/MC-3/P-037/SR-P",
+      "https://app.digicamoe.cn/Cards/PCC-MEMOBOOST24/P-037/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/P-037/SR",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/P-037/SR"
     ],
     "P-038": [
       "https://app.digicamoe.cn/Cards/AD-01/P-038/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-038/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-038/SR-P",
       "https://app.digicamoe.cn/Cards/ST-18/P-038/SR",
-      "https://app.digicamoe.cn/Cards/MC-3/P-038/SR-P"
+      "https://app.digicamoe.cn/Cards/MC-3/P-038/SR-P",
+      "https://app.digicamoe.cn/Cards/PCC-MEMOBOOST24/P-038/SR",
+      "https://app.digicamoe.cn/Cards/PR/P-038/SR"
     ],
     "P-039": [
       "https://app.digicamoe.cn/Cards/AD-01/P-039/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-039/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-039/SR-P",
-      "https://app.digicamoe.cn/Cards/MC-3/P-039/SR-P"
+      "https://app.digicamoe.cn/Cards/MC-3/P-039/SR-P",
+      "https://app.digicamoe.cn/Cards/PCC-MEMOBOOST24/P-039/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/P-039/SR"
     ],
     "P-040": [
       "https://app.digicamoe.cn/Cards/AD-01/P-040/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-040/SR",
       "https://app.digicamoe.cn/Cards/RB-01/P-040/SR-P",
-      "https://app.digicamoe.cn/Cards/MC-3/P-040/SR-P"
+      "https://app.digicamoe.cn/Cards/MC-3/P-040/SR-P",
+      "https://app.digicamoe.cn/Cards/PCC-MEMOBOOST24/P-040/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/P-040/SR"
     ],
     "P-041": [
       "https://app.digicamoe.cn/Cards/AD-01/P-041/P",
-      "https://app.digicamoe.cn/Cards/PB-13/P-041/P"
+      "https://app.digicamoe.cn/Cards/PB-13/P-041/P",
+      "https://app.digicamoe.cn/Cards/PR/P-041/P",
+      "https://app.digicamoe.cn/Cards/PR-SP2022/P-041/P"
+    ],
+    "P-042": [
+      "https://app.digicamoe.cn/Cards/PR-SP2022/P-042/P",
+      "https://app.digicamoe.cn/Cards/PR-TB17/P-042/P"
     ],
     "P-043": [
-      "https://app.digicamoe.cn/Cards/PB-13/P-043/P"
+      "https://app.digicamoe.cn/Cards/PB-13/P-043/P",
+      "https://app.digicamoe.cn/Cards/PR-SP2022/P-043/P"
+    ],
+    "P-044": [
+      "https://app.digicamoe.cn/Cards/PR-SP2022/P-044/P"
+    ],
+    "P-045": [
+      "https://app.digicamoe.cn/Cards/PR-SP2022/P-045/P"
+    ],
+    "P-046": [
+      "https://app.digicamoe.cn/Cards/PR-SP2022/P-046/P"
     ],
     "P-047": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-047/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-047/P",
+      "https://app.digicamoe.cn/Cards/PR/P-047/P"
     ],
     "P-048": [
-      "https://app.digicamoe.cn/Cards/RB-01/P-048/P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-048/P",
+      "https://app.digicamoe.cn/Cards/PR/P-048/P"
+    ],
+    "P-049": [
+      "https://app.digicamoe.cn/Cards/PR/P-049/P"
+    ],
+    "P-050": [
+      "https://app.digicamoe.cn/Cards/PR/P-050/P",
+      "https://app.digicamoe.cn/Cards/PR-DIC2023/P-050/P"
+    ],
+    "P-051": [
+      "https://app.digicamoe.cn/Cards/PR/P-051/P"
+    ],
+    "P-052": [
+      "https://app.digicamoe.cn/Cards/PR/P-052/P"
+    ],
+    "P-053": [
+      "https://app.digicamoe.cn/Cards/PR/P-053/P"
+    ],
+    "P-054": [
+      "https://app.digicamoe.cn/Cards/PR/P-054/P"
+    ],
+    "P-055": [
+      "https://app.digicamoe.cn/Cards/PR/P-055/P"
+    ],
+    "P-056": [
+      "https://app.digicamoe.cn/Cards/PR/P-056/P"
+    ],
+    "P-057": [
+      "https://app.digicamoe.cn/Cards/PR/P-057/P"
+    ],
+    "P-058": [
+      "https://app.digicamoe.cn/Cards/PR/P-058/P"
+    ],
+    "P-059": [
+      "https://app.digicamoe.cn/Cards/PR/P-059/P",
+      "https://app.digicamoe.cn/Cards/PR-TB16/P-059/P"
+    ],
+    "P-060": [
+      "https://app.digicamoe.cn/Cards/PR/P-060/P",
+      "https://app.digicamoe.cn/Cards/PR-TB16/P-060/P"
+    ],
+    "P-061": [
+      "https://app.digicamoe.cn/Cards/PR/P-061/P",
+      "https://app.digicamoe.cn/Cards/PR-TB16/P-061/P"
+    ],
+    "P-062": [
+      "https://app.digicamoe.cn/Cards/PR/P-062/P"
+    ],
+    "P-063": [
+      "https://app.digicamoe.cn/Cards/PR/P-063/P"
+    ],
+    "P-064": [
+      "https://app.digicamoe.cn/Cards/PR/P-064/P"
+    ],
+    "P-065": [
+      "https://app.digicamoe.cn/Cards/PR/P-065/P",
+      "https://app.digicamoe.cn/Cards/PR-DMC2023P/P-065/P"
     ],
     "P-066": [
       "https://app.digicamoe.cn/Cards/RB-01/P-066/P",
-      "https://app.digicamoe.cn/Cards/RB-01/P-066/P-P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-066/P-P",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/P-066/P"
     ],
     "P-067": [
       "https://app.digicamoe.cn/Cards/RB-01/P-067/P",
-      "https://app.digicamoe.cn/Cards/RB-01/P-067/P-P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-067/P-P",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/P-067/P"
     ],
     "P-068": [
       "https://app.digicamoe.cn/Cards/RB-01/P-068/P",
-      "https://app.digicamoe.cn/Cards/RB-01/P-068/P-P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-068/P-P",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/P-068/P"
     ],
     "P-069": [
       "https://app.digicamoe.cn/Cards/RB-01/P-069/P",
-      "https://app.digicamoe.cn/Cards/RB-01/P-069/P-P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-069/P-P",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/P-069/P"
     ],
     "P-070": [
       "https://app.digicamoe.cn/Cards/RB-01/P-070/P",
-      "https://app.digicamoe.cn/Cards/RB-01/P-070/P-P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-070/P-P",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/P-070/P"
     ],
     "P-071": [
       "https://app.digicamoe.cn/Cards/RB-01/P-071/P",
-      "https://app.digicamoe.cn/Cards/RB-01/P-071/P-P"
+      "https://app.digicamoe.cn/Cards/RB-01/P-071/P-P",
+      "https://app.digicamoe.cn/Cards/PR-LCSONLINE/P-071/P"
+    ],
+    "P-072": [
+      "https://app.digicamoe.cn/Cards/PR-UP2022/P-072/P"
+    ],
+    "P-073": [
+      "https://app.digicamoe.cn/Cards/PR-UP2022/P-073/P"
+    ],
+    "P-074": [
+      "https://app.digicamoe.cn/Cards/PR-UP2022/P-074/P"
+    ],
+    "P-075": [
+      "https://app.digicamoe.cn/Cards/PR-TB17/P-075/P",
+      "https://app.digicamoe.cn/Cards/PR-UP2022/P-075/P"
     ],
     "P-076": [
-      "https://app.digicamoe.cn/Cards/LM-04/P-076/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/P-076/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-UP2022/P-076/P"
     ],
     "P-077": [
-      "https://app.digicamoe.cn/Cards/ST-14/P-077/P"
+      "https://app.digicamoe.cn/Cards/ST-14/P-077/P",
+      "https://app.digicamoe.cn/Cards/PR-UP2022/P-077/P"
+    ],
+    "P-078": [
+      "https://app.digicamoe.cn/Cards/PR/P-078/P"
+    ],
+    "P-079": [
+      "https://app.digicamoe.cn/Cards/PR/P-079/P",
+      "https://app.digicamoe.cn/Cards/PR-DSPR/P-079/P"
+    ],
+    "P-080": [
+      "https://app.digicamoe.cn/Cards/PR/P-080/P",
+      "https://app.digicamoe.cn/Cards/PR-DSPR/P-080/P"
+    ],
+    "P-081": [
+      "https://app.digicamoe.cn/Cards/PR/P-081/P",
+      "https://app.digicamoe.cn/Cards/PR-DSPR/P-081/P"
+    ],
+    "P-082": [
+      "https://app.digicamoe.cn/Cards/PR-DSPR/P-082/P"
+    ],
+    "P-083": [
+      "https://app.digicamoe.cn/Cards/PR-DSPR/P-083/P"
+    ],
+    "P-084": [
+      "https://app.digicamoe.cn/Cards/PR-DSPR/P-084/P"
+    ],
+    "P-085": [
+      "https://app.digicamoe.cn/Cards/PR-DSPR/P-085/P"
+    ],
+    "P-086": [
+      "https://app.digicamoe.cn/Cards/PR-DSPR/P-086/P"
+    ],
+    "P-087": [
+      "https://app.digicamoe.cn/Cards/PR/P-087/P"
     ],
     "P-088": [
-      "https://app.digicamoe.cn/Cards/MC-LEG/P-088/P"
+      "https://app.digicamoe.cn/Cards/MC-LEG/P-088/P",
+      "https://app.digicamoe.cn/Cards/PR/P-088/P"
+    ],
+    "P-089": [
+      "https://app.digicamoe.cn/Cards/PR/P-089/P"
+    ],
+    "P-090": [
+      "https://app.digicamoe.cn/Cards/PR/P-090/P"
     ],
     "P-091": [
-      "https://app.digicamoe.cn/Cards/LM-04/P-091/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/P-091/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-UP2023/P-091/P"
     ],
     "P-092": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-092/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-092/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-UP2023/P-092/P"
+    ],
+    "P-093": [
+      "https://app.digicamoe.cn/Cards/PR-UP2023/P-093/P"
     ],
     "P-094": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-094/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-094/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-UP2023/P-094/P"
     ],
     "P-095": [
-      "https://app.digicamoe.cn/Cards/LM-05/P-095/P"
+      "https://app.digicamoe.cn/Cards/LM-05/P-095/P",
+      "https://app.digicamoe.cn/Cards/PR-UP2023/P-095/P"
+    ],
+    "P-096": [
+      "https://app.digicamoe.cn/Cards/PR-UP2023/P-096/P"
+    ],
+    "P-097": [
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-097/P"
+    ],
+    "P-098": [
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-098/P"
+    ],
+    "P-099": [
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-099/P"
+    ],
+    "P-100": [
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-100/P"
+    ],
+    "P-101": [
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-101/P"
+    ],
+    "P-102": [
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-102/P"
     ],
     "P-103": [
       "https://app.digicamoe.cn/Cards/AD-01/P-103/P",
       "https://app.digicamoe.cn/Cards/ST-18/P-103/P",
-      "https://app.digicamoe.cn/Cards/ST-19/P-103/P"
+      "https://app.digicamoe.cn/Cards/ST-19/P-103/P",
+      "https://app.digicamoe.cn/Cards/PC-DTS/P-103/P",
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-103/P"
     ],
     "P-104": [
       "https://app.digicamoe.cn/Cards/AD-01/P-104/P",
       "https://app.digicamoe.cn/Cards/ST-18/P-104/P",
-      "https://app.digicamoe.cn/Cards/ST-19/P-104/P"
+      "https://app.digicamoe.cn/Cards/ST-19/P-104/P",
+      "https://app.digicamoe.cn/Cards/PC-DTS/P-104/P",
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-104/P"
     ],
     "P-105": [
       "https://app.digicamoe.cn/Cards/AD-01/P-105/P",
       "https://app.digicamoe.cn/Cards/ST-18/P-105/P",
       "https://app.digicamoe.cn/Cards/ST-19/P-105/P",
-      "https://app.digicamoe.cn/Cards/ST-22/P-105/P"
+      "https://app.digicamoe.cn/Cards/ST-22/P-105/P",
+      "https://app.digicamoe.cn/Cards/PC-DTS/P-105/P",
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-105/P"
     ],
     "P-106": [
       "https://app.digicamoe.cn/Cards/AD-01/P-106/P",
       "https://app.digicamoe.cn/Cards/ST-18/P-106/P",
-      "https://app.digicamoe.cn/Cards/ST-19/P-106/P"
+      "https://app.digicamoe.cn/Cards/ST-19/P-106/P",
+      "https://app.digicamoe.cn/Cards/PC-DTS/P-106/P",
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-106/P"
     ],
     "P-107": [
       "https://app.digicamoe.cn/Cards/AD-01/P-107/P",
       "https://app.digicamoe.cn/Cards/ST-18/P-107/P",
-      "https://app.digicamoe.cn/Cards/ST-19/P-107/P"
+      "https://app.digicamoe.cn/Cards/ST-19/P-107/P",
+      "https://app.digicamoe.cn/Cards/PC-DTS/P-107/P",
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-107/P"
     ],
     "P-108": [
       "https://app.digicamoe.cn/Cards/AD-01/P-108/P",
       "https://app.digicamoe.cn/Cards/ST-18/P-108/P",
-      "https://app.digicamoe.cn/Cards/ST-19/P-108/P"
+      "https://app.digicamoe.cn/Cards/ST-19/P-108/P",
+      "https://app.digicamoe.cn/Cards/PC-DTS/P-108/P",
+      "https://app.digicamoe.cn/Cards/PR-LCS2023/P-108/P"
     ],
     "P-109": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-109/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-109/P",
+      "https://app.digicamoe.cn/Cards/PR/P-109/P",
+      "https://app.digicamoe.cn/Cards/PR/P-109/P-P"
     ],
     "P-110": [
       "https://app.digicamoe.cn/Cards/AD-01/P-110/P",
@@ -13740,214 +14350,375 @@
     "P-114": [
       "https://app.digicamoe.cn/Cards/PB-16/P-114/P"
     ],
+    "P-115": [
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX10/P-115/P"
+    ],
+    "P-116": [
+      "https://app.digicamoe.cn/Cards/PR-DMC2023P/P-116/P"
+    ],
     "P-117": [
       "https://app.digicamoe.cn/Cards/AD-01/P-117/P",
-      "https://app.digicamoe.cn/Cards/PB-17/P-117/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-117/P",
+      "https://app.digicamoe.cn/Cards/PR/P-117/P-P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-117/P"
     ],
     "P-118": [
       "https://app.digicamoe.cn/Cards/AD-01/P-118/P",
-      "https://app.digicamoe.cn/Cards/PB-17/P-118/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-118/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-118/P"
     ],
     "P-119": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-119/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-119/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-119/P"
     ],
     "P-120": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-120/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-120/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-120/P"
     ],
     "P-121": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-121/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-121/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-121/P"
     ],
     "P-122": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-122/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-122/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-122/P"
     ],
     "P-123": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-123/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-123/P",
+      "https://app.digicamoe.cn/Cards/PR/P-123/P-P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-123/P"
     ],
     "P-124": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-124/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-124/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-124/P"
     ],
     "P-125": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-125/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-125/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-125/P"
     ],
     "P-126": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-126/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-126/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-126/P"
     ],
     "P-127": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-127/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-127/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-127/P"
     ],
     "P-128": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-128/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-128/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-128/P"
     ],
     "P-129": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-129/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-129/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-129/P"
     ],
     "P-130": [
-      "https://app.digicamoe.cn/Cards/PB-17/P-130/P"
+      "https://app.digicamoe.cn/Cards/PB-17/P-130/P",
+      "https://app.digicamoe.cn/Cards/PR-DA02TBP/P-130/P"
     ],
     "P-131": [
-      "https://app.digicamoe.cn/Cards/LM-05/P-131/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-05/P-131/P-LM",
+      "https://app.digicamoe.cn/Cards/PR/P-131/P",
+      "https://app.digicamoe.cn/Cards/PR-DMLPRV1/P-131/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTORAGE/P-131/P"
+    ],
+    "P-132": [
+      "https://app.digicamoe.cn/Cards/PR-DMLPRV1/P-132/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTORAGE/P-132/P",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2024/P-132/P"
     ],
     "P-133": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-133/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-133/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-DMLPRV1/P-133/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTORAGE/P-133/P",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2024/P-133/P"
+    ],
+    "P-134": [
+      "https://app.digicamoe.cn/Cards/PR/P-134/P",
+      "https://app.digicamoe.cn/Cards/PR-DMLPRV1/P-134/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTORAGE/P-134/P"
+    ],
+    "P-135": [
+      "https://app.digicamoe.cn/Cards/PR-DMLPRV1/P-135/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTORAGE/P-135/P"
     ],
     "P-136": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-136/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-136/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-DMLPRV1/P-136/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTORAGE/P-136/P"
     ],
     "P-137": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-137/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-137/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-UP2024/P-137/P"
     ],
     "P-138": [
-      "https://app.digicamoe.cn/Cards/AD-01/P-138/P"
+      "https://app.digicamoe.cn/Cards/AD-01/P-138/P",
+      "https://app.digicamoe.cn/Cards/PR-UP2024/P-138/P"
+    ],
+    "P-139": [
+      "https://app.digicamoe.cn/Cards/PR-UP2024/P-139/P"
     ],
     "P-140": [
-      "https://app.digicamoe.cn/Cards/AD-01/P-140/P"
+      "https://app.digicamoe.cn/Cards/AD-01/P-140/P",
+      "https://app.digicamoe.cn/Cards/PR-UP2024/P-140/P"
+    ],
+    "P-141": [
+      "https://app.digicamoe.cn/Cards/PR-UP2024/P-141/P"
+    ],
+    "P-142": [
+      "https://app.digicamoe.cn/Cards/PR-UP2024/P-142/P"
     ],
     "P-143": [
-      "https://app.digicamoe.cn/Cards/LM-04/P-143/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/P-143/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB21/P-143/P"
     ],
     "P-144": [
-      "https://app.digicamoe.cn/Cards/LM-04/P-144/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/P-144/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB21/P-144/P"
     ],
     "P-145": [
-      "https://app.digicamoe.cn/Cards/LM-04/P-145/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/P-145/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB21/P-145/P"
     ],
     "P-146": [
-      "https://app.digicamoe.cn/Cards/LM-04/P-146/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/P-146/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB21/P-146/P"
+    ],
+    "P-147": [
+      "https://app.digicamoe.cn/Cards/PR/P-147/P"
     ],
     "P-148": [
-      "https://app.digicamoe.cn/Cards/LM-04/P-148/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/P-148/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB22/P-148/P"
     ],
     "P-149": [
-      "https://app.digicamoe.cn/Cards/LM-04/P-149/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/P-149/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB22/P-149/P"
     ],
     "P-150": [
-      "https://app.digicamoe.cn/Cards/LM-04/P-150/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-04/P-150/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB22/P-150/P"
     ],
     "P-151": [
       "https://app.digicamoe.cn/Cards/LM-04/P-151/P-LM",
-      "https://app.digicamoe.cn/Cards/PB-22/P-151/P"
+      "https://app.digicamoe.cn/Cards/PB-22/P-151/P",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACK2024/P-151/P",
+      "https://app.digicamoe.cn/Cards/PR-TB22/P-151/P"
     ],
     "P-152": [
-      "https://app.digicamoe.cn/Cards/LM-05/P-152/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-05/P-152/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB23/P-152/P"
     ],
     "P-153": [
-      "https://app.digicamoe.cn/Cards/LM-05/P-153/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-05/P-153/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB23/P-153/P"
     ],
     "P-154": [
-      "https://app.digicamoe.cn/Cards/LM-05/P-154/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-05/P-154/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB23/P-154/P"
     ],
     "P-155": [
-      "https://app.digicamoe.cn/Cards/LM-05/P-155/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-05/P-155/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB23/P-155/P"
     ],
     "P-156": [
       "https://app.digicamoe.cn/Cards/LM-05/P-156/P-LM",
-      "https://app.digicamoe.cn/Cards/PB-20/P-156/P"
+      "https://app.digicamoe.cn/Cards/PB-20/P-156/P",
+      "https://app.digicamoe.cn/Cards/PR/P-156/P",
+      "https://app.digicamoe.cn/Cards/PR/P-156/P-P",
+      "https://app.digicamoe.cn/Cards/PR-TB24/P-156/P"
     ],
     "P-157": [
-      "https://app.digicamoe.cn/Cards/LM-05/P-157/P"
+      "https://app.digicamoe.cn/Cards/LM-05/P-157/P",
+      "https://app.digicamoe.cn/Cards/PR-TB24/P-157/P"
     ],
     "P-158": [
-      "https://app.digicamoe.cn/Cards/LM-05/P-158/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-05/P-158/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB24/P-158/P"
     ],
     "P-159": [
-      "https://app.digicamoe.cn/Cards/LM-05/P-159/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-05/P-159/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB24/P-159/P"
     ],
     "P-160": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-160/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-160/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB25/P-160/P"
     ],
     "P-161": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-161/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-161/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB25/P-161/P"
     ],
     "P-162": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-162/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-162/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB25/P-162/P"
     ],
     "P-163": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-163/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-163/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB25/P-163/P"
     ],
     "P-164": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-164/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-164/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB26/P-164/P"
     ],
     "P-165": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-165/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-165/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB26/P-165/P"
     ],
     "P-166": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-166/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-166/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB26/P-166/P"
     ],
     "P-167": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-167/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-167/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB26/P-167/P"
     ],
     "P-168": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-168/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-168/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB26/P-168/P"
     ],
     "P-169": [
-      "https://app.digicamoe.cn/Cards/LM-06/P-169/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-06/P-169/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB26/P-169/P"
+    ],
+    "P-170": [
+      "https://app.digicamoe.cn/Cards/PR-UP_BT20/P-170/P"
+    ],
+    "P-171": [
+      "https://app.digicamoe.cn/Cards/PR-UP_BT20/P-171/P"
+    ],
+    "P-172": [
+      "https://app.digicamoe.cn/Cards/PR-UP_BT20/P-172/P"
+    ],
+    "P-173": [
+      "https://app.digicamoe.cn/Cards/PR-UP_BT20/P-173/P"
+    ],
+    "P-174": [
+      "https://app.digicamoe.cn/Cards/PR-UP_BT20/P-174/P"
+    ],
+    "P-175": [
+      "https://app.digicamoe.cn/Cards/PR-UP_BT20/P-175/P"
     ],
     "P-176": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-176/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-176/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB27/P-176/P"
     ],
     "P-177": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-177/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-177/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB27/P-177/P"
     ],
     "P-178": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-178/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-178/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB27/P-178/P"
     ],
     "P-179": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-179/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-179/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB27/P-179/P"
     ],
     "P-180": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-180/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-180/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB27/P-180/P"
     ],
     "P-181": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-181/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-181/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB27/P-181/P"
     ],
     "P-182": [
       "https://app.digicamoe.cn/Cards/AD-01/P-182/P",
-      "https://app.digicamoe.cn/Cards/AD-01/P-182/P-GP"
+      "https://app.digicamoe.cn/Cards/AD-01/P-182/P-GP",
+      "https://app.digicamoe.cn/Cards/PR-ICP2025/P-182/P"
+    ],
+    "P-183": [
+      "https://app.digicamoe.cn/Cards/PR-ICP2025/P-183/P"
+    ],
+    "P-184": [
+      "https://app.digicamoe.cn/Cards/PR-ICP2025/P-184/P"
+    ],
+    "P-185": [
+      "https://app.digicamoe.cn/Cards/PR-ICP2025/P-185/P"
     ],
     "P-186": [
-      "https://app.digicamoe.cn/Cards/AD-01/P-186/P"
+      "https://app.digicamoe.cn/Cards/AD-01/P-186/P",
+      "https://app.digicamoe.cn/Cards/PR-ICP2025/P-186/P"
     ],
     "P-187": [
-      "https://app.digicamoe.cn/Cards/AD-01/P-187/P"
+      "https://app.digicamoe.cn/Cards/AD-01/P-187/P",
+      "https://app.digicamoe.cn/Cards/PR-ICP2025/P-187/P"
     ],
     "P-188": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-188/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-188/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB28/P-188/P"
     ],
     "P-189": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-189/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-189/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB28/P-189/P"
     ],
     "P-190": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-190/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-190/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB28/P-190/P"
     ],
     "P-191": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-191/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-191/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/P-191/P",
+      "https://app.digicamoe.cn/Cards/PR-TB28/P-191/P"
     ],
     "P-192": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-192/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-192/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB28/P-192/P"
     ],
     "P-193": [
-      "https://app.digicamoe.cn/Cards/LM-07/P-193/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-07/P-193/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB28/P-193/P"
+    ],
+    "P-194": [
+      "https://app.digicamoe.cn/Cards/PR/P-194/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTSPR/P-194/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/P-194/P"
     ],
     "P-195": [
-      "https://app.digicamoe.cn/Cards/PB-23/P-195/P"
+      "https://app.digicamoe.cn/Cards/PB-23/P-195/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTSPR/P-195/P",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/P-195/P"
+    ],
+    "P-196": [
+      "https://app.digicamoe.cn/Cards/PR-DSTSPR/P-196/P"
+    ],
+    "P-197": [
+      "https://app.digicamoe.cn/Cards/PR-DSTSPR/P-197/P"
+    ],
+    "P-198": [
+      "https://app.digicamoe.cn/Cards/PR-DSTSPR/P-198/P"
+    ],
+    "P-199": [
+      "https://app.digicamoe.cn/Cards/PR-DSTSPR/P-199/P"
+    ],
+    "P-200": [
+      "https://app.digicamoe.cn/Cards/PR-DSTSPR/P-200/P"
     ],
     "P-201": [
-      "https://app.digicamoe.cn/Cards/LM-08/P-201/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-08/P-201/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB29/P-201/P"
     ],
     "P-202": [
-      "https://app.digicamoe.cn/Cards/LM-08/P-202/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-08/P-202/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB29/P-202/P"
     ],
     "P-203": [
-      "https://app.digicamoe.cn/Cards/LM-08/P-203/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-08/P-203/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB29/P-203/P"
     ],
     "P-204": [
-      "https://app.digicamoe.cn/Cards/LM-08/P-204/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-08/P-204/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB29/P-204/P"
     ],
     "P-205": [
-      "https://app.digicamoe.cn/Cards/LM-08/P-205/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-08/P-205/P-LM",
+      "https://app.digicamoe.cn/Cards/PR-TB29/P-205/P"
     ],
     "P-206": [
-      "https://app.digicamoe.cn/Cards/LM-08/P-206/P-LM"
+      "https://app.digicamoe.cn/Cards/LM-08/P-206/P-LM",
+      "https://app.digicamoe.cn/Cards/PR/P-206/P",
+      "https://app.digicamoe.cn/Cards/PR/P-206/P-P",
+      "https://app.digicamoe.cn/Cards/PR-TB29/P-206/P"
     ],
     "P-207": [
       "https://app.digicamoe.cn/Cards/BT-23/P-207/P"
@@ -13956,7 +14727,8 @@
       "https://app.digicamoe.cn/Cards/BT-23/P-208/P"
     ],
     "P-209": [
-      "https://app.digicamoe.cn/Cards/BT-23/P-209/P"
+      "https://app.digicamoe.cn/Cards/BT-23/P-209/P",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/P-209/P"
     ],
     "P-210": [
       "https://app.digicamoe.cn/Cards/BT-23/P-210/P"
@@ -13966,6 +14738,9 @@
     ],
     "P-212": [
       "https://app.digicamoe.cn/Cards/BT-23/P-212/P"
+    ],
+    "P-213": [
+      "https://app.digicamoe.cn/Cards/PR/P-213/P"
     ],
     "P-214": [
       "https://app.digicamoe.cn/Cards/LM-08/P-214/P-LM"
@@ -14020,6 +14795,24 @@
     ],
     "P-232": [
       "https://app.digicamoe.cn/Cards/EX-11/P-232/P"
+    ],
+    "P-245": [
+      "https://app.digicamoe.cn/Cards/PR-TB33/P-245/P"
+    ],
+    "P-246": [
+      "https://app.digicamoe.cn/Cards/PR-TB33/P-246/P"
+    ],
+    "P-247": [
+      "https://app.digicamoe.cn/Cards/PR-TB33/P-247/P"
+    ],
+    "P-248": [
+      "https://app.digicamoe.cn/Cards/PR-TB33/P-248/P"
+    ],
+    "P-249": [
+      "https://app.digicamoe.cn/Cards/PR-TB33/P-249/P"
+    ],
+    "P-250": [
+      "https://app.digicamoe.cn/Cards/PR-TB33/P-250/P"
     ],
     "RB1-001": [
       "https://app.digicamoe.cn/Cards/AD-01/RB1-001/C",
@@ -14084,7 +14877,8 @@
       "https://app.digicamoe.cn/Cards/RB-01/RB1-017/C"
     ],
     "RB1-018": [
-      "https://app.digicamoe.cn/Cards/RB-01/RB1-018/R"
+      "https://app.digicamoe.cn/Cards/RB-01/RB1-018/R",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2024/RB1-018/R"
     ],
     "RB1-019": [
       "https://app.digicamoe.cn/Cards/RB-01/RB1-019/SR",
@@ -14161,11 +14955,15 @@
     ],
     "ST1-02": [
       "https://app.digicamoe.cn/Cards/ST-1/ST1-02/C",
-      "https://app.digicamoe.cn/Cards/MC-1/ST1-02/C-P"
+      "https://app.digicamoe.cn/Cards/MC-1/ST1-02/C-P",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/ST1-02/C-P"
     ],
     "ST1-03": [
       "https://app.digicamoe.cn/Cards/ST-1/ST1-03/U",
-      "https://app.digicamoe.cn/Cards/ST-11/ST1-03/U"
+      "https://app.digicamoe.cn/Cards/ST-11/ST1-03/U",
+      "https://app.digicamoe.cn/Cards/PR/ST1-03/U",
+      "https://app.digicamoe.cn/Cards/PR-IC/ST1-03/U-P",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-3/ST1-03/U"
     ],
     "ST1-04": [
       "https://app.digicamoe.cn/Cards/ST-1/ST1-04/C"
@@ -14180,14 +14978,17 @@
       "https://app.digicamoe.cn/Cards/RB-01/ST1-07/U",
       "https://app.digicamoe.cn/Cards/ST-1/ST1-07/U",
       "https://app.digicamoe.cn/Cards/ST-11/ST1-07/U",
-      "https://app.digicamoe.cn/Cards/CS2022-SP/ST1-07/U"
+      "https://app.digicamoe.cn/Cards/CS2022-SP/ST1-07/U",
+      "https://app.digicamoe.cn/Cards/PR/ST1-07/U-P"
     ],
     "ST1-08": [
-      "https://app.digicamoe.cn/Cards/ST-1/ST1-08/U"
+      "https://app.digicamoe.cn/Cards/ST-1/ST1-08/U",
+      "https://app.digicamoe.cn/Cards/PR-TB2/ST1-08/U"
     ],
     "ST1-09": [
       "https://app.digicamoe.cn/Cards/ST-1/ST1-09/R",
-      "https://app.digicamoe.cn/Cards/CS2022-SP/ST1-09/R"
+      "https://app.digicamoe.cn/Cards/CS2022-SP/ST1-09/R",
+      "https://app.digicamoe.cn/Cards/PR-TB1/ST1-09/R"
     ],
     "ST1-10": [
       "https://app.digicamoe.cn/Cards/BT-6/ST1-10/R-T",
@@ -14195,10 +14996,13 @@
     ],
     "ST1-11": [
       "https://app.digicamoe.cn/Cards/ST-1/ST1-11/SR",
-      "https://app.digicamoe.cn/Cards/CS2022-SP/ST1-11/SR"
+      "https://app.digicamoe.cn/Cards/CS2022-SP/ST1-11/SR",
+      "https://app.digicamoe.cn/Cards/PR/ST1-11/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-SP2021/ST1-11/SR-P"
     ],
     "ST1-12": [
-      "https://app.digicamoe.cn/Cards/ST-1/ST1-12/R"
+      "https://app.digicamoe.cn/Cards/ST-1/ST1-12/R",
+      "https://app.digicamoe.cn/Cards/PR/ST1-12/R-T"
     ],
     "ST1-13": [
       "https://app.digicamoe.cn/Cards/ST-1/ST1-13/C",
@@ -14226,7 +15030,8 @@
       "https://app.digicamoe.cn/Cards/ST-10/ST10-03/C"
     ],
     "ST10-04": [
-      "https://app.digicamoe.cn/Cards/ST-10/ST10-04/SR"
+      "https://app.digicamoe.cn/Cards/ST-10/ST10-04/SR",
+      "https://app.digicamoe.cn/Cards/PR-EPV1/ST10-04/SR"
     ],
     "ST10-05": [
       "https://app.digicamoe.cn/Cards/ST-10/ST10-05/R",
@@ -14258,10 +15063,14 @@
       "https://app.digicamoe.cn/Cards/PB-14/ST10-12/R"
     ],
     "ST10-13": [
-      "https://app.digicamoe.cn/Cards/ST-10/ST10-13/U"
+      "https://app.digicamoe.cn/Cards/ST-10/ST10-13/U",
+      "https://app.digicamoe.cn/Cards/PR-DSTSTD/ST10-13/U",
+      "https://app.digicamoe.cn/Cards/PR-TB12/ST10-13/U"
     ],
     "ST10-14": [
-      "https://app.digicamoe.cn/Cards/ST-10/ST10-14/R"
+      "https://app.digicamoe.cn/Cards/ST-10/ST10-14/R",
+      "https://app.digicamoe.cn/Cards/PR-SPV2/ST10-14/R",
+      "https://app.digicamoe.cn/Cards/SBAS2023/ST10-14/R"
     ],
     "ST10-15": [
       "https://app.digicamoe.cn/Cards/ST-10/ST10-15/U"
@@ -14365,13 +15174,17 @@
       "https://app.digicamoe.cn/Cards/ST-13/ST13-15/R"
     ],
     "ST13-16": [
-      "https://app.digicamoe.cn/Cards/ST-13/ST13-16/C"
+      "https://app.digicamoe.cn/Cards/ST-13/ST13-16/C",
+      "https://app.digicamoe.cn/Cards/SBAS2023/ST13-16/C"
     ],
     "ST14-01": [
-      "https://app.digicamoe.cn/Cards/ST-14/ST14-01/U"
+      "https://app.digicamoe.cn/Cards/ST-14/ST14-01/U",
+      "https://app.digicamoe.cn/Cards/PR/ST14-01/U"
     ],
     "ST14-02": [
-      "https://app.digicamoe.cn/Cards/ST-14/ST14-02/SR"
+      "https://app.digicamoe.cn/Cards/ST-14/ST14-02/SR",
+      "https://app.digicamoe.cn/Cards/PR/ST14-02/SR",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX10/ST14-02/SR"
     ],
     "ST14-03": [
       "https://app.digicamoe.cn/Cards/ST-14/ST14-03/U"
@@ -14390,14 +15203,16 @@
     ],
     "ST14-08": [
       "https://app.digicamoe.cn/Cards/ST-14/ST14-08/SR",
-      "https://app.digicamoe.cn/Cards/ST-14/ST14-08/SR-P"
+      "https://app.digicamoe.cn/Cards/ST-14/ST14-08/SR-P",
+      "https://app.digicamoe.cn/Cards/PR/ST14-08/SR"
     ],
     "ST14-09": [
       "https://app.digicamoe.cn/Cards/ST-14/ST14-09/SR",
       "https://app.digicamoe.cn/Cards/PB-23/ST14-09/SR"
     ],
     "ST14-10": [
-      "https://app.digicamoe.cn/Cards/ST-14/ST14-10/SR"
+      "https://app.digicamoe.cn/Cards/ST-14/ST14-10/SR",
+      "https://app.digicamoe.cn/Cards/PR/ST14-10/SR"
     ],
     "ST14-11": [
       "https://app.digicamoe.cn/Cards/ST-14/ST14-11/R"
@@ -14410,7 +15225,8 @@
       "https://app.digicamoe.cn/Cards/ST-15/ST15-01/U"
     ],
     "ST15-02": [
-      "https://app.digicamoe.cn/Cards/ST-15/ST15-02/R"
+      "https://app.digicamoe.cn/Cards/ST-15/ST15-02/R",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/ST15-02/R"
     ],
     "ST15-03": [
       "https://app.digicamoe.cn/Cards/ST-15/ST15-03/U"
@@ -14462,7 +15278,8 @@
       "https://app.digicamoe.cn/Cards/ST-16/ST16-02/C"
     ],
     "ST16-03": [
-      "https://app.digicamoe.cn/Cards/ST-16/ST16-03/R"
+      "https://app.digicamoe.cn/Cards/ST-16/ST16-03/R",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/ST16-03/R"
     ],
     "ST16-04": [
       "https://app.digicamoe.cn/Cards/ST-16/ST16-04/U"
@@ -14566,7 +15383,8 @@
     ],
     "ST18-04": [
       "https://app.digicamoe.cn/Cards/EX-11/ST18-04/R-EM",
-      "https://app.digicamoe.cn/Cards/ST-18/ST18-04/R"
+      "https://app.digicamoe.cn/Cards/ST-18/ST18-04/R",
+      "https://app.digicamoe.cn/Cards/PB-WTB2/ST18-04/R"
     ],
     "ST18-05": [
       "https://app.digicamoe.cn/Cards/ST-18/ST18-05/U"
@@ -14591,7 +15409,8 @@
     ],
     "ST18-12": [
       "https://app.digicamoe.cn/Cards/ST-18/ST18-12/SR",
-      "https://app.digicamoe.cn/Cards/PB-22/ST18-12/SR"
+      "https://app.digicamoe.cn/Cards/PB-22/ST18-12/SR",
+      "https://app.digicamoe.cn/Cards/PR-EVOCUP2024/ST18-12/SR"
     ],
     "ST18-13": [
       "https://app.digicamoe.cn/Cards/ST-18/ST18-13/U"
@@ -14611,7 +15430,8 @@
     ],
     "ST19-03": [
       "https://app.digicamoe.cn/Cards/EX-11/ST19-03/R-EM",
-      "https://app.digicamoe.cn/Cards/ST-19/ST19-03/R"
+      "https://app.digicamoe.cn/Cards/ST-19/ST19-03/R",
+      "https://app.digicamoe.cn/Cards/PR/ST19-03/R"
     ],
     "ST19-04": [
       "https://app.digicamoe.cn/Cards/ST-19/ST19-04/C"
@@ -14655,7 +15475,8 @@
       "https://app.digicamoe.cn/Cards/ST-2/ST2-01/U"
     ],
     "ST2-02": [
-      "https://app.digicamoe.cn/Cards/ST-2/ST2-02/C"
+      "https://app.digicamoe.cn/Cards/ST-2/ST2-02/C",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/ST2-02/C-P"
     ],
     "ST2-03": [
       "https://app.digicamoe.cn/Cards/ST-2/ST2-03/U"
@@ -14667,22 +15488,27 @@
       "https://app.digicamoe.cn/Cards/ST-2/ST2-05/C"
     ],
     "ST2-06": [
-      "https://app.digicamoe.cn/Cards/ST-2/ST2-06/U"
+      "https://app.digicamoe.cn/Cards/ST-2/ST2-06/U",
+      "https://app.digicamoe.cn/Cards/PR/ST2-06/U-P"
     ],
     "ST2-07": [
-      "https://app.digicamoe.cn/Cards/ST-2/ST2-07/C"
+      "https://app.digicamoe.cn/Cards/ST-2/ST2-07/C",
+      "https://app.digicamoe.cn/Cards/PR-TB6/ST2-07/C"
     ],
     "ST2-08": [
-      "https://app.digicamoe.cn/Cards/ST-2/ST2-08/R"
+      "https://app.digicamoe.cn/Cards/ST-2/ST2-08/R",
+      "https://app.digicamoe.cn/Cards/PR-TB2/ST2-08/R"
     ],
     "ST2-09": [
-      "https://app.digicamoe.cn/Cards/ST-2/ST2-09/U"
+      "https://app.digicamoe.cn/Cards/ST-2/ST2-09/U",
+      "https://app.digicamoe.cn/Cards/PR-TB1/ST2-09/U"
     ],
     "ST2-10": [
       "https://app.digicamoe.cn/Cards/ST-2/ST2-10/R"
     ],
     "ST2-11": [
-      "https://app.digicamoe.cn/Cards/ST-2/ST2-11/SR"
+      "https://app.digicamoe.cn/Cards/ST-2/ST2-11/SR",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-2/ST2-11/SR"
     ],
     "ST2-12": [
       "https://app.digicamoe.cn/Cards/ST-2/ST2-12/R"
@@ -14705,38 +15531,51 @@
       "https://app.digicamoe.cn/Cards/PB-01/ST2-16/U-P"
     ],
     "ST20-01": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-01/C"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-01/C",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/ST20-01/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-01/C"
     ],
     "ST20-02": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-02/U"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-02/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-02/U"
     ],
     "ST20-03": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-03/C"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-03/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-03/C"
     ],
     "ST20-04": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-04/R"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-04/R",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-04/R"
     ],
     "ST20-05": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-05/C"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-05/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-05/C"
     ],
     "ST20-06": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-06/SR"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-06/SR",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-06/SR"
     ],
     "ST20-07": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-07/C"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-07/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-07/C"
     ],
     "ST20-08": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-08/U"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-08/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-08/U"
     ],
     "ST20-09": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-09/U"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-09/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-09/U"
     ],
     "ST20-10": [
       "https://app.digicamoe.cn/Cards/ST-20/ST20-10/R",
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-10/R-P"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-10/R-P",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/ST20-10/R",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-10/R"
     ],
     "ST20-11": [
-      "https://app.digicamoe.cn/Cards/ST-20/ST20-11/SR"
+      "https://app.digicamoe.cn/Cards/ST-20/ST20-11/SR",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST20-11/SR"
     ],
     "ST20-12": [
       "https://app.digicamoe.cn/Cards/ST-20/ST20-12/U"
@@ -14751,38 +15590,50 @@
       "https://app.digicamoe.cn/Cards/ST-20/ST20-15/U"
     ],
     "ST21-01": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-01/C"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-01/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-01/C"
     ],
     "ST21-02": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-02/U"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-02/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-02/U"
     ],
     "ST21-03": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-03/C"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-03/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-03/C"
     ],
     "ST21-04": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-04/U"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-04/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-04/U"
     ],
     "ST21-05": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-05/C"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-05/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-05/C"
     ],
     "ST21-06": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-06/SR"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-06/SR",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-06/SR"
     ],
     "ST21-07": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-07/U"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-07/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-07/U"
     ],
     "ST21-08": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-08/C"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-08/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-08/C"
     ],
     "ST21-09": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-09/R"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-09/R",
+      "https://app.digicamoe.cn/Cards/PR-EPV1/ST21-09/R",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-09/R"
     ],
     "ST21-10": [
       "https://app.digicamoe.cn/Cards/ST-21/ST21-10/R",
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-10/R-P"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-10/R-P",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-10/R"
     ],
     "ST21-11": [
-      "https://app.digicamoe.cn/Cards/ST-21/ST21-11/SR"
+      "https://app.digicamoe.cn/Cards/ST-21/ST21-11/SR",
+      "https://app.digicamoe.cn/Cards/PR-WTP/ST21-11/SR"
     ],
     "ST21-12": [
       "https://app.digicamoe.cn/Cards/ST-21/ST21-12/U"
@@ -14813,7 +15664,8 @@
       "https://app.digicamoe.cn/Cards/ST-22/ST22-05/SR"
     ],
     "ST22-06": [
-      "https://app.digicamoe.cn/Cards/ST-22/ST22-06/SR"
+      "https://app.digicamoe.cn/Cards/ST-22/ST22-06/SR",
+      "https://app.digicamoe.cn/Cards/PR-CS2026/ST22-06/SR"
     ],
     "ST22-07": [
       "https://app.digicamoe.cn/Cards/ST-22/ST22-07/R"
@@ -14840,41 +15692,53 @@
       "https://app.digicamoe.cn/Cards/ST-22/ST22-14/SR"
     ],
     "ST23-01": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-01/C"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-01/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-01/C"
     ],
     "ST23-02": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-02/C"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-02/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-02/C"
     ],
     "ST23-03": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-03/U"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-03/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-03/U"
     ],
     "ST23-04": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-04/U"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-04/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-04/U"
     ],
     "ST23-05": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-05/SR"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-05/SR",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-05/SR"
     ],
     "ST23-06": [
       "https://app.digicamoe.cn/Cards/ST-23/ST23-06/R",
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-06/R-P"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-06/R-P",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-06/R"
     ],
     "ST23-07": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-07/U"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-07/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-07/U"
     ],
     "ST23-08": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-08/R"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-08/R",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-08/R"
     ],
     "ST23-09": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-09/SR"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-09/SR",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-09/SR"
     ],
     "ST23-10": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-10/C"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-10/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-10/C"
     ],
     "ST23-11": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-11/U"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-11/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-11/U"
     ],
     "ST23-12": [
-      "https://app.digicamoe.cn/Cards/ST-23/ST23-12/C"
+      "https://app.digicamoe.cn/Cards/ST-23/ST23-12/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST23-12/C"
     ],
     "ST23-13": [
       "https://app.digicamoe.cn/Cards/ST-23/ST23-13/R"
@@ -14886,41 +15750,55 @@
       "https://app.digicamoe.cn/Cards/ST-23/ST23-15/C"
     ],
     "ST24-01": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-01/C"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-01/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-01/C"
     ],
     "ST24-02": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-02/C"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-02/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-02/C"
     ],
     "ST24-03": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-03/U"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-03/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-03/U"
     ],
     "ST24-04": [
       "https://app.digicamoe.cn/Cards/ST-24/ST24-04/R",
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-04/R-P"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-04/R-P",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-04/R"
     ],
     "ST24-05": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-05/U"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-05/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-05/U"
     ],
     "ST24-06": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-06/R"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-06/R",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-06/R"
     ],
     "ST24-07": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-07/SR"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-07/SR",
+      "https://app.digicamoe.cn/Cards/PR/ST24-07/SR",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-07/SR"
     ],
     "ST24-08": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-08/C"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-08/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-08/C"
     ],
     "ST24-09": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-09/U"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-09/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-09/U"
     ],
     "ST24-10": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-10/U"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-10/U",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-10/U"
     ],
     "ST24-11": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-11/SR"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-11/SR",
+      "https://app.digicamoe.cn/Cards/PR/ST24-11/SR",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-11/SR"
     ],
     "ST24-12": [
-      "https://app.digicamoe.cn/Cards/ST-24/ST24-12/C"
+      "https://app.digicamoe.cn/Cards/ST-24/ST24-12/C",
+      "https://app.digicamoe.cn/Cards/PR-WTP2/ST24-12/C"
     ],
     "ST24-13": [
       "https://app.digicamoe.cn/Cards/ST-24/ST24-13/R"
@@ -14943,22 +15821,31 @@
     "ST3-04": [
       "https://app.digicamoe.cn/Cards/RB-01/ST3-04/U",
       "https://app.digicamoe.cn/Cards/ST-3/ST3-04/U",
-      "https://app.digicamoe.cn/Cards/MC-1/ST3-04/U-P"
+      "https://app.digicamoe.cn/Cards/MC-1/ST3-04/U-P",
+      "https://app.digicamoe.cn/Cards/PR-LEGENDPACKEX08/ST3-04/U",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-3/ST3-04/U",
+      "https://app.digicamoe.cn/Cards/TSB-DC1_2022/ST3-04/U"
     ],
     "ST3-05": [
-      "https://app.digicamoe.cn/Cards/ST-3/ST3-05/U"
+      "https://app.digicamoe.cn/Cards/ST-3/ST3-05/U",
+      "https://app.digicamoe.cn/Cards/PR/ST3-05/U-P",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/ST3-05/U-P"
     ],
     "ST3-06": [
       "https://app.digicamoe.cn/Cards/ST-3/ST3-06/C"
     ],
     "ST3-07": [
-      "https://app.digicamoe.cn/Cards/ST-3/ST3-07/C"
+      "https://app.digicamoe.cn/Cards/ST-3/ST3-07/C",
+      "https://app.digicamoe.cn/Cards/PR-TB7/ST3-07/C"
     ],
     "ST3-08": [
-      "https://app.digicamoe.cn/Cards/ST-3/ST3-08/R"
+      "https://app.digicamoe.cn/Cards/ST-3/ST3-08/R",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/ST3-08/R-P",
+      "https://app.digicamoe.cn/Cards/PR-TB2/ST3-08/R"
     ],
     "ST3-09": [
-      "https://app.digicamoe.cn/Cards/ST-3/ST3-09/U"
+      "https://app.digicamoe.cn/Cards/ST-3/ST3-09/U",
+      "https://app.digicamoe.cn/Cards/PR-TB1/ST3-09/U"
     ],
     "ST3-10": [
       "https://app.digicamoe.cn/Cards/ST-3/ST3-10/R"
@@ -14967,7 +15854,8 @@
       "https://app.digicamoe.cn/Cards/ST-3/ST3-11/SR"
     ],
     "ST3-12": [
-      "https://app.digicamoe.cn/Cards/ST-3/ST3-12/R"
+      "https://app.digicamoe.cn/Cards/ST-3/ST3-12/R",
+      "https://app.digicamoe.cn/Cards/PR/ST3-12/R-T"
     ],
     "ST3-13": [
       "https://app.digicamoe.cn/Cards/ST-3/ST3-13/C",
@@ -14991,7 +15879,8 @@
     ],
     "ST4-03": [
       "https://app.digicamoe.cn/Cards/ST-4/ST4-03/U",
-      "https://app.digicamoe.cn/Cards/MC-1/ST4-03/U-P"
+      "https://app.digicamoe.cn/Cards/MC-1/ST4-03/U-P",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/ST4-03/U-P"
     ],
     "ST4-04": [
       "https://app.digicamoe.cn/Cards/ST-4/ST4-04/C",
@@ -15007,13 +15896,16 @@
       "https://app.digicamoe.cn/Cards/ST-4/ST4-07/C"
     ],
     "ST4-08": [
-      "https://app.digicamoe.cn/Cards/ST-4/ST4-08/U"
+      "https://app.digicamoe.cn/Cards/ST-4/ST4-08/U",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-3/ST4-08/U",
+      "https://app.digicamoe.cn/Cards/PR-TB9/ST4-08/U"
     ],
     "ST4-09": [
       "https://app.digicamoe.cn/Cards/ST-4/ST4-09/C"
     ],
     "ST4-10": [
-      "https://app.digicamoe.cn/Cards/ST-4/ST4-10/U"
+      "https://app.digicamoe.cn/Cards/ST-4/ST4-10/U",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/ST4-10/U-P"
     ],
     "ST4-11": [
       "https://app.digicamoe.cn/Cards/ST-4/ST4-11/R"
@@ -15040,7 +15932,8 @@
       "https://app.digicamoe.cn/Cards/ST-5/ST5-02/C"
     ],
     "ST5-03": [
-      "https://app.digicamoe.cn/Cards/ST-5/ST5-03/U"
+      "https://app.digicamoe.cn/Cards/ST-5/ST5-03/U",
+      "https://app.digicamoe.cn/Cards/PR-1ADAP/ST5-03/U-P"
     ],
     "ST5-04": [
       "https://app.digicamoe.cn/Cards/ST-5/ST5-04/C"
@@ -15055,7 +15948,8 @@
       "https://app.digicamoe.cn/Cards/ST-5/ST5-07/C"
     ],
     "ST5-08": [
-      "https://app.digicamoe.cn/Cards/ST-5/ST5-08/U"
+      "https://app.digicamoe.cn/Cards/ST-5/ST5-08/U",
+      "https://app.digicamoe.cn/Cards/PR-TB9/ST5-08/U"
     ],
     "ST5-09": [
       "https://app.digicamoe.cn/Cards/ST-5/ST5-09/U"
@@ -15068,7 +15962,8 @@
       "https://app.digicamoe.cn/Cards/ST-5/ST5-11/R"
     ],
     "ST5-12": [
-      "https://app.digicamoe.cn/Cards/ST-5/ST5-12/R"
+      "https://app.digicamoe.cn/Cards/ST-5/ST5-12/R",
+      "https://app.digicamoe.cn/Cards/PR-IC/ST5-12/R-P"
     ],
     "ST5-13": [
       "https://app.digicamoe.cn/Cards/ST-5/ST5-13/SR"
@@ -15105,7 +16000,10 @@
       "https://app.digicamoe.cn/Cards/ST-6/ST6-07/C"
     ],
     "ST6-08": [
-      "https://app.digicamoe.cn/Cards/ST-6/ST6-08/U"
+      "https://app.digicamoe.cn/Cards/ST-6/ST6-08/U",
+      "https://app.digicamoe.cn/Cards/PR-IC/ST6-08/U-P",
+      "https://app.digicamoe.cn/Cards/PR-SP2022-3/ST6-08/U",
+      "https://app.digicamoe.cn/Cards/PR-TB9/ST6-08/U"
     ],
     "ST6-09": [
       "https://app.digicamoe.cn/Cards/ST-6/ST6-09/C"
@@ -15123,7 +16021,8 @@
       "https://app.digicamoe.cn/Cards/ST-6/ST6-13/SR"
     ],
     "ST6-14": [
-      "https://app.digicamoe.cn/Cards/ST-6/ST6-14/R"
+      "https://app.digicamoe.cn/Cards/ST-6/ST6-14/R",
+      "https://app.digicamoe.cn/Cards/PR/ST6-14/R-T"
     ],
     "ST6-15": [
       "https://app.digicamoe.cn/Cards/LM-06/ST6-15/C-LM",
@@ -15136,7 +16035,8 @@
       "https://app.digicamoe.cn/Cards/ST-7/ST7-01/U"
     ],
     "ST7-02": [
-      "https://app.digicamoe.cn/Cards/ST-7/ST7-02/C"
+      "https://app.digicamoe.cn/Cards/ST-7/ST7-02/C",
+      "https://app.digicamoe.cn/Cards/PR-TB15/ST7-02/C"
     ],
     "ST7-03": [
       "https://app.digicamoe.cn/Cards/AD-01/ST7-03/SR-P",
@@ -15152,7 +16052,8 @@
       "https://app.digicamoe.cn/Cards/AD-01/ST7-05/R",
       "https://app.digicamoe.cn/Cards/AD-01/ST7-05/R-GP",
       "https://app.digicamoe.cn/Cards/LM-02/ST7-05/R-LM",
-      "https://app.digicamoe.cn/Cards/ST-7/ST7-05/R"
+      "https://app.digicamoe.cn/Cards/ST-7/ST7-05/R",
+      "https://app.digicamoe.cn/Cards/PR/ST7-05/R"
     ],
     "ST7-06": [
       "https://app.digicamoe.cn/Cards/ST-7/ST7-06/U"
@@ -15161,7 +16062,8 @@
       "https://app.digicamoe.cn/Cards/ST-7/ST7-07/U"
     ],
     "ST7-08": [
-      "https://app.digicamoe.cn/Cards/ST-7/ST7-08/R"
+      "https://app.digicamoe.cn/Cards/ST-7/ST7-08/R",
+      "https://app.digicamoe.cn/Cards/PR/ST7-08/R"
     ],
     "ST7-09": [
       "https://app.digicamoe.cn/Cards/ST-7/ST7-09/SR",
@@ -15171,7 +16073,8 @@
       "https://app.digicamoe.cn/Cards/ST-7/ST7-10/R"
     ],
     "ST7-11": [
-      "https://app.digicamoe.cn/Cards/ST-7/ST7-11/U"
+      "https://app.digicamoe.cn/Cards/ST-7/ST7-11/U",
+      "https://app.digicamoe.cn/Cards/PR/ST7-11/U"
     ],
     "ST7-12": [
       "https://app.digicamoe.cn/Cards/ST-7/ST7-12/C"
@@ -15195,13 +16098,16 @@
     ],
     "ST8-06": [
       "https://app.digicamoe.cn/Cards/LM-02/ST8-06/U-LM",
-      "https://app.digicamoe.cn/Cards/ST-8/ST8-06/U"
+      "https://app.digicamoe.cn/Cards/ST-8/ST8-06/U",
+      "https://app.digicamoe.cn/Cards/PR-CS2022/ST8-06/U"
     ],
     "ST8-07": [
       "https://app.digicamoe.cn/Cards/ST-8/ST8-07/U"
     ],
     "ST8-08": [
-      "https://app.digicamoe.cn/Cards/ST-8/ST8-08/R"
+      "https://app.digicamoe.cn/Cards/ST-8/ST8-08/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/ST8-08/R",
+      "https://app.digicamoe.cn/Cards/PR-CS2024/ST8-08/R-P"
     ],
     "ST8-09": [
       "https://app.digicamoe.cn/Cards/ST-8/ST8-09/R"
@@ -15231,12 +16137,15 @@
     "ST9-05": [
       "https://app.digicamoe.cn/Cards/AD-01/ST9-05/SR",
       "https://app.digicamoe.cn/Cards/ST-9/ST9-05/SR",
-      "https://app.digicamoe.cn/Cards/MC-DA02/ST9-05/SR"
+      "https://app.digicamoe.cn/Cards/MC-DA02/ST9-05/SR",
+      "https://app.digicamoe.cn/Cards/PR/ST9-05/SR",
+      "https://app.digicamoe.cn/Cards/PR/ST9-05/SR-P"
     ],
     "ST9-06": [
       "https://app.digicamoe.cn/Cards/AD-01/ST9-06/SR",
       "https://app.digicamoe.cn/Cards/ST-9/ST9-06/SR",
-      "https://app.digicamoe.cn/Cards/ST-9/ST9-06/SR-P"
+      "https://app.digicamoe.cn/Cards/ST-9/ST9-06/SR-P",
+      "https://app.digicamoe.cn/Cards/PR-DIC2023/ST9-06/SR"
     ],
     "ST9-07": [
       "https://app.digicamoe.cn/Cards/ST-9/ST9-07/C"
@@ -15261,7 +16170,8 @@
       "https://app.digicamoe.cn/Cards/ST-9/ST9-13/R"
     ],
     "ST9-14": [
-      "https://app.digicamoe.cn/Cards/ST-9/ST9-14/R"
+      "https://app.digicamoe.cn/Cards/ST-9/ST9-14/R",
+      "https://app.digicamoe.cn/Cards/SBAS2023/ST9-14/R"
     ],
     "ST9-15": [
       "https://app.digicamoe.cn/Cards/ST-9/ST9-15/U"

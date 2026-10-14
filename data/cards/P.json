@@ -1,32 +1,117 @@
 {
   "P-001": {
+    "attribute": "疫苗",
     "cardId": "P-001",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.2 / 费用 0"
+    ],
+    "dp": 3000,
+    "form": "成长期",
+    "japaneseName": "アグモン",
+    "level": 3,
     "main": "【登场时】\n将对手的1只DP3000以下的数码兽消灭。",
     "name": "亚古兽",
-    "url": "https://app.digicamoe.cn/Cards/PR/P-001/P"
+    "parserVersion": 2,
+    "playCost": 5,
+    "rarity": "P｜异画",
+    "types": "爬虫类型",
+    "url": "https://app.digicamoe.cn/Cards/PB-06/P-001/P"
   },
   "P-002": {
+    "attribute": "疫苗",
     "cardId": "P-002",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.2 / 费用 0"
+    ],
+    "dp": 2000,
+    "form": "成长期",
     "inherited": "【自己的回合】\n这只数码兽进行战斗且仅有对手的数码兽被消灭时，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "japaneseName": "ピヨモン",
+    "level": 3,
     "name": "比丘兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "P",
+    "types": "雏鸟型",
     "url": "https://app.digicamoe.cn/Cards/PR/P-002/P"
   },
   "P-003": {
+    "attribute": "数据",
     "cardId": "P-003",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.2 / 费用 0"
+    ],
+    "dp": 3000,
+    "form": "成长期",
+    "japaneseName": "ガブモン",
+    "level": 3,
     "main": "【登场时】\n将对手的1只数码兽的最下方的1张进化源丢弃。",
     "name": "加布兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "P",
+    "types": "爬虫类型",
     "url": "https://app.digicamoe.cn/Cards/PR/P-003/P"
   },
   "P-004": {
+    "attribute": "疫苗",
     "cardId": "P-004",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.2 / 费用 0"
+    ],
+    "dp": 1000,
+    "form": "成长期",
     "inherited": "【自己的回合】\n［1回合1次］\n将对手的数码兽的进化源丢弃时，内存值+1。",
+    "japaneseName": "ゴマモン",
+    "level": 3,
     "name": "哥玛兽",
-    "url": "https://app.digicamoe.cn/Cards/PR/P-004/P"
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "P｜异画",
+    "types": "海兽型",
+    "url": "https://app.digicamoe.cn/Cards/MC-1/P-004/P-P"
   },
   "P-005": {
+    "attribute": "数据",
     "cardId": "P-005",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.2 / 费用 0"
+    ],
+    "dp": 2000,
+    "form": "成长期",
+    "japaneseName": "パタモン",
+    "level": 3,
     "main": "【登场时】\n自己的安防卡在1张以下时，\n复原+1《卡组》\n（从自己的卡组最上方将1张卡放到安防区最上方）。",
     "name": "巴达兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "P",
+    "types": "哺乳类型",
     "url": "https://app.digicamoe.cn/Cards/PR/P-005/P"
   },
   "P-006": {

@@ -1,5 +1,15 @@
 {
-  "errors": {},
+  "catalogPackages": 182,
+  "errors": {
+    "PR-ST2324": "HTTP 404",
+    "PR-SURVEY2023": "HTTP 404",
+    "PR-TB14": "HTTP 404",
+    "PR-TB3": "HTTP 404",
+    "PR-TB30": "HTTP 404",
+    "PR-TB31": "HTTP 404",
+    "PR-TB32": "HTTP 404"
+  },
+  "lastCatalogueAt": "2026-10-14T02:40:50Z",
   "scanned": {
     "AD-01": {
       "checkedAt": "2026-10-14T02:19:42Z",
@@ -289,9 +299,301 @@
       "checkedAt": "2026-10-14T02:29:29Z",
       "count": 4
     },
+    "PB-WTB1": {
+      "checkedAt": "2026-10-14T02:40:51Z",
+      "count": 6
+    },
+    "PB-WTB2": {
+      "checkedAt": "2026-10-14T02:40:54Z",
+      "count": 6
+    },
+    "PC-DTS": {
+      "checkedAt": "2026-10-14T02:40:55Z",
+      "count": 6
+    },
+    "PCC-MEMOBOOST24": {
+      "checkedAt": "2026-10-14T02:40:57Z",
+      "count": 6
+    },
+    "PR": {
+      "checkedAt": "2026-10-14T02:41:03Z",
+      "count": 165
+    },
+    "PR-1ADAP": {
+      "checkedAt": "2026-10-14T02:41:05Z",
+      "count": 32
+    },
+    "PR-CS2022": {
+      "checkedAt": "2026-10-14T02:41:07Z",
+      "count": 8
+    },
+    "PR-CS2023": {
+      "checkedAt": "2026-10-14T02:41:09Z",
+      "count": 9
+    },
+    "PR-CS2024": {
+      "checkedAt": "2026-10-14T02:41:12Z",
+      "count": 14
+    },
+    "PR-CS2025": {
+      "checkedAt": "2026-10-14T02:41:13Z",
+      "count": 10
+    },
+    "PR-CS2026": {
+      "checkedAt": "2026-10-14T02:41:15Z",
+      "count": 10
+    },
+    "PR-DA02TBP": {
+      "checkedAt": "2026-10-14T02:41:18Z",
+      "count": 14
+    },
+    "PR-DIC2023": {
+      "checkedAt": "2026-10-14T02:41:20Z",
+      "count": 8
+    },
+    "PR-DMC2023P": {
+      "checkedAt": "2026-10-14T02:41:21Z",
+      "count": 7
+    },
+    "PR-DMLPRV1": {
+      "checkedAt": "2026-10-14T02:41:24Z",
+      "count": 6
+    },
+    "PR-DSPR": {
+      "checkedAt": "2026-10-14T02:41:25Z",
+      "count": 8
+    },
+    "PR-DSTORAGE": {
+      "checkedAt": "2026-10-14T02:41:27Z",
+      "count": 6
+    },
+    "PR-DSTSPR": {
+      "checkedAt": "2026-10-14T02:41:29Z",
+      "count": 7
+    },
+    "PR-DSTSTD": {
+      "checkedAt": "2026-10-14T02:41:31Z",
+      "count": 15
+    },
+    "PR-EPV1": {
+      "checkedAt": "2026-10-14T02:41:33Z",
+      "count": 6
+    },
+    "PR-EVOCUP2024": {
+      "checkedAt": "2026-10-14T02:41:35Z",
+      "count": 9
+    },
+    "PR-EVOCUP2025": {
+      "checkedAt": "2026-10-14T02:41:38Z",
+      "count": 11
+    },
+    "PR-EVOCUP2026": {
+      "checkedAt": "2026-10-14T02:41:39Z",
+      "count": 3
+    },
+    "PR-IC": {
+      "checkedAt": "2026-10-14T02:41:41Z",
+      "count": 8
+    },
+    "PR-ICP2025": {
+      "checkedAt": "2026-10-14T02:41:43Z",
+      "count": 6
+    },
+    "PR-LCS2023": {
+      "checkedAt": "2026-10-14T02:41:45Z",
+      "count": 12
+    },
+    "PR-LCSONLINE": {
+      "checkedAt": "2026-10-14T02:41:47Z",
+      "count": 12
+    },
+    "PR-LEGENDPACK2024": {
+      "checkedAt": "2026-10-14T02:41:49Z",
+      "count": 5
+    },
+    "PR-LEGENDPACKEX08": {
+      "checkedAt": "2026-10-14T02:41:52Z",
+      "count": 13
+    },
+    "PR-LEGENDPACKEX10": {
+      "checkedAt": "2026-10-14T02:41:54Z",
+      "count": 5
+    },
+    "PR-SP2021": {
+      "checkedAt": "2026-10-14T02:41:55Z",
+      "count": 6
+    },
+    "PR-SP2022": {
+      "checkedAt": "2026-10-14T02:41:58Z",
+      "count": 6
+    },
+    "PR-SP2022-2": {
+      "checkedAt": "2026-10-14T02:42:00Z",
+      "count": 5
+    },
+    "PR-SP2022-3": {
+      "checkedAt": "2026-10-14T02:42:01Z",
+      "count": 5
+    },
+    "PR-SP2023-1": {
+      "checkedAt": "2026-10-14T02:42:03Z",
+      "count": 6
+    },
+    "PR-SPV2": {
+      "checkedAt": "2026-10-14T02:42:05Z",
+      "count": 6
+    },
+    "PR-TB1": {
+      "checkedAt": "2026-10-14T02:42:10Z",
+      "count": 4
+    },
+    "PR-TB10": {
+      "checkedAt": "2026-10-14T02:42:12Z",
+      "count": 4
+    },
+    "PR-TB11": {
+      "checkedAt": "2026-10-14T02:42:14Z",
+      "count": 4
+    },
+    "PR-TB12": {
+      "checkedAt": "2026-10-14T02:42:16Z",
+      "count": 4
+    },
+    "PR-TB13": {
+      "checkedAt": "2026-10-14T02:42:17Z",
+      "count": 4
+    },
+    "PR-TB15": {
+      "checkedAt": "2026-10-14T02:42:20Z",
+      "count": 4
+    },
+    "PR-TB16": {
+      "checkedAt": "2026-10-14T02:42:22Z",
+      "count": 4
+    },
+    "PR-TB17": {
+      "checkedAt": "2026-10-14T02:42:24Z",
+      "count": 4
+    },
+    "PR-TB18": {
+      "checkedAt": "2026-10-14T02:42:26Z",
+      "count": 4
+    },
+    "PR-TB19": {
+      "checkedAt": "2026-10-14T02:42:27Z",
+      "count": 5
+    },
+    "PR-TB2": {
+      "checkedAt": "2026-10-14T02:42:29Z",
+      "count": 4
+    },
+    "PR-TB20": {
+      "checkedAt": "2026-10-14T02:42:31Z",
+      "count": 4
+    },
+    "PR-TB21": {
+      "checkedAt": "2026-10-14T02:42:32Z",
+      "count": 4
+    },
+    "PR-TB22": {
+      "checkedAt": "2026-10-14T02:42:34Z",
+      "count": 4
+    },
+    "PR-TB23": {
+      "checkedAt": "2026-10-14T02:42:35Z",
+      "count": 4
+    },
+    "PR-TB24": {
+      "checkedAt": "2026-10-14T02:42:37Z",
+      "count": 4
+    },
+    "PR-TB25": {
+      "checkedAt": "2026-10-14T02:42:39Z",
+      "count": 4
+    },
+    "PR-TB26": {
+      "checkedAt": "2026-10-14T02:42:40Z",
+      "count": 6
+    },
+    "PR-TB27": {
+      "checkedAt": "2026-10-14T02:42:42Z",
+      "count": 6
+    },
+    "PR-TB28": {
+      "checkedAt": "2026-10-14T02:42:43Z",
+      "count": 6
+    },
+    "PR-TB29": {
+      "checkedAt": "2026-10-14T02:42:46Z",
+      "count": 6
+    },
+    "PR-TB33": {
+      "checkedAt": "2026-10-14T02:42:54Z",
+      "count": 6
+    },
+    "PR-TB4": {
+      "checkedAt": "2026-10-14T02:42:56Z",
+      "count": 4
+    },
+    "PR-TB5": {
+      "checkedAt": "2026-10-14T02:42:57Z",
+      "count": 4
+    },
+    "PR-TB6": {
+      "checkedAt": "2026-10-14T02:42:59Z",
+      "count": 4
+    },
+    "PR-TB7": {
+      "checkedAt": "2026-10-14T02:43:01Z",
+      "count": 4
+    },
+    "PR-TB8": {
+      "checkedAt": "2026-10-14T02:43:03Z",
+      "count": 4
+    },
+    "PR-TB9": {
+      "checkedAt": "2026-10-14T02:43:05Z",
+      "count": 4
+    },
+    "PR-ULTCUP2025": {
+      "checkedAt": "2026-10-14T02:43:07Z",
+      "count": 18
+    },
+    "PR-UP2022": {
+      "checkedAt": "2026-10-14T02:43:08Z",
+      "count": 6
+    },
+    "PR-UP2023": {
+      "checkedAt": "2026-10-14T02:43:10Z",
+      "count": 6
+    },
+    "PR-UP2024": {
+      "checkedAt": "2026-10-14T02:43:12Z",
+      "count": 6
+    },
+    "PR-UP_BT20": {
+      "checkedAt": "2026-10-14T02:43:14Z",
+      "count": 6
+    },
+    "PR-WTP": {
+      "checkedAt": "2026-10-14T02:43:16Z",
+      "count": 22
+    },
+    "PR-WTP2": {
+      "checkedAt": "2026-10-14T02:43:18Z",
+      "count": 24
+    },
     "RB-01": {
       "checkedAt": "2026-10-14T02:24:39Z",
       "count": 122
+    },
+    "SBAS2023": {
+      "checkedAt": "2026-10-14T02:43:20Z",
+      "count": 6
+    },
+    "SP-01": {
+      "checkedAt": "2026-10-14T02:43:22Z",
+      "count": 6
     },
     "ST-1": {
       "checkedAt": "2026-10-14T02:24:41Z",
@@ -388,6 +690,14 @@
     "ST-9": {
       "checkedAt": "2026-10-14T02:27:00Z",
       "count": 16
+    },
+    "TSB-CS2024": {
+      "checkedAt": "2026-10-14T02:43:24Z",
+      "count": 10
+    },
+    "TSB-DC1_2022": {
+      "checkedAt": "2026-10-14T02:43:26Z",
+      "count": 6
     }
   },
   "version": 1

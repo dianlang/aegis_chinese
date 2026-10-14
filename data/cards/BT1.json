@@ -1,0 +1,1430 @@
+{
+  "BT1-001": {
+    "cardId": "BT1-001",
+    "cardType": "数码蛋卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "form": "幼年期",
+    "inherited": "【攻击时】\n攻击对手的数码兽时，这个回合中，这只数码兽DP+1000。",
+    "japaneseName": "ピョコモン",
+    "level": 2,
+    "name": "比高兽",
+    "parserVersion": 2,
+    "rarity": "R",
+    "types": "球根型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-001/R"
+  },
+  "BT1-002": {
+    "cardId": "BT1-002",
+    "cardType": "数码蛋卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "form": "幼年期",
+    "inherited": "【自己的回合】\n这只数码兽持有\n贯通\n效果的期间，这只数码兽DP+2000。",
+    "japaneseName": "べビドモン",
+    "level": 2,
+    "name": "幼龙兽",
+    "parserVersion": 2,
+    "rarity": "U",
+    "types": "幼龙型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-002/U"
+  },
+  "BT1-003": {
+    "cardId": "BT1-003",
+    "cardType": "数码蛋卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "form": "幼年期",
+    "inherited": "【攻击时】\n［1回合1次］\n对手有不持有进化源的数码兽时，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "japaneseName": "ウパモン",
+    "level": 2,
+    "name": "乌帕兽",
+    "parserVersion": 2,
+    "rarity": "R",
+    "types": "两栖类型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-003/R"
+  },
+  "BT1-004": {
+    "cardId": "BT1-004",
+    "cardType": "数码蛋卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "form": "幼年期",
+    "inherited": "【自己的回合】\n对手有2只以上不持有进化源的数码兽的期间，这只数码兽DP+2000。",
+    "japaneseName": "ワニャモン",
+    "level": 2,
+    "name": "汪喵兽",
+    "parserVersion": 2,
+    "rarity": "U",
+    "types": "小型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-004/U"
+  },
+  "BT1-005": {
+    "cardId": "BT1-005",
+    "cardType": "数码蛋卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "form": "幼年期",
+    "inherited": "【自己的回合】\n自己的安防卡有6张以上的期间，这只数码兽DP+2000。",
+    "japaneseName": "キャロモン",
+    "level": 2,
+    "name": "弹力兽",
+    "parserVersion": 2,
+    "rarity": "U",
+    "types": "小型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-005/U"
+  },
+  "BT1-028": {
+    "attribute": "数据",
+    "cardId": "BT1-028",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.2 / 费用 0"
+    ],
+    "dp": 3000,
+    "form": "成长期",
+    "japaneseName": "エレキモン",
+    "level": 3,
+    "name": "电力兽",
+    "parserVersion": 2,
+    "playCost": 2,
+    "rarity": "C｜异画",
+    "types": "哺乳类型",
+    "url": "https://app.digicamoe.cn/Cards/ST-8/BT1-028/C"
+  },
+  "BT1-029": {
+    "attribute": "数据",
+    "cardId": "BT1-029",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.2 / 费用 0"
+    ],
+    "dp": 1000,
+    "form": "成长期",
+    "japaneseName": "ガブモン",
+    "level": 3,
+    "main": "【登场时】\n抽1张卡\n（从自己的卡组抽1张卡）",
+    "name": "加布兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "R",
+    "types": "爬虫类型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-029/R"
+  },
+  "BT1-030": {
+    "attribute": "疫苗",
+    "cardId": "BT1-030",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.2 / 费用 0"
+    ],
+    "dp": 3000,
+    "form": "成长期",
+    "inherited": "【消灭时】\n内存值+1。",
+    "japaneseName": "ゴマモン",
+    "level": 3,
+    "name": "哥玛兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "C",
+    "types": "海兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-030/C"
+  },
+  "BT1-031": {
+    "attribute": "病毒",
+    "cardId": "BT1-031",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.2 / 费用 1"
+    ],
+    "dp": 1000,
+    "form": "成长期",
+    "japaneseName": "コエモン",
+    "level": 3,
+    "main": "阻挡者\n（对手的数码兽攻击时，如果这只数码兽处于激活状态，你可以将其休眠来将攻击对象变更为这只数码兽）",
+    "name": "小猴兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "U",
+    "types": "兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-031/U"
+  },
+  "BT1-032": {
+    "attribute": "疫苗",
+    "cardId": "BT1-032",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.3 / 费用 2"
+    ],
+    "dp": 4000,
+    "form": "成熟期",
+    "japaneseName": "ユキダルモン",
+    "level": 4,
+    "main": "干扰\n（这只数码兽不会在和安防数码兽进行的战斗中被消灭）",
+    "name": "雪人兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "C",
+    "types": "冰雪型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-032/C"
+  },
+  "BT1-033": {
+    "attribute": "疫苗",
+    "cardId": "BT1-033",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.3 / 费用 2"
+    ],
+    "dp": 4000,
+    "form": "成熟期",
+    "inherited": "【自己的回合】\n对手有不持有进化源的数码兽的期间，这只数码兽DP+1000。",
+    "japaneseName": "ルカモン",
+    "level": 4,
+    "name": "海豚兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "C",
+    "types": "水栖哺乳类型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-033/C"
+  },
+  "BT1-034": {
+    "attribute": "疫苗",
+    "cardId": "BT1-034",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.3 / 费用 2"
+    ],
+    "dp": 5000,
+    "form": "成熟期",
+    "inherited": "【自己的回合】\n这只数码兽不会被对手不持有进化源的数码兽阻挡。",
+    "japaneseName": "イッカクモン",
+    "level": 4,
+    "name": "海狮兽",
+    "parserVersion": 2,
+    "playCost": 5,
+    "rarity": "R",
+    "types": "海兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-034/R"
+  },
+  "BT1-035": {
+    "attribute": "疫苗",
+    "cardId": "BT1-035",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.3 / 费用 2"
+    ],
+    "dp": 5000,
+    "form": "成熟期",
+    "japaneseName": "レオモン",
+    "level": 4,
+    "main": "【消灭时】\n内存值+2。",
+    "name": "狮子兽",
+    "parserVersion": 2,
+    "playCost": 5,
+    "rarity": "U",
+    "types": "兽人型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-035/U"
+  },
+  "BT1-036": {
+    "attribute": "疫苗",
+    "cardId": "BT1-036",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.3 / 费用 2"
+    ],
+    "dp": 5000,
+    "form": "成熟期",
+    "japaneseName": "ガルルモン",
+    "level": 4,
+    "main": "【登场时】\n将自己的1只数码兽激活。",
+    "name": "加鲁鲁兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "U",
+    "types": "兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-036/U"
+  },
+  "BT1-037": {
+    "attribute": "数据",
+    "cardId": "BT1-037",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.3 / 费用 1"
+    ],
+    "dp": 6000,
+    "form": "成熟期",
+    "japaneseName": "ゴリモン",
+    "level": 4,
+    "name": "金刚兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "C",
+    "types": "兽人型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-037/C"
+  },
+  "BT1-038": {
+    "attribute": "疫苗",
+    "cardId": "BT1-038",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.4 / 费用 2"
+    ],
+    "dp": 6000,
+    "form": "完全体",
+    "japaneseName": "もんざえモン",
+    "level": 5,
+    "name": "门左卫兽",
+    "parserVersion": 2,
+    "playCost": 5,
+    "rarity": "C",
+    "types": "玩偶型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-038/C"
+  },
+  "BT1-039": {
+    "attribute": "疫苗",
+    "cardId": "BT1-039",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.4 / 费用 3"
+    ],
+    "dp": 6000,
+    "form": "完全体",
+    "japaneseName": "ケルベロモン",
+    "level": 5,
+    "main": "【攻击时】\n［1回合2次］\n你可以通过将自己的3张手牌丢弃来将这只数码兽激活。",
+    "name": "刻耳柏洛兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "R",
+    "types": "魔兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-039/R"
+  },
+  "BT1-040": {
+    "attribute": "疫苗",
+    "cardId": "BT1-040",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.4 / 费用 3"
+    ],
+    "dp": 7000,
+    "form": "完全体",
+    "japaneseName": "ワーガルルモン",
+    "level": 5,
+    "main": "【攻击时】\n内存值+3。这个回合结束时，内存值-3。",
+    "name": "狼人加鲁鲁兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "U",
+    "types": "兽人型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-040/U"
+  },
+  "BT1-041": {
+    "attribute": "疫苗",
+    "cardId": "BT1-041",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.4 / 费用 3"
+    ],
+    "dp": 6000,
+    "form": "完全体",
+    "inherited": "【攻击时】\n对手有不持有进化源的数码兽时，内存值+1。",
+    "japaneseName": "ズドモン",
+    "level": 5,
+    "main": "【登场时】\n抽2张卡\n（从自己的卡组抽2张卡）",
+    "name": "祖顿兽",
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "SR",
+    "types": "海兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-041/SR"
+  },
+  "BT1-042": {
+    "attribute": "疫苗",
+    "cardId": "BT1-042",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.4 / 费用 3"
+    ],
+    "dp": 10000,
+    "form": "完全体",
+    "japaneseName": "ローダーレオモン",
+    "level": 5,
+    "name": "装载狮子兽",
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "U",
+    "types": "机械型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-042/U"
+  },
+  "BT1-043": {
+    "attribute": "数据",
+    "cardId": "BT1-043",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.5 / 费用 3"
+    ],
+    "dp": 10000,
+    "form": "究极体",
+    "japaneseName": "サーベルレオモン",
+    "level": 6,
+    "main": "【进化时】\n将对手的1只数码兽的最下方的4张进化源丢弃。",
+    "name": "剑狮兽",
+    "parserVersion": 2,
+    "playCost": 11,
+    "rarity": "U",
+    "types": "古代兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-043/U"
+  },
+  "BT1-044": {
+    "attribute": "数据",
+    "cardId": "BT1-044",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.5 / 费用 3"
+    ],
+    "dp": 11000,
+    "form": "究极体",
+    "japaneseName": "メタルガルルモン",
+    "level": 6,
+    "main": "【攻击时】\n不支付费用来将这只数码兽的进化源中的1张Lv.4以下的数码兽卡作为新的数码兽登场。",
+    "name": "金属加鲁鲁兽",
+    "parserVersion": 2,
+    "playCost": 12,
+    "rarity": "SR",
+    "types": "改造型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-044/SR"
+  },
+  "BT1-045": {
+    "attribute": "病毒",
+    "cardId": "BT1-045",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.2 / 费用 0"
+    ],
+    "dp": 3000,
+    "form": "成长期",
+    "japaneseName": "ツカイモン",
+    "level": 3,
+    "name": "使魔兽",
+    "parserVersion": 2,
+    "playCost": 2,
+    "rarity": "C",
+    "types": "哺乳类型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-045/C"
+  },
+  "BT1-046": {
+    "attribute": "疫苗",
+    "cardId": "BT1-046",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.2 / 费用 0"
+    ],
+    "dp": 1000,
+    "form": "成长期",
+    "japaneseName": "クダモン",
+    "level": 3,
+    "main": "【攻击时】\n自己的手牌在4张以下时，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "name": "管狐兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "C",
+    "types": "圣兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-046/C"
+  },
+  "BT1-047": {
+    "attribute": "病毒",
+    "cardId": "BT1-047",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.2 / 费用 0"
+    ],
+    "dp": 3000,
+    "form": "成长期",
+    "japaneseName": "ティンカーモン",
+    "level": 3,
+    "name": "汀克兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "U",
+    "types": "妖精型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-047/U"
+  },
+  "BT1-048": {
+    "attribute": "数据",
+    "cardId": "BT1-048",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.2 / 费用 0"
+    ],
+    "dp": 2000,
+    "form": "成长期",
+    "japaneseName": "パタモン",
+    "level": 3,
+    "main": "【登场时】\n将自己卡组最上方的4张卡公开。将其中的\n黄色\n的驯兽师卡全部加入手牌。将余下的卡按任意顺序返回卡组最下方。",
+    "name": "巴达兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "R",
+    "types": "哺乳类型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-048/R"
+  },
+  "BT1-049": {
+    "attribute": "疫苗",
+    "cardId": "BT1-049",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.2 / 费用 0"
+    ],
+    "dp": 1000,
+    "form": "成长期",
+    "inherited": "【自己的回合】\n对手的数码兽由于DP变为0而被消灭时，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "japaneseName": "ラブラモン",
+    "level": 3,
+    "name": "拉布拉兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "U",
+    "types": "兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-049/U"
+  },
+  "BT1-050": {
+    "attribute": "疫苗",
+    "cardId": "BT1-050",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.2 / 费用 0"
+    ],
+    "dp": 4000,
+    "form": "成长期",
+    "japaneseName": "レオルモン",
+    "level": 3,
+    "name": "幼狮兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "C",
+    "types": "圣兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-050/C"
+  },
+  "BT1-051": {
+    "attribute": "疫苗",
+    "cardId": "BT1-051",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.3 / 费用 2"
+    ],
+    "dp": 4000,
+    "form": "成熟期",
+    "japaneseName": "レッパモン",
+    "level": 4,
+    "name": "裂破兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "C",
+    "types": "圣兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-051/C"
+  },
+  "BT1-052": {
+    "attribute": "疫苗",
+    "cardId": "BT1-052",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.3 / 费用 2"
+    ],
+    "dp": 4000,
+    "form": "成熟期",
+    "japaneseName": "シーサモン",
+    "level": 4,
+    "main": "干扰\n（这只数码兽不会在和安防数码兽进行的战斗中被消灭）",
+    "name": "风狮兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "C",
+    "types": "圣兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-052/C"
+  },
+  "BT1-053": {
+    "attribute": "疫苗",
+    "cardId": "BT1-053",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.3 / 费用 2"
+    ],
+    "dp": 4000,
+    "form": "成熟期",
+    "japaneseName": "ダルクモン",
+    "level": 4,
+    "main": "【自己的回合】\n自己的\n黄色\n的Lv.3的数码兽登场时，如果这只数码兽处于休眠状态，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "name": "贞德兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "U",
+    "types": "天使型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-053/U"
+  },
+  "BT1-054": {
+    "attribute": "疫苗",
+    "cardId": "BT1-054",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.3 / 费用 3"
+    ],
+    "dp": 4000,
+    "form": "成熟期",
+    "japaneseName": "ライアモン",
+    "level": 4,
+    "main": "【攻击时】\n内存值在3以上时，这个回合中，对手的1只数码兽DP-2000。",
+    "name": "雷亚兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "C",
+    "types": "圣兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-054/C"
+  },
+  "BT1-055": {
+    "attribute": "疫苗",
+    "cardId": "BT1-055",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.3 / 费用 2"
+    ],
+    "dp": 3000,
+    "form": "成熟期",
+    "japaneseName": "エンジェモン",
+    "level": 4,
+    "main": "【登场时】\n这个回合中，对手的1只数码兽DP-3000。",
+    "name": "天使兽",
+    "parserVersion": 2,
+    "playCost": 5,
+    "rarity": "R",
+    "types": "天使型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-055/R"
+  },
+  "BT1-057": {
+    "attribute": "数据",
+    "cardId": "BT1-057",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.4 / 费用 2"
+    ],
+    "dp": 6000,
+    "form": "完全体",
+    "japaneseName": "セイレーンモン",
+    "level": 5,
+    "name": "塞壬兽",
+    "parserVersion": 2,
+    "playCost": 5,
+    "rarity": "U｜异画",
+    "types": "神人型",
+    "url": "https://app.digicamoe.cn/Cards/PR-DSTSTD/BT1-057/U"
+  },
+  "BT1-058": {
+    "attribute": "疫苗",
+    "cardId": "BT1-058",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.4 / 费用 3"
+    ],
+    "dp": 7000,
+    "form": "完全体",
+    "japaneseName": "チィリンモン",
+    "level": 5,
+    "main": "【攻击时】\n内存值+3。这个回合结束时，内存值-3。",
+    "name": "麒麟兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "U",
+    "types": "圣兽型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-058/U"
+  },
+  "BT1-059": {
+    "attribute": "数据",
+    "cardId": "BT1-059",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.4 / 费用 3"
+    ],
+    "dp": 9000,
+    "form": "完全体",
+    "japaneseName": "ピッコロモン",
+    "level": 5,
+    "name": "小妖精兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "C",
+    "types": "妖精型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-059/C"
+  },
+  "BT1-060": {
+    "attribute": "疫苗",
+    "cardId": "BT1-060",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.4 / 费用 3"
+    ],
+    "dp": 6000,
+    "form": "完全体",
+    "inherited": "【自己的回合】\n自己的安防卡每有3张，这只数码兽DP+1000。",
+    "japaneseName": "ホーリーエンジェモン",
+    "level": 5,
+    "main": "【登场时】\n复原+1《卡组》\n（从自己的卡组最上方将1张卡放到安防区最上方）",
+    "name": "神圣天使兽",
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "SR",
+    "types": "大天使型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-060/SR"
+  },
+  "BT1-061": {
+    "attribute": "病毒",
+    "cardId": "BT1-061",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.4 / 费用 3"
+    ],
+    "dp": 7000,
+    "form": "完全体",
+    "japaneseName": "ミスティモン",
+    "level": 5,
+    "main": "【登场时】\n这个回合中，对手的2只数码兽DP-3000。",
+    "name": "神秘兽",
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "R",
+    "types": "魔法战士型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-061/R"
+  },
+  "BT1-062": {
+    "attribute": "疫苗",
+    "cardId": "BT1-062",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.5 / 费用 3"
+    ],
+    "dp": 8000,
+    "form": "究极体",
+    "japaneseName": "スラッシュエンジェモン",
+    "level": 6,
+    "main": "【进化时】\n这个回合中，对手的1只数码兽DP-8000。",
+    "name": "斩天使兽",
+    "parserVersion": 2,
+    "playCost": 11,
+    "rarity": "U",
+    "types": "能天使型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-062/U"
+  },
+  "BT1-063": {
+    "attribute": "疫苗",
+    "cardId": "BT1-063",
+    "cardType": "数码兽卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "digivolutionConditions": [
+      "黄 / Lv.5 / 费用 3"
+    ],
+    "dp": 10000,
+    "form": "究极体",
+    "japaneseName": "セラフィモン",
+    "level": 6,
+    "main": "【进化时】\n复原+1《卡组》\n（从自己的卡组最上方将1张卡放到安防区最上方）\n【自己的回合】\n自己的安防卡有3张以上的期间，这只数码兽获得\n安防攻击+1\n（这只数码兽判定的安防卡张数+1）。",
+    "name": "炽天使兽",
+    "parserVersion": 2,
+    "playCost": 12,
+    "rarity": "SR",
+    "types": "炽天使型/三大天使",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-063/SR"
+  },
+  "BT1-064": {
+    "attribute": "病毒",
+    "cardId": "BT1-064",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.2 / 费用 0"
+    ],
+    "dp": 3000,
+    "form": "成长期",
+    "japaneseName": "ゴブリモン",
+    "level": 3,
+    "name": "哥布林兽",
+    "parserVersion": 2,
+    "playCost": 2,
+    "rarity": "C",
+    "types": "鬼人型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-064/C"
+  },
+  "BT1-065": {
+    "attribute": "病毒",
+    "cardId": "BT1-065",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.2 / 费用 1"
+    ],
+    "dp": 4000,
+    "form": "成长期",
+    "japaneseName": "マッシュモン",
+    "level": 3,
+    "name": "蘑菇兽",
+    "parserVersion": 2,
+    "playCost": 2,
+    "rarity": "C",
+    "types": "植物型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-065/C"
+  },
+  "BT1-066": {
+    "attribute": "疫苗",
+    "cardId": "BT1-066",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.2 / 费用 0"
+    ],
+    "dp": 2000,
+    "form": "成长期",
+    "inherited": "【攻击时】\n将对手的1只DP3000以下的数码兽休眠。",
+    "japaneseName": "テントモン",
+    "level": 3,
+    "name": "甲虫兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "U",
+    "types": "昆虫型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-066/U"
+  },
+  "BT1-067": {
+    "attribute": "数据",
+    "cardId": "BT1-067",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.2 / 费用 0"
+    ],
+    "dp": 1000,
+    "form": "成长期",
+    "japaneseName": "パルモン",
+    "level": 3,
+    "main": "【登场时】\n将自己卡组最上方的3张卡公开。将其中的1张Lv.4的数码兽卡加入手牌。将余下的卡按任意顺序返回卡组最下方。",
+    "name": "巴鲁兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "U",
+    "types": "植物型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-067/U"
+  },
+  "BT1-068": {
+    "attribute": "数据",
+    "cardId": "BT1-068",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.2 / 费用 1"
+    ],
+    "dp": 2000,
+    "form": "成长期",
+    "inherited": "【自己的回合】\n这只数码兽处于Lv.6以上的期间，获得\n安防攻击+1\n（这只数码兽判定的安防卡张数+1）。",
+    "japaneseName": "コクワモン",
+    "level": 3,
+    "name": "小锹形虫兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "C",
+    "types": "机械型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-068/C"
+  },
+  "BT1-069": {
+    "attribute": "病毒",
+    "cardId": "BT1-069",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.3 / 费用 2"
+    ],
+    "dp": 4000,
+    "form": "成熟期",
+    "japaneseName": "オーガモン",
+    "level": 4,
+    "main": "干扰\n（这只数码兽不会在和安防数码兽进行的战斗中被消灭）",
+    "name": "恶鬼兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "C",
+    "types": "鬼人型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-069/C"
+  },
+  "BT1-070": {
+    "attribute": "病毒",
+    "cardId": "BT1-070",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.3 / 费用 2"
+    ],
+    "dp": 4000,
+    "form": "成熟期",
+    "japaneseName": "クワガーモン",
+    "level": 4,
+    "main": "【登场时】\n将对手的1只数码兽休眠。",
+    "name": "锹形虫兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "U",
+    "types": "昆虫型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-070/U"
+  },
+  "BT1-071": {
+    "attribute": "病毒",
+    "cardId": "BT1-071",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.3 / 费用 1"
+    ],
+    "dp": 6000,
+    "form": "成熟期",
+    "japaneseName": "ベジーモン",
+    "level": 4,
+    "name": "野菜兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "C",
+    "types": "食虫植物型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-071/C"
+  },
+  "BT1-072": {
+    "attribute": "病毒",
+    "cardId": "BT1-072",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.3 / 费用 2"
+    ],
+    "dp": 6000,
+    "form": "成熟期",
+    "japaneseName": "ウッドモン",
+    "level": 4,
+    "main": "阻挡者\n（对手的数码兽攻击时，如果这只数码兽处于激活状态，你可以将其休眠来将攻击对象变更为这只数码兽）\n【攻击时】\n内存值-2。",
+    "name": "枯木兽",
+    "parserVersion": 2,
+    "playCost": 5,
+    "rarity": "U",
+    "types": "植物型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-072/U"
+  },
+  "BT1-073": {
+    "attribute": "疫苗",
+    "cardId": "BT1-073",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.3 / 费用 1"
+    ],
+    "dp": 5000,
+    "form": "成熟期",
+    "inherited": "【自己的回合】\n对手的处于休眠状态的数码兽每有1只，这只数码兽DP+1000。",
+    "japaneseName": "カブテリモン",
+    "level": 4,
+    "name": "独角仙兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "C",
+    "types": "昆虫型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-073/C"
+  },
+  "BT1-074": {
+    "attribute": "数据",
+    "cardId": "BT1-074",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.3 / 费用 2"
+    ],
+    "dp": 5000,
+    "form": "成熟期",
+    "japaneseName": "トゲモン",
+    "level": 4,
+    "main": "【进化时】\n将自己卡组最上方的3张卡公开。将其中的1张Lv.5以上的数码兽卡加入手牌。将余下的卡按任意顺序返回卡组最下方。",
+    "name": "仙人掌兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "R",
+    "types": "植物型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-074/R"
+  },
+  "BT1-075": {
+    "attribute": "数据",
+    "cardId": "BT1-075",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.4 / 费用 3"
+    ],
+    "dp": 7000,
+    "form": "完全体",
+    "japaneseName": "デジタマモン",
+    "level": 5,
+    "main": "【攻击时】\n内存值+3。这个回合结束时，内存值-3。",
+    "name": "数码蛋兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "C",
+    "types": "完美型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-075/C"
+  },
+  "BT1-076": {
+    "attribute": "疫苗",
+    "cardId": "BT1-076",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.4 / 费用 2"
+    ],
+    "dp": 6000,
+    "form": "完全体",
+    "inherited": "【攻击时】\n对手有2只以上处于休眠状态的数码兽时，内存值+1。",
+    "japaneseName": "アトラーカブテリモン",
+    "level": 5,
+    "name": "阿特拉独角仙兽",
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "U",
+    "types": "昆虫型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-076/U"
+  },
+  "BT1-077": {
+    "attribute": "病毒",
+    "cardId": "BT1-077",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.4 / 费用 2"
+    ],
+    "dp": 6000,
+    "form": "完全体",
+    "inherited": "【自己的回合】\n这只数码兽进行战斗且仅有对手的数码兽被消灭时，内存值+1。",
+    "japaneseName": "オオクワモン",
+    "level": 5,
+    "name": "大锹形虫兽",
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "C",
+    "types": "昆虫型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-077/C"
+  },
+  "BT1-078": {
+    "attribute": "疫苗",
+    "cardId": "BT1-078",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.4 / 费用 3"
+    ],
+    "dp": 7000,
+    "form": "完全体",
+    "japaneseName": "ジャガモン",
+    "level": 5,
+    "main": "【攻击时】\n将自己卡组最上方的3张卡公开。你可以不支付费用来将其中的1张\n绿色\n的Lv.6的数码兽卡基于这只数码兽进化。将余下的卡按任意顺序返回卡组最下方。",
+    "name": "马铃薯兽",
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "U",
+    "types": "植物型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-078/U"
+  },
+  "BT1-079": {
+    "attribute": "数据",
+    "cardId": "BT1-079",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.4 / 费用 2"
+    ],
+    "dp": 6000,
+    "form": "完全体",
+    "inherited": "【攻击时】\n将对手的1只不持有\n阻挡者\n效果的数码兽休眠。",
+    "japaneseName": "リリモン",
+    "level": 5,
+    "name": "百合兽",
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "R",
+    "types": "妖精型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-079/R"
+  },
+  "BT1-080": {
+    "attribute": "病毒",
+    "cardId": "BT1-080",
+    "cardType": "数码兽卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "digivolutionConditions": [
+      "绿 / Lv.5 / 费用 2"
+    ],
+    "dp": 12000,
+    "form": "究极体",
+    "japaneseName": "タイタモン",
+    "level": 6,
+    "name": "泰坦兽",
+    "parserVersion": 2,
+    "playCost": 10,
+    "rarity": "U",
+    "types": "神人型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-080/U"
+  },
+  "BT1-107": {
+    "cardId": "BT1-107",
+    "cardType": "选项卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "japaneseName": "改心の波動",
+    "main": "【主要】\n复原+1《卡组》\n（从自己的卡组最上方将1张卡放到安防区最上方）",
+    "name": "改心之波动",
+    "parserVersion": 2,
+    "rarity": "C",
+    "security": "【安防】\n发动这张卡的\n【主要】\n效果。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-107/C",
+    "useCost": 6
+  },
+  "BT1-108": {
+    "cardId": "BT1-108",
+    "cardType": "选项卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "japaneseName": "ホーンバスター",
+    "main": "【主要】\n这个回合中，自己的1只数码兽DP+3000。",
+    "name": "巨角破坏炮",
+    "parserVersion": 2,
+    "rarity": "C",
+    "security": "【安防】\n将对手的1只数码兽休眠。之后，将这张卡加入手牌。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-108/C",
+    "useCost": 1
+  },
+  "BT1-109": {
+    "cardId": "BT1-109",
+    "cardType": "选项卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "japaneseName": "スマッシュポテト",
+    "main": "【主要】\n这个回合中，下次自己的\n绿色\n的数码兽从Lv.5将要进化到Lv.6时所需支付的进化费用-4。",
+    "name": "马铃薯碎击",
+    "parserVersion": 2,
+    "rarity": "C",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-109/C",
+    "useCost": 2
+  },
+  "BT1-110": {
+    "cardId": "BT1-110",
+    "cardType": "选项卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "japaneseName": "フラウカノン",
+    "main": "【主要】\n将对手的1只数码兽休眠。",
+    "name": "花仙炮",
+    "parserVersion": 2,
+    "rarity": "R",
+    "security": "【安防】\n将对手不持有\n阻挡者\n效果的数码兽全部休眠。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-110/R",
+    "useCost": 2
+  },
+  "BT1-111": {
+    "cardId": "BT1-111",
+    "cardType": "选项卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "japaneseName": "ギガブラスター",
+    "main": "【主要】\n将对手的1只数码兽或对手的2只DP5000以下的数码兽休眠。",
+    "name": "千兆冲击波",
+    "parserVersion": 2,
+    "rarity": "R",
+    "security": "【安防】\n发动这张卡的\n【主要】\n效果。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-111/R",
+    "useCost": 3
+  },
+  "BT1-112": {
+    "cardId": "BT1-112",
+    "cardType": "选项卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "japaneseName": "ディメンションシザー",
+    "main": "【主要】\n这个回合中，自己的1只数码兽获得\n「这只数码兽进行战斗且仅有对手的数码兽被消灭时，将这只数码兽激活。」\n的效果。",
+    "name": "次元剪刀臂",
+    "parserVersion": 2,
+    "rarity": "C",
+    "security": "【安防】\n将这张卡加入手牌。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-112/C",
+    "useCost": 3
+  },
+  "BT1-113": {
+    "cardId": "BT1-113",
+    "cardType": "选项卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "japaneseName": "フォービドゥンテンプテイション",
+    "main": "【主要】\n直到下一次对手的回合结束时为止，对手的1只数码兽不能进行攻击和阻挡。",
+    "name": "禁断诱惑",
+    "parserVersion": 2,
+    "rarity": "C",
+    "security": "【安防】\n下一次对手的激活阶段中，对手的全部数码兽不会激活。",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-113/C",
+    "useCost": 4
+  },
+  "BT1-114": {
+    "attribute": "病毒",
+    "cardId": "BT1-114",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.4 / 费用 3"
+    ],
+    "dp": 9000,
+    "form": "完全体",
+    "inherited": "【自己的回合】\n这只数码兽DP+3000。",
+    "japaneseName": "メタルグレイモン",
+    "level": 5,
+    "main": "安防攻击+2\n（这只数码兽判定的安防卡张数+2）\n【攻击时】\n内存值-5。",
+    "name": "金属暴龙兽",
+    "parserVersion": 2,
+    "playCost": 8,
+    "rarity": "SEC",
+    "types": "改造型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-114/SEC"
+  },
+  "BT1-115": {
+    "attribute": "疫苗",
+    "cardId": "BT1-115",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.3 / 费用 3"
+    ],
+    "dp": 6000,
+    "form": "成熟期",
+    "inherited": "【双方的回合】\n自己有\n蓝色\n的驯兽师在场的期间，这只数码兽DP+1000。",
+    "japaneseName": "ブイドラモン",
+    "level": 4,
+    "main": "【攻击时】\n［1回合1次］\n自己有驯兽师在场时，将这只数码兽激活。",
+    "name": "V龙兽",
+    "parserVersion": 2,
+    "playCost": 6,
+    "rarity": "SEC",
+    "types": "幻龙型",
+    "url": "https://app.digicamoe.cn/Cards/BT-1/BT1-115/SEC"
+  }
+}

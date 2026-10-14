@@ -1,10 +1,13 @@
 {
   "cardShards": [
+    "AD1",
+    "BT1",
+    "BT10",
     "P"
   ],
-  "note": "P index only; card-effect texts pending.",
-  "publishedCardCount": 20,
+  "note": "Incremental Chinese card database; see sync-state.json for failures",
+  "publishedCardCount": 124,
   "schemaVersion": 1,
   "source": "DigiCamoe (noncommercial)",
-  "updatedAt": "2026-10-14T01:49:12Z"
+  "updatedAt": "2026-10-14T02:47:11Z"
 }

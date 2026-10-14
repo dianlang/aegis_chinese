@@ -1,0 +1,333 @@
+{
+  "BT10-001": {
+    "cardId": "BT10-001",
+    "cardType": "数码蛋卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "form": "幼年期",
+    "inherited": "【自己的回合】\n这只数码兽的进化源中有\n红色\n之外的卡的期间，这只数码兽DP+1000。",
+    "japaneseName": "プチメラモン",
+    "level": 2,
+    "name": "小火焰兽",
+    "parserVersion": 2,
+    "rarity": "U",
+    "types": "火焰型",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-001/U"
+  },
+  "BT10-002": {
+    "cardId": "BT10-002",
+    "cardType": "数码蛋卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "form": "幼年期",
+    "inherited": "【攻击时】\n［1回合1次］\n对手有2只以上数码兽时，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "japaneseName": "ベビドモン",
+    "level": 2,
+    "name": "幼龙兽",
+    "parserVersion": 2,
+    "rarity": "U",
+    "types": "幼龙型",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-002/U"
+  },
+  "BT10-003": {
+    "cardId": "BT10-003",
+    "cardType": "数码蛋卡",
+    "color": "黄",
+    "colors": [
+      "黄"
+    ],
+    "form": "幼年期",
+    "inherited": "【攻击时】\n这只数码兽特征中持有\n「Xros Heart（クロスハート）」\n时，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "japaneseName": "ピックモンズ",
+    "level": 2,
+    "name": "拨片兽S",
+    "parserVersion": 2,
+    "rarity": "U",
+    "types": "二流型/Xros Heart",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-003/U"
+  },
+  "BT10-004": {
+    "cardId": "BT10-004",
+    "cardType": "数码蛋卡",
+    "color": "绿",
+    "colors": [
+      "绿"
+    ],
+    "form": "幼年期",
+    "inherited": "【自己的回合】\n［1回合1次］\n数码兽由于效果休眠时，这个回合中，这只数码兽DP+1000。",
+    "japaneseName": "ボサモン",
+    "level": 2,
+    "name": "蓬蓬兽",
+    "parserVersion": 2,
+    "rarity": "U",
+    "types": "小型",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-004/U"
+  },
+  "BT10-005": {
+    "cardId": "BT10-005",
+    "cardType": "数码蛋卡",
+    "color": "黑",
+    "colors": [
+      "黑"
+    ],
+    "form": "幼年期",
+    "inherited": "【双方的回合】\n这只数码兽特征中持有\n「Twilight（トワイライト）」\n的期间，这只数码兽DP+1000。",
+    "japaneseName": "モニモン",
+    "level": 2,
+    "name": "显示兽",
+    "parserVersion": 2,
+    "rarity": "U",
+    "types": "布朗型/Twilight/Xros Heart",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-005/U"
+  },
+  "BT10-006": {
+    "cardId": "BT10-006",
+    "cardType": "数码蛋卡",
+    "color": "紫",
+    "colors": [
+      "紫"
+    ],
+    "form": "幼年期",
+    "inherited": "【对手的回合】\n这张卡由于效果从进化源中被丢弃时，\n抽1张卡\n（从自己的卡组抽1张卡）。",
+    "japaneseName": "トコモン",
+    "level": 2,
+    "name": "迪哥兽",
+    "parserVersion": 2,
+    "rarity": "U",
+    "types": "小型",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-006/U"
+  },
+  "BT10-007": {
+    "attribute": "疫苗",
+    "cardId": "BT10-007",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.2 / 费用 0 进化 『特征中持有「Xros Heart（クロスハート）」的Lv.2』 费用 0"
+    ],
+    "dp": 4000,
+    "form": "成长期",
+    "japaneseName": "ドンドコモン",
+    "level": 3,
+    "name": "太鼓兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "C",
+    "types": "乐器型/Xros Heart",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-007/C"
+  },
+  "BT10-008": {
+    "attribute": "数据",
+    "cardId": "BT10-008",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.2 / 费用 0 进化 『特征中持有「Xros Heart（クロスハート）」的Lv.2』 费用 0"
+    ],
+    "dp": 2000,
+    "form": "成长期",
+    "inherited": "【自己的回合】\n这只数码兽的名称包含\n「高吼兽（シャウトモン）」\n的期间，这只数码兽获得\n速攻\n（这只数码兽在登场的回合也可以攻击）。",
+    "japaneseName": "シャウトモン",
+    "level": 3,
+    "main": "【登场时】\n将自己卡组最上方的3张卡公开。将其中的特征中持有\n「Xros Heart（クロスハート）」\n的数码兽卡和驯兽师卡各1张加入手牌。将余下的卡按任意顺序返回卡组最下方。\n【消灭时】\n保存\n（你可以将这张卡放置到自己的驯兽师的最下方）",
+    "name": "高吼兽",
+    "parserVersion": 2,
+    "playCost": 4,
+    "rarity": "U",
+    "types": "小龙型/Xros Heart",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-008/U"
+  },
+  "BT10-010": {
+    "attribute": "疫苗",
+    "cardId": "BT10-010",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.4 / 费用 2"
+    ],
+    "dp": 8000,
+    "form": "完全体",
+    "japaneseName": "アシュラモン",
+    "level": 5,
+    "name": "阿修罗兽",
+    "parserVersion": 2,
+    "playCost": 7,
+    "rarity": "C",
+    "types": "魔人型",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-010/C"
+  },
+  "BT10-011": {
+    "attribute": "疫苗",
+    "cardId": "BT10-011",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.4 / 费用 4 进化 『名称包含「伽马兽（ガンマモン）」的Lv.4』 费用 3"
+    ],
+    "dp": 8000,
+    "form": "完全体",
+    "inherited": "【双方的回合】\n这只数码兽获得这只数码兽的进化源中全部名称包含\n「伽马兽（ガンマモン）」\n的卡的效果。",
+    "japaneseName": "カノーヴァイスモン",
+    "level": 5,
+    "main": "【自己的回合】\n［1回合1次］\n自己的驯兽师休眠时，这个回合中，这只数码兽DP+2000。之后，这只数码兽DP12000以上时，这个回合中，这只数码兽获得\n安防攻击+1\n（这只数码兽判定的张数+1）。\n【双方的回合】\n这只数码兽获得这只数码兽的进化源中全部名称包含\n「伽马兽（ガンマモン）」\n的卡的效果。",
+    "name": "卡诺维斯兽",
+    "parserVersion": 2,
+    "playCost": 8,
+    "rarity": "R",
+    "types": "天龙型",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-011/R"
+  },
+  "BT10-012": {
+    "attribute": "数据",
+    "cardId": "BT10-012",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.4 / 费用 3 紫 / Lv.4 / 费用 3"
+    ],
+    "dp": 9000,
+    "form": "完全体",
+    "japaneseName": "シャウトモンX4B",
+    "level": 5,
+    "main": "装甲解除\n【登场时】\n【进化时】\n你可以从自己的手牌或驯兽师的下方将1张特征中持有\n「Xros Heart（クロスハート）」\n的数码兽卡放置到这只数码兽的进化源最下方。之后，这只数码兽的进化源中有\n「别西卜兽（ベルゼブモン）」\n时，从自己的废弃区中将2张特征中持有\n「Xros Heart（クロスハート）」\n的卡返回手牌。\n〖数码合体-2〗\n「高吼兽X4（シャウトモンX4）」\n×\n「别西卜兽（ベルゼブモン）」\n将要登场时，你可以从手牌/战斗区域中将指定的卡放置到这张卡的最下方。每有1张，减少登场费用",
+    "name": "高吼兽X4B",
+    "parserVersion": 2,
+    "playCost": 9,
+    "rarity": "U",
+    "types": "合成型/Xros Heart",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-012/U"
+  },
+  "BT10-013": {
+    "attribute": "数据",
+    "cardId": "BT10-013",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.4 / 费用 4 黑 / Lv.4 / 费用 4"
+    ],
+    "dp": 10000,
+    "form": "完全体",
+    "japaneseName": "シャウトモンX5",
+    "level": 5,
+    "main": "安防攻击+1\n阻挡者\n资料保存3\n（这只数码兽将要被消灭时，你可以将这只数码兽的进化源中的3张在数码合体条件中的卡片放置到自己的1名驯兽师的最下方）\n〖数码合体-2〗\n「高吼兽（シャウトモン）」\n×\n「弩炮兽（バリスタモン）」\n×\n「多鲁路兽（ドルルモン）」\n×\n「明星兽S（スターモンズ）」\n×\n「麻雀兽（スパロウモン）」\n将要登场时，你可以从手牌/战斗区域中将指定的卡放置到这张卡的最下方。每有1张，减少登场费用",
+    "name": "高吼兽X5",
+    "parserVersion": 2,
+    "playCost": 10,
+    "rarity": "SR",
+    "types": "合成型/Xros Heart",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-013/SR"
+  },
+  "BT10-015": {
+    "attribute": "数据",
+    "cardId": "BT10-015",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.5 / 费用 4 紫 / Lv.5 / 费用 4"
+    ],
+    "dp": 12000,
+    "form": "究极体",
+    "japaneseName": "シャウトモンX5B",
+    "level": 6,
+    "main": "阻挡者\n装甲解除\n【登场时】\n【进化时】\n你可以从自己的手牌或驯兽师的下方将1张特征中持有\n「Xros Heart（クロスハート）」\n的数码兽卡放置到这只数码兽的进化源最下方。之后，这只数码兽的进化源中有\n「别西卜兽（ベルゼブモン）」\n时，你可以不支付费用来从自己的废弃区中将1张特征中持有\n「Xros Heart（クロスハート）」\n的Lv.4以下的数码兽卡登场。\n〖数码合体-2〗\n「高吼兽X5（シャウトモンX5）」\n×\n「别西卜兽（ベルゼブモン）」\n将要登场时，你可以从手牌/战斗区域中将指定的卡放置到这张卡的最下方。每有1张，减少登场费用",
+    "name": "高吼兽X5B",
+    "parserVersion": 2,
+    "playCost": 11,
+    "rarity": "R",
+    "types": "合成型/Xros Heart",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-015/R"
+  },
+  "BT10-016": {
+    "attribute": "数据",
+    "cardId": "BT10-016",
+    "cardType": "数码兽卡",
+    "color": "红",
+    "colors": [
+      "红"
+    ],
+    "digivolutionConditions": [
+      "红 / Lv.5 / 费用 3 进化 「杰斯兽（ジエスモン）」 费用 0"
+    ],
+    "dp": 11000,
+    "form": "究极体",
+    "japaneseName": "ジエスモンX抗体",
+    "level": 6,
+    "main": "贯通\n【进化时】\n你可以不支付费用来从自己的手牌或废弃区中将1张名称包含\n「修女兽（シスタモン）」\n的数码兽卡登场。之后，这只数码兽的进化源中有\n「杰斯兽（ジエスモン）」\n，或自己有名称包含\n「修女兽（シスタモン）」\n的数码兽时，直到下一次对手的回合结束为止，自己的全部数码兽也可以攻击处于激活状态的数码兽，DP+2000。",
+    "name": "杰斯兽X抗体",
+    "parserVersion": 2,
+    "playCost": 12,
+    "rarity": "SR",
+    "types": "圣骑士型/皇家骑士/X抗体",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-016/SR"
+  },
+  "BT10-017": {
+    "attribute": "数据",
+    "cardId": "BT10-017",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.2 / 费用 2"
+    ],
+    "dp": 5000,
+    "form": "成长期",
+    "japaneseName": "ブルコモン",
+    "level": 3,
+    "name": "碧龙兽",
+    "parserVersion": 2,
+    "playCost": 2,
+    "rarity": "C",
+    "types": "小龙型",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-017/C"
+  },
+  "BT10-018": {
+    "attribute": "病毒",
+    "cardId": "BT10-018",
+    "cardType": "数码兽卡",
+    "color": "蓝",
+    "colors": [
+      "蓝"
+    ],
+    "digivolutionConditions": [
+      "蓝 / Lv.2 / 费用 0"
+    ],
+    "dp": 1000,
+    "form": "成长期",
+    "japaneseName": "ガオスモン",
+    "level": 3,
+    "main": "【消灭时】\n你可以不支付费用来从自己的手牌中将1张特征中持有\n「Blue Flare（ブルーフレア）」\n的Lv.4的数码兽卡以休眠状态登场。",
+    "name": "气龙兽",
+    "parserVersion": 2,
+    "playCost": 3,
+    "rarity": "C",
+    "types": "爬虫类型/Blue Flare",
+    "url": "https://app.digicamoe.cn/Cards/BT-10/BT10-018/C"
+  }
+}
