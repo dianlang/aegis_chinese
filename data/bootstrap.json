@@ -1,7 +1,10 @@
 {
   "enabled": true,
   "minimumIndexedCards": 4000,
-  "completionFraction": 0.95,
-  "bootstrapCardsPerRun": 600,
-  "dailyCardsPerRun": 20
+  "completionFraction": 1,
+  "bootstrapCardsPerRun": 6000,
+  "dailyCardsPerRun": 20,
+  "initialTimeBudgetMinutes": 110,
+  "maximumRequestRatePerSecond": 1,
+  "maxConcurrentWaitingRequests": 4
 }
