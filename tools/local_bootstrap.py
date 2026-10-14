@@ -110,6 +110,9 @@ def main():
             check = stream_command([sys.executable, "-u", "tools/validate_database.py"], log, env)
         else:
             check = 0
+        if result == 0 and check == 0 and not opts.dry_run:
+            # Only mark initial bootstrap complete if index coverage is truly complete.
+            stream_command([sys.executable, "-u", "tools/check_bootstrap.py"], log, env)
     after = published()
     print("\nChinese cards published locally: %d -> %d (+%d)"
           % (before, after, after - before))
@@ -121,7 +124,7 @@ def main():
         print("PAUSED: source/network failure. Local checkpoint is saved.")
         print("If errors mention 429/500/502/503, wait and investigate before starting again.")
         return result
-    print("Batch finished. Inspect cards and use git commit/push to publish the new JSON.")
+    print("Batch finished or reached its time budget. Inspect cards and use git commit/push.")
     return 0
 
 
