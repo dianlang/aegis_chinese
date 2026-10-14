@@ -65,7 +65,10 @@ def read_input(path, encoding="utf-8-sig"):
                 if not isinstance(record, dict):
                     result.append({"cardId": identifier, "_invalid": True})
                 else:
-                    result.append({"cardId": identifier, **record})
+                    if record.get("cardId") and record["cardId"] != identifier:
+                        result.append({"cardId": identifier, "_invalid": True})
+                    else:
+                        result.append({"cardId": identifier, **record})
             return result
     raise ValueError("Expect a JSON list, cardId keyed map, or {'cards': list/map}")
 
