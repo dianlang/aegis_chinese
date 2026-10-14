@@ -11,7 +11,7 @@ concurrency:
 jobs:
   bootstrap:
     runs-on: ubuntu-24.04
-    timeout-minutes: 150
+    timeout-minutes: 119
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -31,12 +31,12 @@ jobs:
         id: discovery
         continue-on-error: true
         if: steps.config.outputs.enabled == 'true'
-        run: python tools/index_packages.py --limit 175 --delay 6
-      - name: Collect up to 600 cards with checkpointing (one request per >=6s)
+        run: python tools/index_packages.py --limit 175 --delay 1 --time-budget-seconds 180
+      - name: Collect all indexed card texts (<=1 HTTP request started per second)
         id: collect
         continue-on-error: true
         if: steps.config.outputs.enabled == 'true' && steps.discovery.outcome == 'success'
-        run: python tools/sync_cards.py --limit 600 --mode all --delay 6 --time-budget-minutes 95
+        run: python tools/fast_bootstrap.py --max-cards 6000 --workers 4 --min-interval 1 --time-budget-minutes 110 --mode all
       - name: Switch to daily maintenance when indexed coverage is sufficient
         if: steps.config.outputs.enabled == 'true' && steps.collect.outcome == 'success'
         run: python tools/check_bootstrap.py
