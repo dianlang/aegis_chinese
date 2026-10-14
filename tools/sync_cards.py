@@ -164,12 +164,13 @@ def indexed_cards():
     return mapping
 
 def sync(args):
-    if args.limit < 1 or args.limit > 100 or args.delay < 5:
-        raise SystemExit("Safety limits: limit 1..100, delay >= 5 seconds")
+    if args.limit < 1 or args.limit > 600 or args.delay < 5 or not 5 <= args.time_budget_minutes <= 130:
+        raise SystemExit("Safety limits: limit 1..600, delay >= 5 seconds")
     index = indexed_cards()
     state = load(STATE_PATH, {"version": 1, "cards": {}})
     status = state.setdefault("cards", {})
-    shards = {shard(c): load(DATA / "cards" / (shard(c) + ".json"), {}) for c in index}
+    shard_names = {shard(c) for c in index}
+    shards = {name: load(DATA / "cards" / (name + ".json"), {}) for name in shard_names}
     pending = []
     for card_id, urls in index.items():
         if args.card and card_id != args.card:
@@ -195,6 +196,7 @@ def sync(args):
         for _, card_id, urls in pending: print(card_id, urls[0])
         return 0
     last_request = 0
+    started = time.monotonic()
     changed = 0
     blocked = False
 
@@ -211,6 +213,9 @@ def sync(args):
 
     try:
         for _, card_id, urls in pending:
+            if time.monotonic() - started >= args.time_budget_minutes * 60:
+                print("STOP: run time budget reached; will resume next run", flush=True)
+                break
             reason = "Not found"
             for url in urls[:2]:
                 wait = args.delay - (time.monotonic() - last_request)
@@ -256,6 +261,8 @@ if __name__ == "__main__":
                    help="all=missing first; new=missing only; enrich=reparse older records to add metadata")
     p.add_argument("--delay", type=float, default=6.0)
     p.add_argument("--timeout", type=int, default=12)
+    p.add_argument("--time-budget-minutes", type=int, default=90,
+                   help="Finish and checkpoint gracefully before the GitHub job timeout")
     p.add_argument("--recheck-days", type=int, default=45)
     p.add_argument("--card", type=str)
     p.add_argument("--force", action="store_true")
