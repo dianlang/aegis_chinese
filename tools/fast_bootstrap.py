@@ -68,28 +68,45 @@ def build_pending(index, shards, state, mode, force=False, recheck_days=45):
     return jobs
 
 
+def safe_error(exc):
+    """Log the underlying transport cause without displaying full request URLs."""
+    if isinstance(exc, urllib.error.URLError):
+        reason = exc.reason
+        return "URLError(" + type(reason).__name__ + "): " + str(reason)[:140]
+    return type(exc).__name__ + ": " + str(exc)[:140]
+
+
 def fetch_card(card_id, urls, limiter, stop, deadline, timeout):
+    """Try indexed printings; retry temporary transport errors, not ordinary 404s."""
     reason = "No valid source"
-    for url in urls[:2]:
-        if not limiter.wait_slot(stop, deadline):
-            return "paused", card_id, None, reason
-        try:
-            result = parse(fetch(url, timeout), card_id, url)
-            return "ok", card_id, result, ""
-        except urllib.error.HTTPError as exc:
-            reason = "HTTP " + str(exc.code)
-            if exc.code == 429 or exc.code >= 500:
-                stop.set()
-                return "blocked", card_id, None, reason
-        except (urllib.error.URLError, TimeoutError, OSError) as exc:
-            reason = type(exc).__name__
-            stop.set()
-            return "blocked", card_id, None, reason
-        except (ValueError, UnicodeError) as exc:
-            reason = str(exc)[:110]
+    count = 0
+    for url in list(dict.fromkeys(urls))[:8]:
+        for retry in range(3):
+            if not limiter.wait_slot(stop, deadline):
+                return "paused", card_id, None, reason
+            count += 1
+            try:
+                record = parse(fetch(url, timeout), card_id, url)
+                return "ok", card_id, record, ""
+            except urllib.error.HTTPError as exc:
+                reason = "HTTP " + str(exc.code)
+                if exc.code == 429 or exc.code >= 500:
+                    stop.set()
+                    return "blocked", card_id, None, reason
+                break
+            except (urllib.error.URLError, TimeoutError, OSError) as exc:
+                reason = safe_error(exc)
+                if retry == 2:
+                    return "deferred", card_id, None, reason
+                if stop.wait(2 ** (retry + 1)):
+                    return "paused", card_id, None, reason
+            except (ValueError, UnicodeError) as exc:
+                reason = str(exc)[:140]
+                break
         if stop.is_set():
             return "paused", card_id, None, reason
-    return "failed", card_id, None, reason
+    return "failed", card_id, None, reason + "; attempted=" + str(count)
+
 
 
 def bootstrap(args):
