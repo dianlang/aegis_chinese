@@ -7,6 +7,7 @@ validated results in checkpoints for safe resumption after interruption.
 """
 import argparse
 import concurrent.futures as cf
+from collections import deque
 import datetime as dt
 import sys
 import re
@@ -99,9 +100,23 @@ def fetch_card(card_id, urls, limiter, stop, deadline, timeout):
                 return "ok", card_id, record, ""
             except urllib.error.HTTPError as exc:
                 reason = "HTTP " + str(exc.code)
-                if exc.code == 429 or exc.code >= 500:
+                if exc.code == 429:
+                    # Respect explicit upstream rate limits. Never retry 429 in this run.
                     stop.set()
                     return "blocked", card_id, None, reason
+                if 500 <= exc.code <= 599:
+                    # A single 5xx can be transient. Two delayed retries at most;
+                    # a persistent 5xx is deferred, not a permanent missing card.
+                    if retry == 2:
+                        return "deferred", card_id, None, reason + " after 3 attempts"
+                    delay = (15, 45)[retry]
+                    remaining = deadline - time.monotonic() - timeout - 1
+                    if remaining <= delay:
+                        return "paused", card_id, None, reason + " (time budget)"
+                    if stop.wait(delay):
+                        return "paused", card_id, None, reason
+                    continue
+                # 404 or other non-5xx errors: try another indexed printing.
                 break
             except (urllib.error.URLError, TimeoutError, OSError) as exc:
                 reason = safe_error(exc)
@@ -148,6 +163,7 @@ def bootstrap(args):
     dirty = set()
     counter = {"ok": 0, "failed": 0, "deferred": 0, "paused": 0}
     transient_streak = 0
+    recent_5xx = deque(maxlen=20)
     processed = 0
     reason_stopped = ""
 
@@ -218,10 +234,10 @@ def bootstrap(args):
                             "status": "deferred", "checkedAt": timestamp(), "reason": error
                         }
                         counter["deferred"] += 1
-                        print("NETWORK", card_id, error, "streak", transient_streak, flush=True)
+                        print("DEFER", card_id, error, "streak", transient_streak, flush=True)
                         if transient_streak >= 3:
                             stop.set()
-                            reason_stopped = "3 consecutive transport failures"
+                            reason_stopped = "3 consecutive upstream/transport failures"
                     elif result == "blocked":
                         stop.set()
                         reason_stopped = error
@@ -229,6 +245,14 @@ def bootstrap(args):
                     else:
                         counter["paused"] += 1
                     if result in ("ok", "failed", "deferred"):
+                        # Don't keep hammering a server that returns HTTP 5xx
+                        # across different cards. Successful cards can still
+                        # be checkpointed and published before the task ends.
+                        recent_5xx.append(result == "deferred" and error.startswith("HTTP 5"))
+                        if sum(recent_5xx) >= 3:
+                            stop.set()
+                            reason_stopped = "3 persistent HTTP 5xx in the latest 20 cards"
+                            print("STOP: upstream 5xx threshold reached", flush=True)
                         processed += 1
                         if processed % 25 == 0:
                             elapsed = (time.monotonic() - started) / 60
