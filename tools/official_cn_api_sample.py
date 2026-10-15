@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Single request for 2 public CN card records to inspect official API schema.
+"""One-time request for 2 public CN card records to inspect official API schema.
 
 Backend and path were observed in official frontend JS. Logs keys and printed
 card numbers only (not bulk text / artwork). Do not turn into a large crawler.
