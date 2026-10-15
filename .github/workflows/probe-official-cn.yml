@@ -5,6 +5,7 @@ on:
       - "tools/probe_official_http.py"
       - "tools/probe_cardlist_chunk.py"
       - "tools/probe_official_api_module.py"
+      - "tools/official_cn_api_sample.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -18,4 +19,4 @@ jobs:
         with:
           python-version: '3.11'
       - name: Inspect public official cardlist frontend only
-        run: python -u tools/probe_official_api_module.py
+        run: python -u tools/official_cn_api_sample.py
