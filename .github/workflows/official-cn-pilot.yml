@@ -1,0 +1,19 @@
+name: Official CN API two-page pilot (no public data export)
+on:
+  push:
+    paths:
+      - "tools/sync_official_cn.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Validate real paginated CN API using two small pages
+        run: python -u tools/sync_official_cn.py --max-pages 2 --interval 4 --time-budget-minutes 4
