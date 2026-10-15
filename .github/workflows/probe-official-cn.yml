@@ -1,0 +1,19 @@
+name: One-time public CN frontend API probe
+on:
+  push:
+    paths:
+      - "tools/probe_official_http.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Probe only public official frontend assets
+        run: python -u tools/probe_official_http.py
