@@ -38,6 +38,24 @@ def run():
         only_ids = ("cardNo","cardNumber","cardNum","cardCode","number","id",
                     "cardGroup","gamecardNumber","cardId","cardNoStr")
         print("ID FIELDS", {k:str(item[k])[:70] for k in only_ids if k in item})
+        print("CARD KEYS FOR MATCHING", {
+            k: str(item[k])[:85] for k in ("model","name","belongsType","getWayStr",
+                                           "rareDegree","cardGroup","imageCover")
+            if k in item})
+    if cards and isinstance(cards[0], dict) and isinstance(cards[0].get("id"), int):
+        detail_url = "https://dtcgweb-api.digimoncard.cn/gamecard/gamecardmanager/webInfo/" + str(cards[0]["id"])
+        with urllib.request.urlopen(urllib.request.Request(detail_url,headers=HEADERS),timeout=18) as resp:
+            raw=resp.read(1_000_001)
+            if len(raw)>1_000_000:
+                raise ValueError("Detail response over 1 MB cap")
+            detail=json.loads(raw)
+            info=detail.get("gamecardManager", {})
+            print("DETAIL", resp.status, "top keys", sorted(detail),
+                  "card keys", sorted(info) if isinstance(info,dict) else type(info).__name__)
+            if isinstance(info,dict):
+                print("DETAIL CARD NUMBER FIELDS", {
+                    k:str(info[k])[:85] for k in ("id","model","cardNo","cardNumber","name","cardGroup")
+                    if k in info})
     return 0
 
 
