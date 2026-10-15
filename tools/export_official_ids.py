@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish only non-textual official CN card-number metadata (no card effects).
+"""Publish verified non-textual official CN card-number metadata (no card effects).
 
 Requires local_data/official_cn_capture.json produced from the genuine official
 API. Outputs verified model -> Aegis/JP map with official internal IDs and CN
