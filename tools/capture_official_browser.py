@@ -142,7 +142,7 @@ def main():
     parser.add_argument("--url", default=DEFAULT_URL)
     parser.add_argument("--seconds", type=int, default=120)
     parser.add_argument("--channel", default="msedge", choices=("msedge", "chrome", "chromium"))
-    parser.add_argument("--output", default="local/official_cn_capture.json")
+    parser.add_argument("--output", default="local_data/official_cn_capture.json")
     args = parser.parse_args()
     if not 15 <= args.seconds <= 600:
         parser.error("--seconds must be between 15 and 600")
