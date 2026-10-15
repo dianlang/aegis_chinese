@@ -17,6 +17,47 @@
 - 基线表：[reports/card_id_alignment_baseline.csv](../reports/card_id_alignment_baseline.csv)
 - Aegis 卡号快照：[data/mapping/aegis_cards.json](../data/mapping/aegis_cards.json)
 
+## 已验证的官网 API（2026-10-15）
+
+从官网前端模块与公开 JSON 响应中实际确认：
+
+- API 基址：https://dtcgweb-api.digimoncard.cn
+- 卡表分页：GET /gamecard/gamecardmanager/weblist?page=1&limit=40&state=0
+- 单卡详情：GET /gamecard/gamecardmanager/webInfo/{id}
+- 列表响应格式：code、msg、page；其中 page.list 包含卡牌对象。
+- **关键映射：card.model = 印刷编号，例如 BT1-001；card.id = 官网内部数字 ID；card.cardGroup = 中文商品系列，例如 BTC-01。**
+- 中文效果字段：effect（主效果）、envolutionEffect（进化源效果）、safeEffect（安防效果）。
+- 按 limit=2 测试时，接口报告 totalCount=7527 条收录记录（含异画/重收录），不等于 7527 张不同卡。
+- 按 limit=40 正式验证了前两页，连续获得 80 条不同官网内部 ID，80 条的印刷编号均与日版索引和 Aegis 精确匹配。
+
+### Windows 直接分页同步（推荐）
+
+在项目根目录双击：
+
+    scripts\sync_official_cn_windows.bat
+
+选择 1：先测试 3 页（最多 120 条）；选择 2：全量同步（分页，每 4 秒最多发起一个请求，逐页保存，碰到 429/5xx 会停止，下一次自动跳过已保存页面）。默认最多 60 分钟，通常不需一次跑满。
+
+也可以运行：
+
+~~~bat
+py -m pip install -r requirements.txt
+py tools\sync_official_cn.py --max-pages 3
+py tools\sync_official_cn.py --full --interval 4 --time-budget-minutes 60
+~~~
+
+正式全量不会绕过验证码、身份验证、服务器限流或防爬措施，且不下载卡图。已保存的页面重新运行时不重复下载。
+
+本地输出：
+
+- local_data/official_cn_pages/page_*.json：每页官方原始记录，断点续抓。
+- local_data/official_cn_capture.json：合并去重后的官方记录。
+- local_data/official_alignment.json / .csv：官网 model 与已有日版卡号、Aegis 卡号的严格三方对照；记录中文商品包 cardGroup 与异画，不按同名合并。
+
+这些文件全部保存在 Git 忽略的 local_data/。正式导入仓库前必须确认官方简体中文数据的再分发权利，并审阅同卡号不同印刷版本的效果冲突。现有 DigiCamoe 日版中文翻译不自动被官网卡文覆盖。
+
+---
+
 ## Windows 官方网站接口观察（小范围试运行）
 
 因为官方卡表使用 JavaScript，网页上显示的内容并不直接证明后台 API 的 URL 或字段结构。我们不能猜一个接口地址然后全量下载。
@@ -61,8 +102,8 @@ py tools\align_official_cards.py
 
 ### 关于批量导入
 
-官网没有在本次开发环境中提供可直接读取的浏览器网络请求，**尚未证实其真实 API 端点、查询参数、分页方式或响应字段**。上述工具属于实际浏览器数据采样和严格对齐框架；此刻还不是已经完成的整库采集器。
+现已从官网实际前端和 API 响应确认端点、请求参数和 model 编号字段。Edge 观察工具仍可用于后续网站改版时重新确认接口。
 
-拿到一份小规模有效响应后，才能针对实际接口编写支持分页、合理速率限制、缓存、断点续传与差异更新的自动化导入器。
+正式分页同步器已经提供逐页缓存与断点续传；后续可扩展差异更新，但不能根据未经验证的字段盲目请求。
 
 官网数据的展示不意味着允许未经授权公开镜像/再分发。DigiCamoe 对日版中文翻译的非商业使用许可不自动覆盖官方简体中文版数据。在明确数据权利前，不将官方完整效果文本直接提交到仓库。
