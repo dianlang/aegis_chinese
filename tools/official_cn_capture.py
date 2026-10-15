@@ -60,7 +60,7 @@ def collect_cards(payload, limit=500):
     return found
 
 
-def capture(page_url=OFFICIAL_PAGE, path="local_data/official_cn_capture.json", seconds=0):
+def capture(page_url=OFFICIAL_PAGE, path="local_data/official_cn_capture.json", query="BT25-058"):
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
@@ -105,6 +105,19 @@ def capture(page_url=OFFICIAL_PAGE, path="local_data/official_cn_capture.json", 
             page.goto(page_url, wait_until="domcontentloaded", timeout=30000)
         except Exception as exc:
             print("Page load issue:", type(exc).__name__, str(exc)[:120], file=sys.stderr)
+        if query:
+            try:
+                # Best-effort public UI search only; no guessed API paths.
+                field = page.get_by_placeholder("输入关键词进行搜索").first
+                field.fill(query, timeout=4500)
+                try:
+                    page.get_by_text("搜索", exact=True).last.click(timeout=4000)
+                except Exception:
+                    field.press("Enter", timeout=2000)
+                print("Requested card through official UI:", query, flush=True)
+            except Exception as exc:
+                print("Automatic UI search unavailable:", type(exc).__name__,
+                      "Use the website search controls manually.", flush=True)
         print("Official cardlist is open. Use filters/search/pagination in this browser.")
         print("Return to this terminal and press Enter to save what the site returned.")
         try:
@@ -137,5 +150,6 @@ def capture(page_url=OFFICIAL_PAGE, path="local_data/official_cn_capture.json", 
 if __name__ == "__main__":
     a = argparse.ArgumentParser(description=__doc__)
     a.add_argument("--output", default="local_data/official_cn_capture.json")
+    a.add_argument("--query", default="BT25-058", help="Single public card-number search via official UI")
     args = a.parse_args()
-    sys.exit(capture(path=args.output))
+    sys.exit(capture(path=args.output, query=args.query))
