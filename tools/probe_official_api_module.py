@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bounded static lookup of webpack module 0d95 used by official card list.
+"""One-time bounded static lookup of webpack module 0d95 used by official card list.
 
 Searches the official page's explicitly referenced JS assets only. Does not
 call any backend card API. Prints limited excerpts of identified module.
