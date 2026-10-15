@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-time low-volume public frontend JS API-discovery probe (not a card scraper).
+"""One-time low-volume public frontend JavaScript API-discovery probe (not a card scraper).
 
 Only touches official website HTML + at most 4 site-hosted script assets.
 Never tries guessed endpoints, authentication, or card download. Prints only
