@@ -94,6 +94,18 @@ local_data/ 已添加到 .gitignore，原始网站响应和人工核对表不会
 
 ---
 
+## 官方简体中文卡表与 Aegis 三方卡号对齐（新增）
+
+已核对 Aegis develop 分支的真实卡牌文件和 DigiCamoe 日版索引：**Aegis 有 4481 个卡牌编号，现有日版索引 4474 个，交集为 4474 个**。中文商品包号（如 BTC-01）与卡片印刷编号（如 BT1-010）不同，不能把商品包号直接转换成 Aegis 卡号。
+
+- 现有 Aegis / 日版基线：[reports/card_id_alignment_baseline.csv](reports/card_id_alignment_baseline.csv)，中文卡牌编号列尚未从官网证实，暂时留空。
+- [详细说明、三方编号校验与安装步骤](docs/OFFICIAL_CN_MAPPING.md)。
+- Windows 测试：双击 scripts/official_cn_probe_windows.bat，使用 Edge 浏览官方卡表，捕获真实 JSON 网络响应并生成 local_data/official_alignment.csv。操作默认两分钟，只做小规模观察，不会自动大批量下载。
+- 当前环境尚未确认官方网站实际使用的卡牌 API 路径及响应结构，**不能声称已经完成官方整库抓取或三方全部对齐**。初次实测后的响应结构将用于开发完整、限速、可续传的同步器。
+- 官方中文版数据是否允许整库公开托管仍需确认；官网采样保存在已被 Git 忽略的 local_data/ 文件夹，不会自动提交卡文。
+
+---
+
 ## 授权数据导入器与中文覆盖率报告
 
 不依赖爬虫，无需访问 DigiCamoe。等待维护者明确授权并提供数据文件后再执行正式导入；在此之前可以用模拟数据测试预览。
