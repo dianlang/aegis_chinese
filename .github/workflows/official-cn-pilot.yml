@@ -15,5 +15,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+      - name: Install database parser dependencies
+        run: python -m pip install -r requirements.txt
       - name: Validate real paginated CN API using two small pages
         run: python -u tools/sync_official_cn.py --max-pages 2 --interval 4 --time-budget-minutes 4
