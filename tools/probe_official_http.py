@@ -39,16 +39,21 @@ class Scripts(html.parser.HTMLParser):
     def __init__(self):
         super().__init__()
         self.paths = []
+        self.prefetch = []
 
     def handle_starttag(self, tag, attrs):
-        if tag.lower() != "script":
-            return
         attrs = dict(attrs)
-        src = attrs.get("src")
-        if src:
-            link = urljoin(BASE, src)
-            if allowed(link) and urlsplit(link).path.endswith(".js"):
-                self.paths.append(link)
+        source = attrs.get("src") if tag.lower() == "script" else (
+            attrs.get("href") if tag.lower() == "link" else None)
+        if not source:
+            return
+        link = urljoin(BASE, source)
+        if not allowed(link) or not urlsplit(link).path.endswith(".js"):
+            return
+        if tag.lower() == "script":
+            self.paths.append(link)
+        elif any(x in str(attrs.get("rel", "")).lower() for x in ("prefetch", "preload")):
+            self.prefetch.append(link)
 
 
 def probe():
@@ -56,11 +61,14 @@ def probe():
     src = Scripts()
     src.feed(markup)
     scripts = list(dict.fromkeys(src.paths))
+    prefetch = list(dict.fromkeys(src.prefetch))
     print("Official CN website: HTML received", len(markup), "characters", flush=True)
     print("Official JS assets referenced:", len(scripts), flush=True)
+    print("Official JS prefetch assets:", len(prefetch), flush=True)
     scripts.sort(key=lambda link: (0 if re.search(r"(?:app|main|index|runtime)", link, re.I)
                                   else 1 if "chunk" in link else 2, link))
-    selected = scripts[:4]
+    prefetch.sort(key=lambda link: (0 if re.search(r"card|list|search|query", link, re.I) else 1, link))
+    selected = list(dict.fromkeys(scripts + prefetch))[:14]
     print("Selected JS asset paths:")
     for link in selected:
         print(" ", urlsplit(link).path)
