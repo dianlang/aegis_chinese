@@ -100,8 +100,9 @@ local_data/ 已添加到 .gitignore，原始网站响应和人工核对表不会
 
 - 现有 Aegis / 日版基线：[reports/card_id_alignment_baseline.csv](reports/card_id_alignment_baseline.csv)，中文卡牌编号列尚未从官网证实，暂时留空。
 - [详细说明、三方编号校验与安装步骤](docs/OFFICIAL_CN_MAPPING.md)。
-- Windows 测试：双击 scripts/official_cn_probe_windows.bat，使用 Edge 浏览官方卡表，捕获真实 JSON 网络响应并生成 local_data/official_alignment.csv。操作默认两分钟，只做小规模观察，不会自动大批量下载。
-- 当前环境尚未确认官方网站实际使用的卡牌 API 路径及响应结构，**不能声称已经完成官方整库抓取或三方全部对齐**。初次实测后的响应结构将用于开发完整、限速、可续传的同步器。
+- **Windows 官方接口直连**：双击 scripts/sync_official_cn_windows.bat，选 1 测试 3 页或选 2 全量同步。默认每 4 秒最多 1 次请求，逐页落盘，断网可续；自动生成 local_data/official_alignment.csv 三方对照表。
+- 若官网日后改版，可双击 scripts/official_cn_probe_windows.bat 在 Edge 中重新观察实际 JSON 请求。
+- 已实际验证官网 JSON API：dtcgweb-api.digimoncard.cn/gamecard/gamecardmanager/weblist，每页返回 card.model（印刷卡号）、card.id（官网内部 ID）、card.cardGroup（中文商品包号）及中文效果等字段。两页实测 80 条卡号均与日版索引及 Aegis 匹配成功。**尚未完成 7,527 条官网记录的全量抓取，也未获得官方数据公开再分发授权。**
 - 官方中文版数据是否允许整库公开托管仍需确认；官网采样保存在已被 Git 忽略的 local_data/ 文件夹，不会自动提交卡文。
 
 ---
