@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bounded static inspection of already-observed official cardlist JS module.
+"""Bounded one-time static inspection of already-observed official cardlist JS module.
 
 No card requests or bulk fetch. Prints short JS contexts around cardlist query
 execution so an adapter can be written against actual observed names.
