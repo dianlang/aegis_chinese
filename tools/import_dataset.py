@@ -22,11 +22,11 @@ except ImportError:
 CARD_ID = re.compile(r"^(?:P|LM)-\d{3}$|^(?:BT|EX|ST|AD|RB)\d{1,2}-\d{2,3}$")
 CHINESE = re.compile(r"[\u3400-\u9fff]")
 ALIASES = {
-    "cardId": ("cardId", "card_id", "id", "卡号", "编号", "卡牌编号", "card_number", "number"),
+    "cardId": ("cardId", "card_id", "cardNo", "cardNO", "cardNumber", "card_no", "card_num", "cardCode", "id", "卡号", "编号", "卡牌编号", "card_number", "number"),
     "name": ("name", "cardName", "card_name", "卡名", "卡牌名称", "名称", "中文名"),
-    "main": ("main", "effect", "text", "mainEffect", "效果", "能力", "卡牌效果", "主效果"),
-    "inherited": ("inherited", "inheritedEffect", "进化源效果", "进化源能力"),
-    "security": ("security", "securityEffect", "安防效果", "安防能力"),
+    "main": ("main", "effect", "text", "mainEffect", "cardEffect", "card_effect", "效果", "能力", "卡牌效果", "主效果"),
+    "inherited": ("inherited", "inheritedEffect", "inherited_effect", "evolutionEffect", "进化源效果", "进化源能力"),
+    "security": ("security", "securityEffect", "security_effect", "安防效果", "安防能力"),
     "japaneseName": ("japaneseName", "japanese_name", "日文名", "日文名称"),
     "cardType": ("cardType", "card_type", "卡片类型", "卡种"),
     "rarity": ("rarity", "罕贵度", "稀有度"),
@@ -56,7 +56,7 @@ def read_input(path, encoding="utf-8-sig"):
     if isinstance(source, list):
         return source
     if isinstance(source, dict):
-        records = source.get("cards", source)
+        records = source.get("cards", source.get("records", source))
         if isinstance(records, list):
             return records
         if isinstance(records, dict):
