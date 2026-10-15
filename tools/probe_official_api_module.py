@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-time bounded static lookup of webpack module 0d95 used by official card list.
+"""One-time bounded static lookup of webpack module cb4b used by official card list.
 
 Searches the official page's explicitly referenced JS assets only. Does not
 call any backend card API. Prints limited excerpts of identified module.
@@ -13,7 +13,7 @@ from urllib.parse import urljoin, urlsplit
 
 BASE = "https://www.digimoncard.cn/cardlist"
 HOST = {"digimoncard.cn", "www.digimoncard.cn"}
-MODULE_ID = "0d95"
+MODULE_ID = "cb4b"
 
 def fetch(url, cap=4_000_000):
     p = urlsplit(url)
@@ -52,7 +52,7 @@ def main():
         except Exception as e:
             print("SKIP", n, type(e).__name__, str(e)[:90], flush=True)
             continue
-        token = re.search(r"""(?:["']0d95["']|(?<![a-zA-Z0-9])0d95)\s*:\s*function\s*\(""", data)
+        token = re.search(r"""(?:["']cb4b["']|(?<![a-zA-Z0-9])cb4b)\s*:\s*function\s*\(""", data)
         print("ASSET", n, urlsplit(link).path, "bytes", len(data),
               "module_match", bool(token), flush=True)
         if token:
