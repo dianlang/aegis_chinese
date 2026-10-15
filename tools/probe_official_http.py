@@ -81,6 +81,16 @@ def probe():
                   type(exc).__name__, str(exc)[:100])
             continue
         print("Asset received:", urlsplit(link).path, len(body), "chars")
+        if "queryParams" in body and "cardList" in body:
+            # Limited static inspection only: locate where the card-list
+            # component builds its request; no network API call is made.
+            for needle in ("queryParams", "cardList", "currPage", "cardGroup"):
+                pos = body.find(needle)
+                if pos >= 0:
+                    excerpt = body[max(0, pos-110):pos+200]
+                    excerpt = re.sub(r"(?i)(token|password|authorization).{0,50}",
+                                     "<redacted>", excerpt)
+                    print("MODULE_HINT", urlsplit(link).path, needle, excerpt, flush=True)
         # Look for actual JS string literals containing API/card paths. This
         # is a *candidate* list, not a confirmed callable backend endpoint.
         for match in re.finditer(r"""["']([^"'<>\\]{5,200})["']""", body):
