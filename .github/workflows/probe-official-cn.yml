@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - "tools/probe_official_http.py"
+      - "tools/probe_cardlist_chunk.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -15,5 +16,5 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-      - name: Probe only public official frontend assets
-        run: python -u tools/probe_official_http.py
+      - name: Inspect public official cardlist frontend only
+        run: python -u tools/probe_cardlist_chunk.py
