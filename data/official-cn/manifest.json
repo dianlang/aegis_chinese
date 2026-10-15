@@ -42,8 +42,8 @@
     "EX7": 74,
     "EX8": 74,
     "EX9": 74,
-    "LM": 38,
-    "P": 193,
+    "LM": 62,
+    "P": 249,
     "RB1": 36,
     "ST1": 16,
     "ST10": 15,
@@ -69,6 +69,5 @@
     "ST8": 12,
     "ST9": 15
   },
-  "baseCardCount": 4394,
-  "note": "Only canonical printed numbers; alt printings intentionally excluded; verify redistribution rights before public upload."
+  "baseCardCount": 4474
 }
