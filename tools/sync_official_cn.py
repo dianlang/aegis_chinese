@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Official CN card-list incremental mirror to LOCAL, gitignored staging only.
+"""Official CN card-list incremental sync to LOCAL, gitignored staging only.
 
 The endpoint/method/fields were verified from the site's own public frontend:
 GET https://dtcgweb-api.digimoncard.cn/gamecard/gamecardmanager/weblist
