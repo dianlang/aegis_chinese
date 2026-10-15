@@ -15,7 +15,10 @@ import urllib.request
 from collections import defaultdict
 from pathlib import Path
 
-from official_cn_capture import CARD_NO, ID_KEYS, candidate_number
+try:
+    from .official_cn_capture import candidate_number
+except ImportError:
+    from official_cn_capture import candidate_number
 
 AEGIS_URL = (
     "https://raw.githubusercontent.com/vinicius3333/aegis-digimon-tcg/"
@@ -180,7 +183,7 @@ def align(document, indexed, aegis, overrides=None):
         rows.append(output)
         if status == "aligned":
             translation = translated_fields(raw)
-            if translation["name"] and any(translation.values()):
+            if translation["name"] and any(translation[k] for k in ("main", "inherited", "security")):
                 export_by_jp[jp].append(translation)
 
     imports = []
