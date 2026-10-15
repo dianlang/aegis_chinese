@@ -68,6 +68,32 @@ py tools\validate_database.py
 
 完成后启用 [Daily 20-card maintenance](https://github.com/dianlang/aegis_chinese/actions/workflows/sync.yml)：每天北京时间 12:20 最多检查 20 张。首次 P-001～P-020 在线抓取已验证，新增索引器与完整字段尚待真实任务验证。
 
+## 官方简体中文卡表抓取与三编号对应（实验性、仅本地）
+
+**注意：DigiCamoe 维护者授权的是他们维护的日版中文翻译，不代表官方简体中文卡面文本的公开再分发授权。** 官方数据目前只用于个人本地接口研究和编号核对，不会自动发布到 GitHub 或覆盖现有 DigiCamoe 翻译。官方卡表有 JavaScript 动态加载；尚未验证其真实接口的 URL、查询参数、分页方式或请求限制。严禁猜测接口并全站请求。
+
+**Windows（家用电脑）**：在完整克隆的仓库里双击 **scripts/official_cn_capture_windows.bat**。
+
+运行方式：
+1. 安装 Python 3.9+。首次运行需要安装 Playwright Chromium 浏览器环境（脚本自动执行安装）。
+2. 程序打开 https://www.digimoncard.cn/cardlist；使用页面原有的卡包筛选、卡号搜索、分页功能（先试 BT25-058）。
+3. 查询完成后回到命令行按 Enter。程序会从该站返回的公开 Fetch/XHR JSON 中识别有卡号的对象，写入 local_data/official_cn_capture.json。没有识别成功时，文件中只保留用于调整解析器的响应结构诊断信息。
+4. 脚本随后通过 GitHub 的公开 Aegis develop 卡牌目录获取 cards.json，与本仓库的 data/index/*.json 双重校验，输出：
+   - local_data/official_cn_alignment.json：官方中文印刷编号、日版原始编号、Aegis 卡号、对应状态和依据；
+   - local_data/official_cn_review.csv：无法匹配或发生冲突的卡，供人工处理；
+   - local_data/official_cn_import_preview.json：仅包含三编号已对齐、且具备中文效果的卡牌预览。
+5. 若官方使用 BTC、EXC、STC 等不同于原始日版编号的中文印刷编号，不会按数字自动匹配。需要另写审核确认的 CSV 映射表，列名为 chineseCardId,japaneseCardId,aegisCardId,reviewed，并将 reviewed 设为 yes。在根目录运行：
+
+   ~~~bat
+   py tools\official_cn_align.py --mapping "你的审核映射.csv"
+   ~~~
+
+**对齐规则：** Aegis 真实 cardId 必须存在，原卡号必须在 DigiCamoe 既有索引中，明确相同的卡号才自动对齐；如果已知的等级 / DP 与 Aegis 数据冲突，则禁止自动对齐。多张中文版印刷卡若映射到同一个原始卡，但效果文本不一致，则列为冲突，不自动选择一张覆盖另一张。异画属于同一原卡的不同印刷版本，不当作新规则卡牌。
+
+local_data/ 已添加到 .gitignore，原始网站响应和人工核对表不会被提交。当前程序是**人工通过卡表触发公开数据接口的捕获器，并不是已验证的全自动全站下载器**。请先拿到真实 JSON 响应，再根据 API 文档、站点访问规则及授权情况决定是否实现有限速的分页/增量同步。不要将未经授权的官方中文文本加入公开仓库。
+
+---
+
 ## 授权数据导入器与中文覆盖率报告
 
 不依赖爬虫，无需访问 DigiCamoe。等待维护者明确授权并提供数据文件后再执行正式导入；在此之前可以用模拟数据测试预览。
