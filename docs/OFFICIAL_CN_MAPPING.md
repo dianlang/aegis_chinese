@@ -30,6 +30,19 @@
 - 按 limit=2 测试时，接口报告 totalCount=7527 条收录记录（含异画/重收录），不等于 7527 张不同卡。
 - 按 limit=40 正式验证了前两页，连续获得 80 条不同官网内部 ID，80 条的印刷编号均与日版索引和 Aegis 精确匹配。
 
+### GitHub 完整编号映射任务（不会发布卡文）
+
+[Official CN card numbers full alignment (IDs only)](../.github/workflows/official-cn-full-id-map.yml) 会以每 4 秒最多一次的频率请求官方公开卡表，生成 data/mapping/official_cn_ids.json。此文件只包含：
+
+- 官网页面返回的印刷编号 model。
+- 官网内部数字 ID。
+- 官方中文商品包号 cardGroup。
+- 日本版索引与 Aegis 的精确匹配状态。
+
+**不会把官网卡名、效果、卡图或原始 JSON 提交 GitHub。** GitHub Actions 的原始数据只保存在临时 Runner；要得到完整官方卡文用于本地分析，请使用下方 Windows 本地同步。
+
+第一次运行已经启动，查看 Actions 状态，不要将正在运行视为已全部完成。
+
 ### Windows 直接分页同步（推荐）
 
 在项目根目录双击：
