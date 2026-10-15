@@ -19,10 +19,10 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 PRINTED = re.compile(r"^(?:(?:BT|EX|ST|AD|RB)\d{1,2}-\d{2,3}|(?:P|LM)-\d{3})$")
-SOURCE_FIELDS = ("cardNo", "cardNO", "cardno", "cardNumber", "card_number",
+SOURCE_FIELDS = ("model", "cardNo", "cardNO", "cardno", "cardNumber", "card_number",
                  "cardNoStr", "cardCode", "card_code", "card_num", "cardNum",
                  "number", "编号", "卡号", "卡牌编号", "cardId", "card_id", "id")
-PACK_FIELDS = ("pack", "packCode", "packName", "package", "packageName",
+PACK_FIELDS = ("cardGroup", "pack", "packCode", "packName", "package", "packageName",
                "pack_code", "productCode", "productName", "卡包", "收录商品", "商品")
 NAME_FIELDS = ("name", "cardName", "card_name", "cardNameCn", "cnName", "中文名",
                "卡名", "名称")
