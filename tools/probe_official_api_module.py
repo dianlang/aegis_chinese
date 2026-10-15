@@ -65,6 +65,12 @@ def main():
                           segment[max(0,where-150):where+230].replace("\n"," ")[:400],
                           flush=True)
             print("MODULE_START", segment[:1800].replace("\n"," "),flush=True)
+            for needle in ("baseURL", "https://", "http://", ".create(", "interceptors", "gamecard"):
+                positions = [m.start() for m in re.finditer(re.escape(needle), data)]
+                for pos in positions[-3:]:
+                    excerpt = data[max(0,pos-120):pos+190].replace("\n", " ")
+                    excerpt = re.sub(r"(?i)(token|password|authorization).{0,40}", "<redacted>", excerpt)
+                    print("CONFIG_NEAR", needle, pos, excerpt[:320], flush=True)
             print("Found actual JS module; inspect it before forming any endpoint call.")
             return 0
         time.sleep(.5)
