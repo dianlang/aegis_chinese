@@ -35,6 +35,20 @@ class ImportAndCoverageTests(unittest.TestCase):
         }}}, ensure_ascii=False), encoding="utf-8")
         self.assertEqual(read_input(document)[0]["cardId"], "BT25-058")
 
+    def test_official_capture_records_support_cardNo_and_cardEffect(self):
+        path = self.root / "capture.json"
+        path.write_text(json.dumps({"schemaVersion": 1, "records": [
+            {"cardNo": "BT25-058", "cardName": "测试兽",
+             "cardEffect": "【登场时】抽1张卡。"}
+        ]}, ensure_ascii=False), encoding="utf-8")
+        records = read_input(path)
+        self.assertEqual(len(records), 1)
+        self.assertEqual(normalize(records[0], mappings())["cardId"], "BT25-058")
+        stats, errors = preview_or_import(records, self.index, self.root,
+                                          "Official CN sample", apply=False)
+        self.assertFalse(errors)
+        self.assertEqual(stats["new"], 1)
+
     def test_preview_does_not_write(self):
         stats, errors = preview_or_import([self.row], self.index, self.root,
                                           "authorized source", apply=False)
