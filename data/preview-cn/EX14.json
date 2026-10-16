@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "community-preview",
+  "notes": "Community preview translations from Aegis IR; do not override native Chinese.",
+  "cards": {
+    "EX14-012": {
+      "translationStatus": "community-preview",
+      "sourceLanguage": "en",
+      "reviewedAgainst": "Aegis IR implementation 2026-10-16",
+      "updatedAt": "2026-10-16",
+      "name": "胜利暴龙兽",
+      "main": "《安防攻击+1》《交战》\n若我方场上有特征含「终端」的卡牌，此卡无视颜色条件。\n〔进化〕特征含「终端」的Lv.5：费用3\n【进化时】【攻击时】［每回合1次］直到对方回合结束为止，我方1只数码宝贝DP+3000。此后，可以废弃我方任意驯兽师下方最底部1张背面朝上的卡牌，消灭对方1只DP不高于此数码宝贝的数码宝贝。\n【消灭时】【安防】可以不支付费用使用此卡选项卡面。",
+      "optionEffect": "【主要】消灭对方合计DP不高于15000的数码宝贝。"
+    },
+    "EX14-054": {
+      "translationStatus": "community-preview",
+      "sourceLanguage": "en",
+      "reviewedAgainst": "Aegis IR implementation 2026-10-16",
+      "updatedAt": "2026-10-16",
+      "name": "巴尔巴兽",
+      "main": "〔进化〕特征包含「堕天使」或「贪欲」的Lv.5：费用3\n〔集结〕特征包含「贪欲」且等级不同的3张卡牌：费用-5\n《联攻》《交战》\n【登场时】【进化时】【攻击时】［每回合1次］可以不支付费用，从我方废弃区登场1张登场费用不高于6、特征包含「邪恶」「魔法使」「堕天使」或「贪欲」的数码宝贝卡牌。此后，对方废弃其手牌中的1张卡牌。\n【双方的回合】［每回合1次］当对方手牌中的卡牌被废弃时，可以消灭对方所有等级最低的数码宝贝。"
+    }
+  }
+}
