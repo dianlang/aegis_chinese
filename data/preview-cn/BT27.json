@@ -15,6 +15,24 @@
       "sourceCardId": "BT27-070",
       "reviewedAgainst": "Aegis implementation and user-provided card screenshot",
       "updatedAt": "2026-10-16"
+    },
+    "BT27-035": {
+      "translationStatus": "community-preview",
+      "sourceLanguage": "en",
+      "reviewedAgainst": "Aegis IR implementation 2026-10-16",
+      "updatedAt": "2026-10-16",
+      "name": "幻影加奥加兽：爆裂形态",
+      "main": "《重启》《阻挡者》《闪避》\n只要我方场上有特征包含「数码特搜队」的卡牌，此卡无视颜色条件。\n〔进化〕特征含「数码特搜队」的Lv.6：费用5\n〔爆裂进化〕「幻影加奥加兽」：费用0（将我方「托玛·H·诺尔修坦」返回手牌）\n【进化时】【攻击时】［每回合1次］可以发动此卡选项卡面的一项【主要】效果。\n【进化时】【攻击时】若对方手牌至少有8张，可以不查看内容地将对方手牌返回卡组最下方，直到只剩7张。若如此做，将对方最上方1张安防卡放回卡组最下方。",
+      "optionEffect": "【主要】将对方1只数码宝贝返回手牌。此后，若对方手牌不少于8张，可以将我方1只数码宝贝转换为活跃状态。"
+    },
+    "BT27-103": {
+      "translationStatus": "community-preview",
+      "sourceLanguage": "en",
+      "reviewedAgainst": "Aegis IR implementation 2026-10-16",
+      "updatedAt": "2026-10-16",
+      "name": "阿尔法兽：王龙剑",
+      "main": "〔合步进化〕「阿尔法兽」＋「王龙兽」：费用0\n《贯通》《安防攻击+1》《阻挡者》《分离〈阿尔法兽＆王龙兽〉》\n【进化时】【攻击时】［每回合1次］可以消灭对方1只数码宝贝。此后，若此次为合步进化，《回复+2》。\n【双方的回合】此数码宝贝攻击期间，不受对方的效果影响。",
+      "optionEffect": "【主要】消灭对方1只数码宝贝。此后，可以使我方2只数码宝贝合步进化成此卡。"
     }
   }
 }
