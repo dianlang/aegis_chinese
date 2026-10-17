@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "cards": {
+    "BT27-084": {
+      "name": "领主骑士兽（X抗体）",
+      "translationStatus": "community-preview",
+      "reviewRequired": true
+    },
+    "BT27-100": {
+      "name": "赫金华尔兹",
+      "translationStatus": "community-preview",
+      "reviewRequired": true
+    }
+  }
+}
