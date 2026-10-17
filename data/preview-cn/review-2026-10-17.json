@@ -18,7 +18,9 @@
     "BT27-100": {
       "name": "赫金华尔兹",
       "translationStatus": "community-preview",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "main": "【主要】直到对方回合结束，对方1只数码宝贝获得「【主要阶段开始时】此数码宝贝进行攻击。」效果。此后，将此卡置于战斗区。",
+      "optionUseCost": 3
     }
   }
 }
