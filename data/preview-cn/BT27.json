@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kind": "community-preview",
-  "notes": "Only cards not yet localized by Aegis. Never override native Chinese. Two-sided card optionEffect is separate.",
+  "notes": "Aegis native Chinese takes priority. New cards in this file are AI community drafts requiring PR review; check native printed-text coverage before merging. No card art changes.",
   "cards": {
     "BT27-070": {
       "name": "颅骨兽（X抗体）",
@@ -33,6 +33,141 @@
       "name": "阿尔法兽：王龙剑",
       "main": "〔合步进化〕「阿尔法兽」＋「王龙兽」：费用0\n《贯通》《安防攻击+1》《阻挡者》《分离〈阿尔法兽＆王龙兽〉》\n【进化时】【攻击时】［每回合1次］可以消灭对方1只数码宝贝。此后，若此次为合步进化，《回复+2》。\n【双方的回合】此数码宝贝攻击期间，不受对方的效果影响。",
       "optionEffect": "【主要】消灭对方1只数码宝贝。此后，可以使我方2只数码宝贝合步进化成此卡。"
+    },
+    "BT27-002": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-002",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-002.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "查普兽",
+      "kind": "数码蛋",
+      "level": 2,
+      "main": "【进化源效果】【攻击时】［每回合1次］可以从此数码宝贝的进化源中，以登场费用减少1的方式登场1张Lv.4以下、特征包含「水栖型」或「拯救队」的数码宝贝卡牌。"
+    },
+    "BT27-020": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-020",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-020.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "乌龟兽",
+      "main": "〔进化〕特征包含「拯救队」的Lv.2：费用0\n【登场时】可以将手牌中1张Lv.4以下、特征包含「水栖型」或「拯救队」的数码宝贝卡牌，放置于我方1只数码宝贝进化源的最下方，或以背面朝上的状态放置于我方1名特征包含「拯救队」的驯兽师下方。若如此做，抽1张卡。\n〔规则〕此卡也视为拥有「水栖型」特征。\n【进化源效果】【攻击时】［每回合1次］废弃对方1只数码宝贝最上方或最下方的1张进化源。"
+    },
+    "BT27-025": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-025",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-025.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "河童兽",
+      "main": "〔进化〕特征包含「拯救队」的Lv.3：费用2\n【登场时】【进化时】直到对方回合结束为止，我方1只数码宝贝不会在战斗中被消灭。若此卡通过效果登场，该数码宝贝还获得《阻挡者》。\n〔规则〕此卡也视为拥有「水栖型」特征。\n【进化源效果】《回避》"
+    },
+    "BT27-028": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-028",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-028.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "沙悟净兽",
+      "level": 5,
+      "playCost": 7,
+      "dp": 7000,
+      "main": "〔进化〕特征包含「拯救队」的Lv.4：费用3\n《解码（Lv.4以下、特征包含「水栖型」或「拯救队」）》\n【登场时】【进化时】直到对方回合结束为止，对方1只数码宝贝或驯兽师不能转换为休息状态。\n〔规则〕此卡也视为拥有「水栖型」特征。\n【进化源效果】《解码（Lv.4以下、特征包含「水栖型」或「拯救队」）》"
+    },
+    "BT27-031": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-031",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-031.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "巨龟兽",
+      "level": 6,
+      "playCost": 12,
+      "dp": 13000,
+      "main": "〔进化〕特征包含「拯救队」的Lv.5：费用4\n《解码（特征包含「水栖型」或「拯救队」的Lv.5）》\n【登场时】【进化时】【反击】［每回合1次］可以将我方其他1只数码宝贝或1名驯兽师放置于此数码宝贝进化源的最下方。若如此做，将对方1只进化源数量不多于此数码宝贝的数码宝贝放回卡组最下方。\n【双方的回合】［每回合1次］通过效果向此数码宝贝的进化源加入卡牌时，可以不支付费用，从其进化源登场1张蓝色且登场费用不高于5的数码宝贝卡牌或驯兽师卡牌。\n〔规则〕此卡也视为拥有「水栖型」特征。"
+    },
+    "BT27-095": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-095",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-095.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "汤岛浩",
+      "kind": "驯兽师",
+      "playCost": 4,
+      "main": "【我方主要阶段开始时】可以将手牌中1张特征包含「改造型」或「水栖型」的卡牌，以背面朝上的状态放置于此驯兽师下方。若如此做，抽1张卡，内存+1。\n【主要】可以将此驯兽师转换为休息状态，并废弃我方驯兽师下方最底部合计2张背面朝上的卡牌。若如此做，可以使我方1只数码宝贝进化为手牌中1张特征包含「改造型」或「水栖型」的数码宝贝卡牌，进化费用减少2。\n【安防】不支付费用登场此卡。"
+    },
+    "BT27-073": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-073",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-073.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "兜帽蝠兽",
+      "main": "〔进化〕特征包含「光辉黎明」的Lv.2：费用0\n【我方的回合】此数码宝贝进化为紫色、特征包含「觉醒节拍」的数码宝贝时，进化费用减少1。\n【进化源效果】【攻击时】［每回合1次］抽1张卡，然后废弃我方手牌中的1张卡。"
+    },
+    "BT27-077": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-077",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-077.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "夜蝠兽",
+      "main": "〔进化〕特征包含「光辉黎明」的Lv.3：费用2\n【进化时】【安防】若我方驯兽师不超过1名，可以不支付费用从手牌登场1张名称包含「久远寺真琴」的驯兽师卡牌。\n【进化源效果】《同归于尽》",
+      "translationNotes": "Aegis source uses Makoto Kuonji; reviewer should verify Chinese character name against native Aegis dictionary."
+    },
+    "BT27-080": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-080",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-080.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "天灾蝠兽",
+      "main": "〔进化〕特征包含「光辉黎明」的Lv.4：费用3\n【手牌】【主要】若我方有名称包含「久远寺真琴」的驯兽师，可以将废弃区1张「夜蝠兽」放置于我方1只「兜帽蝠兽」进化源的最下方，使该数码宝贝无视等级条件，以费用3进化为此卡。\n【登场时】【进化时】消灭对方1只Lv.4以下的数码宝贝。此后，可以废弃我方任意驯兽师下方最底部1张背面朝上的卡牌，使此数码宝贝直到回合结束获得《速攻》和《贯通》。\n【进化源效果】【消灭时】可以不支付费用，从我方废弃区登场1张登场费用不高于5、特征包含「光辉黎明」的卡牌。",
+      "translationNotes": "Aegis source uses Makoto Kuonji; reviewer should verify Chinese character name against native Aegis dictionary."
+    },
+    "BT27-082": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-082",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-082.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "假面血族兽",
+      "main": "〔进化〕特征包含「光辉黎明」的Lv.5：费用3\n《处决》《升天》\n若我方场上或育成区有特征包含「光辉黎明」的卡牌，此卡可以无视颜色条件使用。\n【安防】【消灭时】消灭对方1只等级最低的数码宝贝。若此效果未消灭数码宝贝，废弃对方最上方1张安防卡。\n【进化时】【攻击时】［每回合1次］可以废弃我方任意驯兽师下方最底部合计2张背面朝上的卡牌，发动此卡选项卡面的一项【主要】效果。",
+      "optionEffect": "【主要】消灭对方1只Lv.6以上的数码宝贝。此后，可以不支付费用，从我方废弃区登场1张登场费用不高于4、特征包含「觉醒节拍」的数码宝贝卡牌或驯兽师卡牌。"
+    },
+    "BT27-084": {
+      "translationStatus": "community-preview",
+      "reviewRequired": true,
+      "sourceLanguage": "en",
+      "sourceCardId": "BT27-084",
+      "reviewedAgainst": "https://github.com/vinicius3333/aegis-digimon-tcg/blob/develop/apps/api/src/cards/BT27/BT27-084.ts",
+      "updatedAt": "2026-10-19",
+      "nativeChineseEffectStatus": "requires-final-verification",
+      "name": "领主骑士兽X抗体",
+      "main": "〔进化〕「领主骑士兽」：费用2\n《联协》《冲突》《贯通》《阻挡者》\n【进化时】可以从手牌中不支付费用登场任意张卡文包含「骑士兽」的数码宝贝卡牌或驯兽师卡牌，其登场费用合计不高于8。\n【双方的回合】［每回合1次］我方其他数码宝贝登场或被消灭时，可以废弃此数码宝贝进化源中的1张「领主骑士兽」或「X抗体」，发动此卡选项卡面的一项【主要】效果。",
+      "optionEffect": "【主要】消灭对方1只等级最低的数码宝贝。若此效果未能消灭数码宝贝，直到我方回合结束为止，我方所有卡文包含「骑士兽」的数码宝贝获得《阻挡者》，不受对方数码宝贝的效果影响，且DP+3000。"
     }
   }
 }
