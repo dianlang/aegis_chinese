@@ -130,8 +130,7 @@
       "updatedAt": "2026-10-19",
       "nativeChineseEffectStatus": "requires-final-verification",
       "name": "夜蝠兽",
-      "main": "〔进化〕特征包含「光辉黎明」的Lv.3：费用2\n【进化时】【安防】若我方驯兽师不超过1名，可以不支付费用从手牌登场1张名称包含「久远寺真琴」的驯兽师卡牌。\n【进化源效果】《同归于尽》",
-      "translationNotes": "Aegis source uses Makoto Kuonji; reviewer should verify Chinese character name against native Aegis dictionary."
+      "main": "〔进化〕特征包含「光辉黎明」的Lv.3：费用2\n【进化时】【安防】若我方驯兽师不超过1名，可以不支付费用从手牌登场1张名称包含「久远寺真」的驯兽师卡牌。\n【进化源效果】《同归于尽》"
     },
     "BT27-080": {
       "translationStatus": "community-preview",
@@ -142,8 +141,7 @@
       "updatedAt": "2026-10-19",
       "nativeChineseEffectStatus": "requires-final-verification",
       "name": "天灾蝠兽",
-      "main": "〔进化〕特征包含「光辉黎明」的Lv.4：费用3\n【手牌】【主要】若我方有名称包含「久远寺真琴」的驯兽师，可以将废弃区1张「夜蝠兽」放置于我方1只「兜帽蝠兽」进化源的最下方，使该数码宝贝无视等级条件，以费用3进化为此卡。\n【登场时】【进化时】消灭对方1只Lv.4以下的数码宝贝。此后，可以废弃我方任意驯兽师下方最底部1张背面朝上的卡牌，使此数码宝贝直到回合结束获得《速攻》和《贯通》。\n【进化源效果】【消灭时】可以不支付费用，从我方废弃区登场1张登场费用不高于5、特征包含「光辉黎明」的卡牌。",
-      "translationNotes": "Aegis source uses Makoto Kuonji; reviewer should verify Chinese character name against native Aegis dictionary."
+      "main": "〔进化〕特征包含「光辉黎明」的Lv.4：费用3\n【手牌】【主要】若我方有名称包含「久远寺真」的驯兽师，可以将废弃区1张「夜蝠兽」放置于我方1只「兜帽蝠兽」进化源的最下方，使该数码宝贝无视等级条件，以费用3进化为此卡。\n【登场时】【进化时】消灭对方1只Lv.4以下的数码宝贝。此后，可以废弃我方任意驯兽师下方最底部1张背面朝上的卡牌，使此数码宝贝直到回合结束获得《速攻》和《贯通》。\n【进化源效果】【消灭时】可以不支付费用，从我方废弃区登场1张登场费用不高于5、特征包含「光辉黎明」的卡牌。"
     },
     "BT27-082": {
       "translationStatus": "community-preview",
